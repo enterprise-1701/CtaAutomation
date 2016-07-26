@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation - Suite" duration-ms="42066" started-at="2016-07-25T23:58:00Z" finished-at="2016-07-25T23:58:42Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="42066" started-at="2016-07-25T23:58:00Z" finished-at="2016-07-25T23:58:42Z">
+      <class name="automationFramework.TestCases.CreateCustomerTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@d44fc21]" name="setUp" is-config="true" duration-ms="8803" started-at="2016-07-25T16:58:00Z" finished-at="2016-07-25T16:58:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCustomerDuplicateUserName()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@d44fc21]" name="createCustomerDuplicateUserName" duration-ms="32984" started-at="2016-07-25T16:58:09Z" finished-at="2016-07-25T16:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerDuplicateUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@d44fc21]" name="tearDown" is-config="true" duration-ms="251" started-at="2016-07-25T16:58:42Z" finished-at="2016-07-25T16:58:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.CreateCustomerTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Automation - Suite -->
+</testng-results>

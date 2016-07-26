@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Completed]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Completed]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation - Suite" duration-ms="114756" started-at="2016-07-20T23:08:45Z" finished-at="2016-07-20T23:10:39Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="114756" started-at="2016-07-20T23:08:45Z" finished-at="2016-07-20T23:10:39Z">
+      <class name="automationFramework.TestCases.CreateCustomerDBTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@49993335]" name="setUp" is-config="true" duration-ms="9134" started-at="2016-07-20T16:08:45Z" finished-at="2016-07-20T16:08:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewCustomerDB()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@49993335]" name="createNewCustomerDB" duration-ms="52865" started-at="2016-07-20T16:08:54Z" finished-at="2016-07-20T16:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCustomerDB -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@49993335]" name="tearDown" is-config="true" duration-ms="3986" started-at="2016-07-20T16:09:47Z" finished-at="2016-07-20T16:09:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@49993335]" name="setUp" is-config="true" duration-ms="14380" started-at="2016-07-20T16:09:51Z" finished-at="2016-07-20T16:10:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewCustomerCancelDB()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@49993335]" name="createNewCustomerCancelDB" duration-ms="33852" started-at="2016-07-20T16:10:05Z" finished-at="2016-07-20T16:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCustomerCancelDB -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@49993335]" name="tearDown" is-config="true" duration-ms="528" started-at="2016-07-20T16:10:39Z" finished-at="2016-07-20T16:10:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.CreateCustomerDBTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Automation - Suite -->
+</testng-results>

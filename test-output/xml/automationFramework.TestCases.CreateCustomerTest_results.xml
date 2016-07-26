@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirefoxTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32.984">
+  <properties />
+  
+  
+            <testcase name="createCustomerDuplicateUserName" time="32.984" classname="automationFramework.TestCases.CreateCustomerTest" />
+      
+</testsuite>
