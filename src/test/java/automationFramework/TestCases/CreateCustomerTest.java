@@ -46,7 +46,7 @@ public class CreateCustomerTest {
 	}
 
 	
-	@Test(priority=1 , enabled=false)
+	@Test(priority=1 , enabled=true)
 	public void createNewCustomer() throws Exception{
 		
 		coreTest.signIn(driver);
@@ -81,7 +81,7 @@ public class CreateCustomerTest {
 	
 	
 	
-	@Test(priority=2 , enabled=false)
+	@Test(priority=2 , enabled=true)
 	public void createCustomerCancel() throws Exception{
 		
 		coreTest.signIn(driver);
@@ -112,7 +112,7 @@ public class CreateCustomerTest {
 		driver.close();
 	}
 	
-	@Test(priority=3 , enabled=false)
+	@Test(priority=3 , enabled=true)
 	public void createCustomerContactTypeNotSelected()throws Exception{
 		
 		coreTest.signIn(driver);
@@ -134,7 +134,7 @@ public class CreateCustomerTest {
 		    	
 	}
 	
-	@Test(priority=4 , enabled=false)
+	@Test(priority=4 , enabled=true)
 	public void createCustomerInvalidEmail() throws Exception{
 		
 		coreTest.signIn(driver);
@@ -167,7 +167,7 @@ public class CreateCustomerTest {
         
 	}
 	
-	@Test(priority=5 , enabled=false)
+	@Test(priority=5 , enabled=true)
 	public void createCustomerInvalidPin() throws Exception{
 		
 		coreTest.signIn(driver);
@@ -186,7 +186,7 @@ public class CreateCustomerTest {
         driver.close();
 	}
 	
-	@Test(priority=6 , enabled=false)
+	@Test(priority=6 , enabled=true)
 	public void createCustomerFundingInvalidCC() throws Exception{
 		
 		coreTest.signIn(driver);
@@ -208,7 +208,7 @@ public class CreateCustomerTest {
 		
 	}
 	
-	@Test(priority=7 , enabled=false)
+	@Test(priority=7 , enabled=true)
 	public void createCustomerInvalidUserName() throws Exception{
 		
 		coreTest.signIn(driver);
@@ -249,7 +249,7 @@ public class CreateCustomerTest {
         driver.close();
 	}
 	
-	@Test(priority=8 , enabled=false)
+	@Test(priority=8 , enabled=true)
 	public void createCustomerInvalidPhone() throws Exception{
 		
 		coreTest.signIn(driver);
@@ -271,7 +271,7 @@ public class CreateCustomerTest {
 	 
 	}
 	
-	@Test(priority=9 , enabled=false)
+	@Test(priority=9 , enabled=true)
 	public void createCustomerNameMissing() throws Exception{
 		
 		coreTest.signIn(driver);
@@ -290,7 +290,7 @@ public class CreateCustomerTest {
 	 
 	}
 	
-	@Test(priority=10 , enabled=false)
+	@Test(priority=10 , enabled=true)
 	public void createCustomerEmailMissing() throws Exception{
 		
 		coreTest.signIn(driver);

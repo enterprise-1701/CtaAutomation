@@ -10,6 +10,8 @@
 		    <class name="automationFramework.TestCases.EmailTest" />  
 		    <class name="automationFramework.TestCases.CreateOrderTest" />  
 		    <class name="automationFramework.TestCases.TravelHistoryTest" /> 
+		    <class name="automationFramework.TestCases.CreateFundingDBTest" /> 
+		    <class name="automationFramework.TestCases.CreateCustomerDBTest" /> 
 		</classes>
 	</test>
 		<listeners>

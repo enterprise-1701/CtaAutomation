@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="FirefoxTest"
-           tests="3"
+           tests="7"
            failures="0"
            errors="0"
            skipped="0"
-           time="143.955">
+           time="352.053">
   <properties />
   
   
-            <testcase name="createNewCustomerDBCheckContactTable" time="50.678" classname="automationFramework.TestCases.CreateCustomerDBTest" />
-                <testcase name="createNewCustomerCancelDB" time="37.024" classname="automationFramework.TestCases.CreateCustomerDBTest" />
-                <testcase name="createNewCustomerDBCheckAccountTable" time="56.253" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+            <testcase name="createNewCustomerDBCheckSecurityTable" time="54.231" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerCancelDB" time="30.930" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckAccountTable" time="46.781" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckContactTable" time="52.792" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckUserName" time="58.798" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckPhoneTable" time="58.003" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckAddressTable" time="50.518" classname="automationFramework.TestCases.CreateCustomerDBTest" />
       
 </testsuite>

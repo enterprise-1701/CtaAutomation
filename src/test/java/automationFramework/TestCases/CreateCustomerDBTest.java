@@ -20,8 +20,13 @@ public class CreateCustomerDBTest {
 
 	private static Logger Log = Logger.getLogger(Logger.class.getName());
 	private static String email;
+	private static String userId;
 	private static boolean contactRecordFound;
 	private static boolean accountRecordFound;
+	private static boolean addressRecordFound;
+	private static boolean securityRecordFound;
+	private static boolean userIdUnique;
+	private static boolean phoneRecordFound;
 	static WebDriver driver;
 	static String browser;
 	CoreTest coreTest = new CoreTest();
@@ -48,6 +53,8 @@ public class CreateCustomerDBTest {
 	    coreTest.createCustomer(driver);  
 	    email = coreTest.getEmail();
 	    Log.info("Email being passed to DAO: " + email);
+	    Utils.waitTime(3000);
+	    
 	    PostgresAutomation psAuto = new PostgresAutomation();
 	    psAuto.dbConnect();
 	    contactRecordFound = psAuto.dbFindCustomer(email);
@@ -64,6 +71,8 @@ public class CreateCustomerDBTest {
 		coreTest.signIn(driver);
 	    coreTest.createCustomer(driver);  
 	    email = coreTest.getEmail();   
+	    Utils.waitTime(3000);
+	    
 	    PostgresAutomation psAuto = new PostgresAutomation();
 	    psAuto.dbConnect();
 	    accountRecordFound = psAuto.dbFindAccount(email);
@@ -74,25 +83,83 @@ public class CreateCustomerDBTest {
 		    
 	}
 	
+	
 	@Test(priority=3 , enabled=true)
-	public void createNewCustomerDBCheckDuplicates() throws Exception{
-		
+	public void createNewCustomerDBCheckAddressTable() throws Exception{
+	
 		coreTest.signIn(driver);
 	    coreTest.createCustomer(driver);  
 	    email = coreTest.getEmail();   
+	    Utils.waitTime(3000);
+	    
 	    PostgresAutomation psAuto = new PostgresAutomation();
 	    psAuto.dbConnect();
-	    accountRecordFound = psAuto.dbFindAccount(email);
+	    addressRecordFound = psAuto.dbFindAddress(email);
 	    psAuto.dbDisconnect();
-	    Assert.assertTrue(accountRecordFound, "account record was not found");
+	    Assert.assertTrue(addressRecordFound, "address record was not found");
 		driver.close();
-		Log.info("createNewCustomerDBCheckAccountTable Completed");
+		Log.info("createNewCustomerDBCheckAddressTable Completed");
+		    
+	}
+	
+	@Test(priority=4 , enabled=true)
+	public void createNewCustomerDBCheckSecurityTable() throws Exception{
+	
+		coreTest.signIn(driver);
+	    coreTest.createCustomer(driver);  
+	    email = coreTest.getEmail();   
+	    Utils.waitTime(3000);
+	    
+	    PostgresAutomation psAuto = new PostgresAutomation();
+	    psAuto.dbConnect();
+	    securityRecordFound = psAuto.dbFindSecurityAnswer(email);
+	    psAuto.dbDisconnect();
+	    Assert.assertTrue(securityRecordFound, "security record was not found");
+		driver.close();
+		Log.info("createNewCustomerDBCheckSecurityTable Completed");
+		    
+	}
+	
+	@Test(priority=5 , enabled=true)
+	public void createNewCustomerDBCheckPhoneTable() throws Exception{
+	
+		coreTest.signIn(driver);
+	    coreTest.createCustomer(driver);  
+	    email = coreTest.getEmail();   
+	    Utils.waitTime(3000);
+	    
+	    PostgresAutomation psAuto = new PostgresAutomation();
+	    psAuto.dbConnect();
+	    phoneRecordFound = psAuto.dbFindPhone(email);
+	    psAuto.dbDisconnect();
+	    Assert.assertTrue(phoneRecordFound, "phone record was not found");
+		driver.close();
+		Log.info("createNewCustomerDBCheckPhoneTable Completed");
 		    
 	}
 	
 	
-	@Test(priority=4 , enabled=true)
-	public void createNewCustomerCancelDB() throws Exception{
+	@Test(priority=6 , enabled=true)
+	public void createNewCustomerDBCheckUserName() throws Exception{
+		
+		coreTest.signIn(driver);
+	    coreTest.createCustomer(driver);  
+	    userId = coreTest.getUserid();  
+	    Utils.waitTime(3000);
+	    
+	    PostgresAutomation psAuto = new PostgresAutomation();
+	    psAuto.dbConnect();
+	    userIdUnique = psAuto.dbFindUniqueUserName(userId);
+	    psAuto.dbDisconnect();
+	    Assert.assertTrue(userIdUnique, "user id is not unique");
+		driver.close();
+		Log.info("createNewCustomerDBCheckUserName Completed");
+		    
+	}
+	
+	
+	@Test(priority=7 , enabled=true)
+	public void createNewCustomerCancelDBCheck() throws Exception{
 	
 		coreTest.signIn(driver);
 		DashboardPage dashPage = new DashboardPage(driver);
@@ -116,12 +183,13 @@ public class CreateCustomerDBTest {
 		PostgresAutomation psAuto = new PostgresAutomation();
 	    psAuto.dbConnect();
 	    contactRecordFound  = psAuto.dbFindCustomer(email);
-	    Assert.assertFalse(contactRecordFound , "customer record should not be created!");
+	    Assert.assertFalse(contactRecordFound , "customer record should not be created");
 	    psAuto.dbDisconnect();
 		driver.close();
 		Log.info("createNewCustomerCancelDB Completed");
 		    
 	}
+	
 	
 		
 	@AfterMethod

@@ -20,6 +20,7 @@ automationFramework\Utilities\Utils.class
 automationFramework\PageObjects\TravelHistoryPage.class
 automationFramework\PageObjects\NewCustomerDisplayPage.class
 automationFramework\PageObjects\StatusPage.class
+automationFramework\TestCases\CreateCustomerDBTest.class
 automationFramework\PageObjects\DashboardPage.class
 automationFramework\PageObjects\AdditionalConditions.class
 automationFramework\PageObjects\NewCustomerPage.class
@@ -29,6 +30,7 @@ automationFramework\PageObjects\AdditionalConditions$1.class
 automationFramework\TestCases\CreateCustomerTest.class
 automationFramework\TestCases\CreateFundingTest.class
 automationFramework\PageObjects\NewCustomerPageThree.class
+automationFramework\TestCases\CreateFundingDBTest.class
 automationFramework\TestCases\CreateOrderTest.class
 automationFramework\TestCases\TravelHistoryTest.class
 automationFramework\PageObjects\LinkAccountPage.class

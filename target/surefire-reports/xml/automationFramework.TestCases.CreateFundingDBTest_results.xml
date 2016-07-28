@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirefoxTest"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="203.651">
+  <properties />
+  
+  
+            <testcase name="createNewFundingDBcheck" time="62.447" classname="automationFramework.TestCases.CreateFundingDBTest" />
+                <testcase name="createNewFundingCreditCardDBcheck" time="73.628" classname="automationFramework.TestCases.CreateFundingDBTest" />
+                <testcase name="createNewFundingCancelDBcheck" time="67.576" classname="automationFramework.TestCases.CreateFundingDBTest" />
+      
+</testsuite>

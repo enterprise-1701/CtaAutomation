@@ -13,6 +13,7 @@ public class CoreTest {
 	private static Logger Log = Logger.getLogger(Logger.class.getName());
 	private static String email;
 	private static String phoneNumber;
+	private static String userId;
 
 	public WebDriver getLabStatus(WebDriver driver) throws Exception{
 		StatusPage statusPage = new StatusPage(driver);
@@ -37,6 +38,10 @@ public class CoreTest {
 	
 	public String getPhone(){
 		return phoneNumber;
+	}
+	
+	public String getUserid(){
+		return userId;
 	}
 	
     public WebDriver createCustomer(WebDriver driver) throws Exception{
@@ -68,7 +73,8 @@ public class CoreTest {
         nPaget.selectPhoneType(driver, Global.PHONETYPE);
         nPaget.selectSecurityQ(driver);
         nPaget.enterSecuirtyA(driver, Global.SECURITYA);
-        nPaget.enterUserName(driver, Utils.randomUsernameString());
+        userId = Utils.randomUsernameString();
+        nPaget.enterUserName(driver, userId);
         nPaget.enterPin(driver, Global.PIN);
         nPaget.enterDob(driver, Global.DOB);
         nPaget.clickSubmit(driver);   

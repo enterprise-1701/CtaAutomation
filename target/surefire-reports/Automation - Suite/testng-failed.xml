@@ -9,13 +9,73 @@
   <test name="FirefoxTest(failed)">
     <parameter name="browser" value="firefox.exe"/>
     <classes>
+      <class name="automationFramework.TestCases.LinkAccountTest">
+        <methods>
+          <include name="linkAccountAlreadyLinkedException"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="linkAccountCancelTest"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.LinkAccountTest -->
+      <class name="automationFramework.TestCases.CreateOrderTest">
+        <methods>
+          <include name="createOrderSubmit"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.CreateOrderTest -->
+      <class name="automationFramework.TestCases.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.SearchTest -->
+      <class name="automationFramework.TestCases.EmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkEmailCreateOrder"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.EmailTest -->
       <class name="automationFramework.TestCases.CreateCustomerDBTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="createNewCustomerDB"/>
         </methods>
       </class> <!-- automationFramework.TestCases.CreateCustomerDBTest -->
+      <class name="automationFramework.TestCases.CreateCustomerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.CreateCustomerTest -->
+      <class name="automationFramework.TestCases.BalanceHistoryTest">
+        <methods>
+          <include name="checkBalanceHistoryDetail"/>
+          <include name="checkBalanceHistory"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.BalanceHistoryTest -->
+      <class name="automationFramework.TestCases.TravelHistoryTest">
+        <methods>
+          <include name="checkTravelHistory"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.TravelHistoryTest -->
+      <class name="automationFramework.TestCases.CreateFundingTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.CreateFundingTest -->
+      <class name="automationFramework.TestCases.CreateFundingDBTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.CreateFundingDBTest -->
     </classes>
   </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Automation - Suite] -->

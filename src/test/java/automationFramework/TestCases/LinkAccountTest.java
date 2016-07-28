@@ -95,7 +95,7 @@ public class LinkAccountTest {
 	}
 
 	//Have to use an account that is already linked
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void linkAccountAlreadyLinkedException()throws Exception{
 	
 		coreTest.signIn(driver);

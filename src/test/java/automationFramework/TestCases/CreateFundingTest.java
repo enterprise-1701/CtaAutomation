@@ -77,7 +77,7 @@ public class CreateFundingTest {
       	
 	}
 		
-	@Test(priority=2 , enabled=false)
+	@Test(priority=2 , enabled=true)
 	public void createFundingSourceNewBillingAddress() throws Exception{
 		
 		coreTest.signIn(driver);
@@ -120,7 +120,7 @@ public class CreateFundingTest {
 	}
 	
 
-	@Test(priority=3 , enabled=false)
+	@Test(priority=3 , enabled=true)
 	public void createFundingSourceCancel() throws Exception{
 		
 		coreTest.signIn(driver);
@@ -145,7 +145,7 @@ public class CreateFundingTest {
 	}
 	
 	
-	@Test(priority=4 , enabled=false)
+	@Test(priority=4 , enabled=true)
 	public void createFundingSourceTypeNotSelected() throws Exception{
 		
 		coreTest.signIn(driver);
@@ -166,7 +166,7 @@ public class CreateFundingTest {
     	driver.close();   	
 	}
 	
-	@Test(priority=5 , enabled=false)
+	@Test(priority=5 , enabled=true)
 	public void createCustomerInvalidEmail() throws Exception{
 		
 		coreTest.signIn(driver);
@@ -199,7 +199,7 @@ public class CreateFundingTest {
         
 	}
 	
-	@Test(priority=6 , enabled=false)
+	@Test(priority=6 , enabled=true)
 	public void createCustomerFundingInvalidCC() throws Exception{
 		
 		coreTest.signIn(driver);

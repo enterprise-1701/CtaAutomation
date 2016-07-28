@@ -1,6 +1,294 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="7" total="50" passed="43">
   <reporter-output>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Completed]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Completed]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Completed]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Completed]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Completed]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Completed]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Completed]]>
+    </line>
+    <line>
+      <![CDATA[firefox driver instantiated]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Completed]]>
+    </line>
     <line>
       <![CDATA[firefox driver instantiated]]>
     </line>
@@ -14,12 +302,12 @@
       <![CDATA[TearDown Completed]]>
     </line>
   </reporter-output>
-  <suite name="Automation - Suite" duration-ms="114756" started-at="2016-07-20T23:08:45Z" finished-at="2016-07-20T23:10:39Z">
+  <suite name="Automation - Suite" duration-ms="2972986" started-at="2016-07-27T23:56:44Z" finished-at="2016-07-28T00:46:17Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="114756" started-at="2016-07-20T23:08:45Z" finished-at="2016-07-20T23:10:39Z">
-      <class name="automationFramework.TestCases.CreateCustomerDBTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@49993335]" name="setUp" is-config="true" duration-ms="9134" started-at="2016-07-20T16:08:45Z" finished-at="2016-07-20T16:08:54Z">
+    <test name="FirefoxTest" duration-ms="2972986" started-at="2016-07-27T23:56:44Z" finished-at="2016-07-28T00:46:17Z">
+      <class name="automationFramework.TestCases.BalanceHistoryTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@527740a2]" name="setUp" is-config="true" duration-ms="11777" started-at="2016-07-27T17:22:16Z" finished-at="2016-07-27T17:22:28Z">
           <params>
             <param index="0">
               <value>
@@ -33,18 +321,424 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createNewCustomerDB()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@49993335]" name="createNewCustomerDB" duration-ms="52865" started-at="2016-07-20T16:08:54Z" finished-at="2016-07-20T16:09:47Z">
+        <test-method status="FAIL" signature="checkBalanceHistory()[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@527740a2]" name="checkBalanceHistory" duration-ms="96605" started-at="2016-07-27T17:22:28Z" finished-at="2016-07-27T17:24:04Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":".//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[3]/span"}
+Command duration or timeout: 60.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5b7fff07-7573-4876-89ad-f88f1e92fee1
+*** Element info: {Using=xpath, value=.//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[3]/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[3]/span"}
+Command duration or timeout: 60.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5b7fff07-7573-4876-89ad-f88f1e92fee1
+*** Element info: {Using=xpath, value=.//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[3]/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at automationFramework.PageObjects.BalanceHistoryPage.getPurse(BalanceHistoryPage.java:35)
+	at automationFramework.TestCases.BalanceHistoryTest.checkBalanceHistory(BalanceHistoryTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[3]/span"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous4260513124110857875webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/WINDOWS/TEMP/anonymous4260513124110857875webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewCustomerDB -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@49993335]" name="tearDown" is-config="true" duration-ms="3986" started-at="2016-07-20T16:09:47Z" finished-at="2016-07-20T16:09:51Z">
+        </test-method> <!-- checkBalanceHistory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@527740a2]" name="tearDown" is-config="true" duration-ms="802" started-at="2016-07-27T17:24:04Z" finished-at="2016-07-27T17:24:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@527740a2]" name="setUp" is-config="true" duration-ms="12308" started-at="2016-07-27T17:24:05Z" finished-at="2016-07-27T17:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="checkBalanceHistoryDetail()[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@527740a2]" name="checkBalanceHistoryDetail" duration-ms="91903" started-at="2016-07-27T17:24:18Z" finished-at="2016-07-27T17:25:49Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[2]/span/span"}
+Command duration or timeout: 60.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d747b9ad-8d9d-4269-948e-12d1fb8b3ffa
+*** Element info: {Using=xpath, value=//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[2]/span/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[2]/span/span"}
+Command duration or timeout: 60.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d747b9ad-8d9d-4269-948e-12d1fb8b3ffa
+*** Element info: {Using=xpath, value=//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[2]/span/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at automationFramework.PageObjects.BalanceHistoryPage.clickFirstRecord(BalanceHistoryPage.java:55)
+	at automationFramework.TestCases.BalanceHistoryTest.checkBalanceHistoryDetail(BalanceHistoryTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[2]/span/span"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous2015735926152339873webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/WINDOWS/TEMP/anonymous2015735926152339873webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBalanceHistoryDetail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@527740a2]" name="tearDown" is-config="true" duration-ms="523" started-at="2016-07-27T17:25:49Z" finished-at="2016-07-27T17:25:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.BalanceHistoryTest -->
+      <class name="automationFramework.TestCases.LinkAccountTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.LinkAccountTest@31610302]" name="setUp" is-config="true" duration-ms="7589" started-at="2016-07-27T17:18:53Z" finished-at="2016-07-27T17:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="linkAccountAlreadyLinkedException()[pri:0, instance:automationFramework.TestCases.LinkAccountTest@31610302]" name="linkAccountAlreadyLinkedException" duration-ms="43373" started-at="2016-07-27T17:19:00Z" finished-at="2016-07-27T17:19:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Account Already Linked] but found [Link Account Failure]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Account Already Linked] but found [Link Account Failure]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.TestCases.LinkAccountTest.linkAccountAlreadyLinkedException(LinkAccountTest.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkAccountAlreadyLinkedException -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.LinkAccountTest@31610302]" name="tearDown" is-config="true" duration-ms="566" started-at="2016-07-27T17:19:44Z" finished-at="2016-07-27T17:19:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.LinkAccountTest@31610302]" name="setUp" is-config="true" duration-ms="10822" started-at="2016-07-27T17:19:44Z" finished-at="2016-07-27T17:19:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="linkAccountBankNumberMissingTest()[pri:0, instance:automationFramework.TestCases.LinkAccountTest@31610302]" name="linkAccountBankNumberMissingTest" duration-ms="34954" started-at="2016-07-27T17:19:55Z" finished-at="2016-07-27T17:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkAccountBankNumberMissingTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.LinkAccountTest@31610302]" name="tearDown" is-config="true" duration-ms="501" started-at="2016-07-27T17:20:30Z" finished-at="2016-07-27T17:20:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.LinkAccountTest@31610302]" name="setUp" is-config="true" duration-ms="10415" started-at="2016-07-27T17:20:31Z" finished-at="2016-07-27T17:20:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="linkAccountCancelTest()[pri:0, instance:automationFramework.TestCases.LinkAccountTest@31610302]" name="linkAccountCancelTest" duration-ms="43645" started-at="2016-07-27T17:20:41Z" finished-at="2016-07-27T17:21:25Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [$5.00] but found [$17.40]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [$5.00] but found [$17.40]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.TestCases.LinkAccountTest.linkAccountCancelTest(LinkAccountTest.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkAccountCancelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.LinkAccountTest@31610302]" name="tearDown" is-config="true" duration-ms="630" started-at="2016-07-27T17:21:25Z" finished-at="2016-07-27T17:21:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.LinkAccountTest@31610302]" name="setUp" is-config="true" duration-ms="8793" started-at="2016-07-27T17:21:25Z" finished-at="2016-07-27T17:21:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="linkAccountCardExpirationMissingTest()[pri:0, instance:automationFramework.TestCases.LinkAccountTest@31610302]" name="linkAccountCardExpirationMissingTest" duration-ms="41400" started-at="2016-07-27T17:21:34Z" finished-at="2016-07-27T17:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkAccountCardExpirationMissingTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.LinkAccountTest@31610302]" name="tearDown" is-config="true" duration-ms="610" started-at="2016-07-27T17:22:15Z" finished-at="2016-07-27T17:22:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.LinkAccountTest -->
+      <class name="automationFramework.TestCases.CreateFundingDBTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateFundingDBTest@370736d9]" name="setUp" is-config="true" duration-ms="12407" started-at="2016-07-27T17:35:37Z" finished-at="2016-07-27T17:35:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewFundingCancelDBcheck()[pri:0, instance:automationFramework.TestCases.CreateFundingDBTest@370736d9]" name="createNewFundingCancelDBcheck" duration-ms="67576" started-at="2016-07-27T17:35:49Z" finished-at="2016-07-27T17:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFundingCancelDBcheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateFundingDBTest@370736d9]" name="tearDown" is-config="true" duration-ms="373" started-at="2016-07-27T17:36:57Z" finished-at="2016-07-27T17:36:57Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Completed]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@49993335]" name="setUp" is-config="true" duration-ms="14380" started-at="2016-07-20T16:09:51Z" finished-at="2016-07-20T16:10:05Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateFundingDBTest@370736d9]" name="setUp" is-config="true" duration-ms="6860" started-at="2016-07-27T17:36:57Z" finished-at="2016-07-27T17:37:04Z">
           <params>
             <param index="0">
               <value>
@@ -58,11 +752,1289 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createNewCustomerCancelDB()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@49993335]" name="createNewCustomerCancelDB" duration-ms="33852" started-at="2016-07-20T16:10:05Z" finished-at="2016-07-20T16:10:39Z">
+        <test-method status="PASS" signature="createNewFundingCreditCardDBcheck()[pri:0, instance:automationFramework.TestCases.CreateFundingDBTest@370736d9]" name="createNewFundingCreditCardDBcheck" duration-ms="73628" started-at="2016-07-27T17:37:04Z" finished-at="2016-07-27T17:38:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewCustomerCancelDB -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@49993335]" name="tearDown" is-config="true" duration-ms="528" started-at="2016-07-20T16:10:39Z" finished-at="2016-07-20T16:10:39Z">
+        </test-method> <!-- createNewFundingCreditCardDBcheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateFundingDBTest@370736d9]" name="tearDown" is-config="true" duration-ms="615" started-at="2016-07-27T17:38:17Z" finished-at="2016-07-27T17:38:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateFundingDBTest@370736d9]" name="setUp" is-config="true" duration-ms="11538" started-at="2016-07-27T17:38:18Z" finished-at="2016-07-27T17:38:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewFundingDBcheck()[pri:0, instance:automationFramework.TestCases.CreateFundingDBTest@370736d9]" name="createNewFundingDBcheck" duration-ms="62447" started-at="2016-07-27T17:38:30Z" finished-at="2016-07-27T17:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewFundingDBcheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateFundingDBTest@370736d9]" name="tearDown" is-config="true" duration-ms="539" started-at="2016-07-27T17:39:32Z" finished-at="2016-07-27T17:39:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.CreateFundingDBTest -->
+      <class name="automationFramework.TestCases.CreateOrderTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateOrderTest@20398b7c]" name="setUp" is-config="true" duration-ms="9361" started-at="2016-07-27T17:28:52Z" finished-at="2016-07-27T17:29:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="createOrderSubmit()[pri:0, instance:automationFramework.TestCases.CreateOrderTest@20398b7c]" name="createOrderSubmit" duration-ms="147039" started-at="2016-07-27T17:29:01Z" finished-at="2016-07-27T17:31:28Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[3]/span"}
+Command duration or timeout: 60.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3aab583f-7fe1-4152-ab6b-1b75a64bb448
+*** Element info: {Using=xpath, value=//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[3]/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[3]/span"}
+Command duration or timeout: 60.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3aab583f-7fe1-4152-ab6b-1b75a64bb448
+*** Element info: {Using=xpath, value=//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[3]/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at automationFramework.PageObjects.CreateOrderPage.getPurse(CreateOrderPage.java:71)
+	at automationFramework.TestCases.CreateOrderTest.createOrderSubmit(CreateOrderTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='balanceHistory_list_tbl']/div/div[1]/table/tbody/tr[1]/td[3]/span"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous7603329689602485504webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/WINDOWS/TEMP/anonymous7603329689602485504webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrderSubmit -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateOrderTest@20398b7c]" name="tearDown" is-config="true" duration-ms="580" started-at="2016-07-27T17:31:28Z" finished-at="2016-07-27T17:31:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateOrderTest@20398b7c]" name="setUp" is-config="true" duration-ms="11862" started-at="2016-07-27T17:31:29Z" finished-at="2016-07-27T17:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createOrderCancel()[pri:0, instance:automationFramework.TestCases.CreateOrderTest@20398b7c]" name="createOrderCancel" duration-ms="80074" started-at="2016-07-27T17:31:41Z" finished-at="2016-07-27T17:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrderCancel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateOrderTest@20398b7c]" name="tearDown" is-config="true" duration-ms="308" started-at="2016-07-27T17:33:01Z" finished-at="2016-07-27T17:33:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.CreateOrderTest -->
+      <class name="automationFramework.TestCases.SearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="8099" started-at="2016-07-27T17:04:41Z" finished-at="2016-07-27T17:04:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCustomerVerifiedTest()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="searchCustomerVerifiedTest" duration-ms="27569" started-at="2016-07-27T17:04:49Z" finished-at="2016-07-27T17:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerVerifiedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="3275" started-at="2016-07-27T17:05:16Z" finished-at="2016-07-27T17:05:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="10936" started-at="2016-07-27T17:05:20Z" finished-at="2016-07-27T17:05:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCustomerNotVerifiedTest()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="searchCustomerNotVerifiedTest" duration-ms="36285" started-at="2016-07-27T17:05:31Z" finished-at="2016-07-27T17:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerNotVerifiedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="398" started-at="2016-07-27T17:06:07Z" finished-at="2016-07-27T17:06:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="9759" started-at="2016-07-27T17:06:07Z" finished-at="2016-07-27T17:06:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCustomerNoResultsTest()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="searchCustomerNoResultsTest" duration-ms="28787" started-at="2016-07-27T17:06:17Z" finished-at="2016-07-27T17:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerNoResultsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="475" started-at="2016-07-27T17:06:46Z" finished-at="2016-07-27T17:06:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="10236" started-at="2016-07-27T17:06:46Z" finished-at="2016-07-27T17:06:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCustomerTypeNotSelected()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="searchCustomerTypeNotSelected" duration-ms="17009" started-at="2016-07-27T17:06:57Z" finished-at="2016-07-27T17:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerTypeNotSelected -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="309" started-at="2016-07-27T17:07:14Z" finished-at="2016-07-27T17:07:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="12161" started-at="2016-07-27T17:07:14Z" finished-at="2016-07-27T17:07:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCustomerInvalidEmail()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="searchCustomerInvalidEmail" duration-ms="26835" started-at="2016-07-27T17:07:26Z" finished-at="2016-07-27T17:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerInvalidEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="653" started-at="2016-07-27T17:07:53Z" finished-at="2016-07-27T17:07:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="10629" started-at="2016-07-27T17:07:53Z" finished-at="2016-07-27T17:08:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCustomerCheckDuplicateTestFname()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="searchCustomerCheckDuplicateTestFname" duration-ms="26539" started-at="2016-07-27T17:08:04Z" finished-at="2016-07-27T17:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerCheckDuplicateTestFname -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="670" started-at="2016-07-27T17:08:31Z" finished-at="2016-07-27T17:08:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="12167" started-at="2016-07-27T17:08:31Z" finished-at="2016-07-27T17:08:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCustomerCheckDuplicateTestLname()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="searchCustomerCheckDuplicateTestLname" duration-ms="23641" started-at="2016-07-27T17:08:43Z" finished-at="2016-07-27T17:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerCheckDuplicateTestLname -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="577" started-at="2016-07-27T17:09:07Z" finished-at="2016-07-27T17:09:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="12010" started-at="2016-07-27T17:09:08Z" finished-at="2016-07-27T17:09:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCustomerCheckDuplicateTestFnameLname()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="searchCustomerCheckDuplicateTestFnameLname" duration-ms="30996" started-at="2016-07-27T17:09:20Z" finished-at="2016-07-27T17:09:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerCheckDuplicateTestFnameLname -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="601" started-at="2016-07-27T17:09:51Z" finished-at="2016-07-27T17:09:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="9609" started-at="2016-07-27T17:09:51Z" finished-at="2016-07-27T17:10:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCustomerCheckDuplicateTestPhone()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="searchCustomerCheckDuplicateTestPhone" duration-ms="25119" started-at="2016-07-27T17:10:01Z" finished-at="2016-07-27T17:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerCheckDuplicateTestPhone -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="634" started-at="2016-07-27T17:10:26Z" finished-at="2016-07-27T17:10:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="11021" started-at="2016-07-27T17:10:27Z" finished-at="2016-07-27T17:10:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCustomerCheckDuplicateTestEmail()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="searchCustomerCheckDuplicateTestEmail" duration-ms="26512" started-at="2016-07-27T17:10:38Z" finished-at="2016-07-27T17:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerCheckDuplicateTestEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="617" started-at="2016-07-27T17:11:04Z" finished-at="2016-07-27T17:11:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="8799" started-at="2016-07-27T17:11:05Z" finished-at="2016-07-27T17:11:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCustomerCheckDuplicateTestEmailPhone()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="searchCustomerCheckDuplicateTestEmailPhone" duration-ms="28316" started-at="2016-07-27T17:11:14Z" finished-at="2016-07-27T17:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerCheckDuplicateTestEmailPhone -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="442" started-at="2016-07-27T17:11:42Z" finished-at="2016-07-27T17:11:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="9944" started-at="2016-07-27T17:11:42Z" finished-at="2016-07-27T17:11:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCustomerCheckDuplicateTestAll()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="searchCustomerCheckDuplicateTestAll" duration-ms="22910" started-at="2016-07-27T17:11:52Z" finished-at="2016-07-27T17:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerCheckDuplicateTestAll -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SearchTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="582" started-at="2016-07-27T17:12:15Z" finished-at="2016-07-27T17:12:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.SearchTest -->
+      <class name="automationFramework.TestCases.EmailTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.EmailTest@56235b8e]" name="setUp" is-config="true" duration-ms="7597" started-at="2016-07-27T17:25:50Z" finished-at="2016-07-27T17:25:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="checkEmailCreateOrder()[pri:0, instance:automationFramework.TestCases.EmailTest@56235b8e]" name="checkEmailCreateOrder" duration-ms="100990" started-at="2016-07-27T17:25:58Z" finished-at="2016-07-27T17:27:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at automationFramework.TestCases.EmailTest.checkEmailCreateOrder(EmailTest.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmailCreateOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.EmailTest@56235b8e]" name="tearDown" is-config="true" duration-ms="421" started-at="2016-07-27T17:27:39Z" finished-at="2016-07-27T17:27:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.EmailTest@56235b8e]" name="setUp" is-config="true" duration-ms="10479" started-at="2016-07-27T17:27:39Z" finished-at="2016-07-27T17:27:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkEmailNewCustomer()[pri:0, instance:automationFramework.TestCases.EmailTest@56235b8e]" name="checkEmailNewCustomer" duration-ms="61646" started-at="2016-07-27T17:27:49Z" finished-at="2016-07-27T17:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmailNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.EmailTest@56235b8e]" name="tearDown" is-config="true" duration-ms="630" started-at="2016-07-27T17:28:51Z" finished-at="2016-07-27T17:28:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.EmailTest -->
+      <class name="automationFramework.TestCases.TravelHistoryTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.TravelHistoryTest@13a5fe33]" name="setUp" is-config="true" duration-ms="9629" started-at="2016-07-27T17:33:01Z" finished-at="2016-07-27T17:33:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="checkTravelHistory()[pri:0, instance:automationFramework.TestCases.TravelHistoryTest@13a5fe33]" name="checkTravelHistory" duration-ms="145272" started-at="2016-07-27T17:33:11Z" finished-at="2016-07-27T17:35:36Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 90 seconds waiting for visibility of element located by By.xpath: //*[@id='customerContacts_list_tbl']/div/div[1]/table/tbody/tr[1]/td[1]/span
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b9beef0f-a943-41ff-be0e-6ecc2d165d63]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 90 seconds waiting for visibility of element located by By.xpath: //*[@id='customerContacts_list_tbl']/div/div[1]/table/tbody/tr[1]/td[1]/span
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b9beef0f-a943-41ff-be0e-6ecc2d165d63
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at automationFramework.PageObjects.SearchPage.clickRecord(SearchPage.java:87)
+	at automationFramework.TestCases.TravelHistoryTest.checkTravelHistory(TravelHistoryTest.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='customerContacts_list_tbl']/div/div[1]/table/tbody/tr[1]/td[1]/span"}
+Command duration or timeout: 60.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b9beef0f-a943-41ff-be0e-6ecc2d165d63
+*** Element info: {Using=xpath, value=//*[@id='customerContacts_list_tbl']/div/div[1]/table/tbody/tr[1]/td[1]/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:730)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:39)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:130)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:126)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 35 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='customerContacts_list_tbl']/div/div[1]/table/tbody/tr[1]/td[1]/span"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NACTS-081729', ip: '149.63.89.232', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous5888212259380347974webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/WINDOWS/TEMP/anonymous5888212259380347974webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTravelHistory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.TravelHistoryTest@13a5fe33]" name="tearDown" is-config="true" duration-ms="691" started-at="2016-07-27T17:35:36Z" finished-at="2016-07-27T17:35:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.TravelHistoryTest -->
+      <class name="automationFramework.TestCases.CreateFundingTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="setUp" is-config="true" duration-ms="9851" started-at="2016-07-27T17:12:16Z" finished-at="2016-07-27T17:12:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createFundingSource()[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="createFundingSource" duration-ms="76431" started-at="2016-07-27T17:12:26Z" finished-at="2016-07-27T17:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFundingSource -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="tearDown" is-config="true" duration-ms="410" started-at="2016-07-27T17:13:42Z" finished-at="2016-07-27T17:13:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="setUp" is-config="true" duration-ms="10921" started-at="2016-07-27T17:13:43Z" finished-at="2016-07-27T17:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createFundingSourceNewBillingAddress()[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="createFundingSourceNewBillingAddress" duration-ms="85355" started-at="2016-07-27T17:13:53Z" finished-at="2016-07-27T17:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFundingSourceNewBillingAddress -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="tearDown" is-config="true" duration-ms="412" started-at="2016-07-27T17:15:19Z" finished-at="2016-07-27T17:15:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="setUp" is-config="true" duration-ms="10475" started-at="2016-07-27T17:15:19Z" finished-at="2016-07-27T17:15:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createFundingSourceCancel()[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="createFundingSourceCancel" duration-ms="40404" started-at="2016-07-27T17:15:30Z" finished-at="2016-07-27T17:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFundingSourceCancel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="tearDown" is-config="true" duration-ms="569" started-at="2016-07-27T17:16:10Z" finished-at="2016-07-27T17:16:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="setUp" is-config="true" duration-ms="9419" started-at="2016-07-27T17:16:11Z" finished-at="2016-07-27T17:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createFundingSourceTypeNotSelected()[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="createFundingSourceTypeNotSelected" duration-ms="43235" started-at="2016-07-27T17:16:20Z" finished-at="2016-07-27T17:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFundingSourceTypeNotSelected -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="tearDown" is-config="true" duration-ms="475" started-at="2016-07-27T17:17:03Z" finished-at="2016-07-27T17:17:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="setUp" is-config="true" duration-ms="11420" started-at="2016-07-27T17:17:04Z" finished-at="2016-07-27T17:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCustomerInvalidEmail()[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="createCustomerInvalidEmail" duration-ms="44281" started-at="2016-07-27T17:17:15Z" finished-at="2016-07-27T17:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerInvalidEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="tearDown" is-config="true" duration-ms="376" started-at="2016-07-27T17:17:59Z" finished-at="2016-07-27T17:18:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="setUp" is-config="true" duration-ms="10476" started-at="2016-07-27T17:18:00Z" finished-at="2016-07-27T17:18:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCustomerFundingInvalidCC()[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="createCustomerFundingInvalidCC" duration-ms="42021" started-at="2016-07-27T17:18:10Z" finished-at="2016-07-27T17:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerFundingInvalidCC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateFundingTest@3108bc]" name="tearDown" is-config="true" duration-ms="361" started-at="2016-07-27T17:18:52Z" finished-at="2016-07-27T17:18:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.CreateFundingTest -->
+      <class name="automationFramework.TestCases.CreateCustomerTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="setUp" is-config="true" duration-ms="4583" started-at="2016-07-27T16:56:44Z" finished-at="2016-07-27T16:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewCustomer()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="createNewCustomer" duration-ms="50794" started-at="2016-07-27T16:56:49Z" finished-at="2016-07-27T16:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="tearDown" is-config="true" duration-ms="227" started-at="2016-07-27T16:57:40Z" finished-at="2016-07-27T16:57:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="setUp" is-config="true" duration-ms="13247" started-at="2016-07-27T16:57:40Z" finished-at="2016-07-27T16:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCustomerCancel()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="createCustomerCancel" duration-ms="25484" started-at="2016-07-27T16:57:53Z" finished-at="2016-07-27T16:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerCancel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="tearDown" is-config="true" duration-ms="405" started-at="2016-07-27T16:58:19Z" finished-at="2016-07-27T16:58:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="setUp" is-config="true" duration-ms="9106" started-at="2016-07-27T16:58:19Z" finished-at="2016-07-27T16:58:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCustomerContactTypeNotSelected()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="createCustomerContactTypeNotSelected" duration-ms="35300" started-at="2016-07-27T16:58:28Z" finished-at="2016-07-27T16:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerContactTypeNotSelected -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="tearDown" is-config="true" duration-ms="241" started-at="2016-07-27T16:59:04Z" finished-at="2016-07-27T16:59:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="setUp" is-config="true" duration-ms="3810" started-at="2016-07-27T16:59:04Z" finished-at="2016-07-27T16:59:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCustomerInvalidEmail()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="createCustomerInvalidEmail" duration-ms="37590" started-at="2016-07-27T16:59:08Z" finished-at="2016-07-27T16:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerInvalidEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="tearDown" is-config="true" duration-ms="338" started-at="2016-07-27T16:59:45Z" finished-at="2016-07-27T16:59:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="setUp" is-config="true" duration-ms="11272" started-at="2016-07-27T16:59:45Z" finished-at="2016-07-27T16:59:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCustomerInvalidPin()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="createCustomerInvalidPin" duration-ms="32568" started-at="2016-07-27T16:59:57Z" finished-at="2016-07-27T17:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerInvalidPin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="tearDown" is-config="true" duration-ms="305" started-at="2016-07-27T17:00:29Z" finished-at="2016-07-27T17:00:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="setUp" is-config="true" duration-ms="8387" started-at="2016-07-27T17:00:30Z" finished-at="2016-07-27T17:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCustomerFundingInvalidCC()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="createCustomerFundingInvalidCC" duration-ms="36190" started-at="2016-07-27T17:00:38Z" finished-at="2016-07-27T17:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerFundingInvalidCC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="tearDown" is-config="true" duration-ms="712" started-at="2016-07-27T17:01:14Z" finished-at="2016-07-27T17:01:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="setUp" is-config="true" duration-ms="11043" started-at="2016-07-27T17:01:15Z" finished-at="2016-07-27T17:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCustomerDuplicateUserName()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="createCustomerDuplicateUserName" duration-ms="46624" started-at="2016-07-27T17:01:26Z" finished-at="2016-07-27T17:02:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerDuplicateUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="tearDown" is-config="true" duration-ms="351" started-at="2016-07-27T17:02:13Z" finished-at="2016-07-27T17:02:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="setUp" is-config="true" duration-ms="8278" started-at="2016-07-27T17:02:13Z" finished-at="2016-07-27T17:02:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCustomerInvalidUserName()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="createCustomerInvalidUserName" duration-ms="35596" started-at="2016-07-27T17:02:21Z" finished-at="2016-07-27T17:02:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerInvalidUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="tearDown" is-config="true" duration-ms="560" started-at="2016-07-27T17:02:57Z" finished-at="2016-07-27T17:02:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="setUp" is-config="true" duration-ms="12620" started-at="2016-07-27T17:02:57Z" finished-at="2016-07-27T17:03:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCustomerInvalidPhone()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="createCustomerInvalidPhone" duration-ms="23538" started-at="2016-07-27T17:03:10Z" finished-at="2016-07-27T17:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerInvalidPhone -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="tearDown" is-config="true" duration-ms="420" started-at="2016-07-27T17:03:34Z" finished-at="2016-07-27T17:03:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="setUp" is-config="true" duration-ms="10317" started-at="2016-07-27T17:03:34Z" finished-at="2016-07-27T17:03:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCustomerNameMissing()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="createCustomerNameMissing" duration-ms="20988" started-at="2016-07-27T17:03:44Z" finished-at="2016-07-27T17:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerNameMissing -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="tearDown" is-config="true" duration-ms="401" started-at="2016-07-27T17:04:05Z" finished-at="2016-07-27T17:04:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="setUp" is-config="true" duration-ms="8833" started-at="2016-07-27T17:04:06Z" finished-at="2016-07-27T17:04:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createCustomerEmailMissing()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="createCustomerEmailMissing" duration-ms="25672" started-at="2016-07-27T17:04:15Z" finished-at="2016-07-27T17:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerEmailMissing -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerTest@6d7b4f4c]" name="tearDown" is-config="true" duration-ms="497" started-at="2016-07-27T17:04:40Z" finished-at="2016-07-27T17:04:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.CreateCustomerTest -->
+      <class name="automationFramework.TestCases.CreateCustomerDBTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="setUp" is-config="true" duration-ms="9415" started-at="2016-07-27T17:39:33Z" finished-at="2016-07-27T17:39:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewCustomerDBCheckContactTable()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="createNewCustomerDBCheckContactTable" duration-ms="46898" started-at="2016-07-27T17:39:42Z" finished-at="2016-07-27T17:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCustomerDBCheckContactTable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="tearDown" is-config="true" duration-ms="498" started-at="2016-07-27T17:40:29Z" finished-at="2016-07-27T17:40:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="setUp" is-config="true" duration-ms="10268" started-at="2016-07-27T17:40:29Z" finished-at="2016-07-27T17:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewCustomerDBCheckAccountTable()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="createNewCustomerDBCheckAccountTable" duration-ms="55289" started-at="2016-07-27T17:40:40Z" finished-at="2016-07-27T17:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCustomerDBCheckAccountTable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="tearDown" is-config="true" duration-ms="470" started-at="2016-07-27T17:41:35Z" finished-at="2016-07-27T17:41:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="setUp" is-config="true" duration-ms="10394" started-at="2016-07-27T17:41:35Z" finished-at="2016-07-27T17:41:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewCustomerDBCheckAddressTable()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="createNewCustomerDBCheckAddressTable" duration-ms="53814" started-at="2016-07-27T17:41:46Z" finished-at="2016-07-27T17:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCustomerDBCheckAddressTable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="tearDown" is-config="true" duration-ms="830" started-at="2016-07-27T17:42:40Z" finished-at="2016-07-27T17:42:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="setUp" is-config="true" duration-ms="9629" started-at="2016-07-27T17:42:40Z" finished-at="2016-07-27T17:42:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewCustomerDBCheckSecurityTable()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="createNewCustomerDBCheckSecurityTable" duration-ms="48610" started-at="2016-07-27T17:42:50Z" finished-at="2016-07-27T17:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCustomerDBCheckSecurityTable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="tearDown" is-config="true" duration-ms="480" started-at="2016-07-27T17:43:39Z" finished-at="2016-07-27T17:43:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="setUp" is-config="true" duration-ms="9663" started-at="2016-07-27T17:43:39Z" finished-at="2016-07-27T17:43:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewCustomerDBCheckPhoneTable()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="createNewCustomerDBCheckPhoneTable" duration-ms="52689" started-at="2016-07-27T17:43:49Z" finished-at="2016-07-27T17:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCustomerDBCheckPhoneTable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="tearDown" is-config="true" duration-ms="678" started-at="2016-07-27T17:44:42Z" finished-at="2016-07-27T17:44:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="setUp" is-config="true" duration-ms="9708" started-at="2016-07-27T17:44:42Z" finished-at="2016-07-27T17:44:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewCustomerDBCheckUserName()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="createNewCustomerDBCheckUserName" duration-ms="47172" started-at="2016-07-27T17:44:52Z" finished-at="2016-07-27T17:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCustomerDBCheckUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="tearDown" is-config="true" duration-ms="442" started-at="2016-07-27T17:45:39Z" finished-at="2016-07-27T17:45:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="setUp" is-config="true" duration-ms="10796" started-at="2016-07-27T17:45:40Z" finished-at="2016-07-27T17:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox driver instantiated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewCustomerCancelDBCheck()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="createNewCustomerCancelDBCheck" duration-ms="26718" started-at="2016-07-27T17:45:50Z" finished-at="2016-07-27T17:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCustomerCancelDBCheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateCustomerDBTest@3632be31]" name="tearDown" is-config="true" duration-ms="316" started-at="2016-07-27T17:46:17Z" finished-at="2016-07-27T17:46:17Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Completed]]>
