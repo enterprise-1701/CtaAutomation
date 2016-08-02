@@ -48,7 +48,7 @@ public class EmailTest{
  	}
     
     
-	@Test
+	@Test(priority=1 , enabled=true)
 	public void checkEmailNewCustomer() throws Exception{
 		
 		//Create New Customer
@@ -84,7 +84,7 @@ public class EmailTest{
 	
 	
 	
-	@Test
+	@Test(priority=1 , enabled=true)
 	public void checkEmailCreateOrder() throws Exception{
 		
 		//Create New Customer
@@ -121,7 +121,6 @@ public class EmailTest{
 	      }
 			
 	}
-	
 	
 	
 	@AfterMethod

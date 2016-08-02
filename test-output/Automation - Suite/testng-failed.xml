@@ -9,13 +9,13 @@
   <test name="FirefoxTest(failed)">
     <parameter name="browser" value="firefox.exe"/>
     <classes>
-      <class name="automationFramework.TestCases.CreateFundingDBTest">
+      <class name="automationFramework.TestCases.LinkAccountDBTest">
         <methods>
-          <include name="createNewFundingCreditCardDBcheck"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="createLinkAccountDBcheck"/>
         </methods>
-      </class> <!-- automationFramework.TestCases.CreateFundingDBTest -->
+      </class> <!-- automationFramework.TestCases.LinkAccountDBTest -->
     </classes>
   </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Automation - Suite] -->

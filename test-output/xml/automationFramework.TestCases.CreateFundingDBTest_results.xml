@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="203.154">
+           time="218.873">
   <properties />
   
   
-            <testcase name="createNewFundingCancelDBcheck" time="69.566" classname="automationFramework.TestCases.CreateFundingDBTest" />
-                <testcase name="createNewFundingDBcheck" time="71.920" classname="automationFramework.TestCases.CreateFundingDBTest" />
-                <testcase name="createNewFundingCreditCardDBcheck" time="61.668" classname="automationFramework.TestCases.CreateFundingDBTest" />
+            <testcase name="createNewFundingCancelDBcheck" time="66.767" classname="automationFramework.TestCases.CreateFundingDBTest" />
+                <testcase name="createNewFundingDBcheck" time="76.062" classname="automationFramework.TestCases.CreateFundingDBTest" />
+                <testcase name="createNewFundingCreditCardDBcheck" time="76.044" classname="automationFramework.TestCases.CreateFundingDBTest" />
       
 </testsuite>

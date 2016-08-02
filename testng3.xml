@@ -2,8 +2,7 @@
 	<test name ="FirefoxTest">
 	<parameter name="browser" value="firefox.exe" />
 		<classes>
-		    <class name="automationFramework.TestCases.CreateFundingDBTest" /> 
-		    <class name="automationFramework.TestCases.CreateCustomerDBTest" /> 
+		    <class name="automationFramework.TestCases.CreateOrderDBTest" /> 
 		</classes>
 	</test>
 		<listeners>

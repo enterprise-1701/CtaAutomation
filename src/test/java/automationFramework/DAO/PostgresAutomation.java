@@ -31,6 +31,9 @@ public class PostgresAutomation {
 	int contactID;
 	int phoneID;
 	int ccID;
+	int subSystemID;
+	int purseID;
+	int journalID;
 	String userName;
 	String phoneNo;
 
@@ -166,8 +169,7 @@ public class PostgresAutomation {
 										
 				}
 				
-				
-			
+						
 				//check cms_main.address
 				public boolean dbFindAddress(String email){
 						
@@ -300,6 +302,81 @@ public class PostgresAutomation {
 					return false;
 										
 				}
+				
+				//check oam_main.subsystem_account
+				public boolean dbFindSubSystem(String email){
+						
+					try{
+						
+						Statement statement = connection.createStatement();
+						ResultSet results = statement.executeQuery("SELECT customer_id FROM cms_main.contact where email ='" + email + "'");
+					    
+						while(results.next()){
+							  customerID = results.getInt("customer_id");
+							  Log.info("contact id in the database: " + customerID);
+							
+							}
+						
+						Statement statement2 = connection.createStatement();
+						ResultSet results2 = statement2.executeQuery("SELECT subsystem_account_id from oam_main.subsystem_account inner join oam_main.account on oam_main.subsystem_account.account_id = oam_main.account.account_id where oam_main.account.customer_id = '" + customerID + "'");
+						
+						while(results2.next()){
+						  subSystemID = results2.getInt("subsystem_account_id");
+						  Log.info("subsystem id in the database: " + subSystemID);
+						  return true;
+						}
+						
+						
+						}catch(Exception e){
+						System.err.println(e.getMessage());
+						Log.error("Not able to retrieve record from postgresDB oam_main.account");
+						}
+					
+					return false;
+					
+					}
+				
+				//check oam_main.journal_entry
+				public boolean dbFindJournalEntry(String email){
+						
+					try{
+						
+						Statement statement = connection.createStatement();
+						ResultSet results = statement.executeQuery("SELECT customer_id FROM cms_main.contact where email ='" + email + "'");
+					    
+						while(results.next()){
+							  customerID = results.getInt("customer_id");
+							  Log.info("contact id in the database: " + customerID);
+							
+							}
+						
+						Statement statement2 = connection.createStatement();
+						ResultSet results2 = statement2.executeQuery("SELECT account_id FROM oam_main.account where customer_id = '" + customerID + "'");
+						
+						while(results2.next()){
+						  accountID = results2.getInt("account_id");
+						  Log.info("account id in the database: " + accountID);
+						 
+						}
+						
+						Statement statement3 = connection.createStatement();
+						ResultSet results3 = statement3.executeQuery("SELECT journal_entry_id from oam_main.journal_entry inner join oam_main.purse on oam_main.purse.purse_id = oam_main.journal_entry.purse_id where oam_main.purse.account_id = '" + accountID + "'");
+
+						while(results3.next()){
+							  journalID = results3.getInt("journal_entry_id");
+							  Log.info("journal entry id in the database: " + journalID);
+							  return true;
+							}
+							
+						
+						}catch(Exception e){
+						System.err.println(e.getMessage());
+						Log.error("Not able to retrieve record from postgresDB oam_main.purse");
+						}
+					
+					return false;
+					
+					}
 
 
 	public void dbDisconnect(){
