@@ -9,13 +9,14 @@
   <test name="FirefoxTest(failed)">
     <parameter name="browser" value="firefox.exe"/>
     <classes>
-      <class name="automationFramework.TestCases.LinkAccountDBTest">
+      <class name="automationFramework.TestCases.BalanceHistoryTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="checkBalanceHistoryDetail"/>
+          <include name="checkBalanceHistory"/>
           <include name="setUp"/>
-          <include name="createLinkAccountDBcheck"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- automationFramework.TestCases.LinkAccountDBTest -->
+      </class> <!-- automationFramework.TestCases.BalanceHistoryTest -->
     </classes>
   </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Automation - Suite] -->

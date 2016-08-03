@@ -2,7 +2,7 @@
 	<test name ="FirefoxTest">
 	<parameter name="browser" value="firefox.exe" />
 		<classes>
-		    <class name="automationFramework.TestCases.CreateCustomerDBTest" /> 
+		    <class name="automationFramework.TestCases.BalanceHistoryTest" /> 
 		</classes>
 	</test>
 		<listeners>

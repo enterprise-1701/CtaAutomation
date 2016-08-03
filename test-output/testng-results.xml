@@ -5,21 +5,21 @@
       <![CDATA[firefox driver instantiated]]>
     </line>
     <line>
-      <![CDATA[TearDown Completed]]>
+      <![CDATA[TearDown Complete]]>
     </line>
     <line>
       <![CDATA[firefox driver instantiated]]>
     </line>
     <line>
-      <![CDATA[TearDown Completed]]>
+      <![CDATA[TearDown Complete]]>
     </line>
   </reporter-output>
-  <suite name="Automation - Suite" duration-ms="77655" started-at="2016-07-28T22:40:14Z" finished-at="2016-07-28T22:41:32Z">
+  <suite name="Automation - Suite" duration-ms="116633" started-at="2016-08-03T18:44:29Z" finished-at="2016-08-03T18:46:26Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="77655" started-at="2016-07-28T22:40:14Z" finished-at="2016-07-28T22:41:32Z">
-      <class name="automationFramework.TestCases.LinkAccountDBTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.LinkAccountDBTest@51cdd8a]" name="setUp" is-config="true" duration-ms="6988" started-at="2016-07-28T15:40:14Z" finished-at="2016-07-28T15:40:21Z">
+    <test name="FirefoxTest" duration-ms="116633" started-at="2016-08-03T18:44:29Z" finished-at="2016-08-03T18:46:26Z">
+      <class name="automationFramework.TestCases.BalanceHistoryTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@51cdd8a]" name="setUp" is-config="true" duration-ms="12991" started-at="2016-08-03T11:44:29Z" finished-at="2016-08-03T11:44:42Z">
           <params>
             <param index="0">
               <value>
@@ -33,18 +33,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createLinkAccountCancellDBcheck()[pri:0, instance:automationFramework.TestCases.LinkAccountDBTest@51cdd8a]" name="createLinkAccountCancellDBcheck" duration-ms="58951" started-at="2016-07-28T15:40:21Z" finished-at="2016-07-28T15:41:20Z">
+        <test-method status="PASS" signature="checkBalanceHistory()[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@51cdd8a]" name="checkBalanceHistory" duration-ms="39232" started-at="2016-08-03T11:44:42Z" finished-at="2016-08-03T11:45:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createLinkAccountCancellDBcheck -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.LinkAccountDBTest@51cdd8a]" name="tearDown" is-config="true" duration-ms="428" started-at="2016-07-28T15:41:20Z" finished-at="2016-07-28T15:41:20Z">
+        </test-method> <!-- checkBalanceHistory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@51cdd8a]" name="tearDown" is-config="true" duration-ms="583" started-at="2016-08-03T11:45:22Z" finished-at="2016-08-03T11:45:22Z">
           <reporter-output>
             <line>
-              <![CDATA[TearDown Completed]]>
+              <![CDATA[TearDown Complete]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.LinkAccountDBTest@51cdd8a]" name="setUp" is-config="true" duration-ms="10727" started-at="2016-07-28T15:41:20Z" finished-at="2016-07-28T15:41:31Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@51cdd8a]" name="setUp" is-config="true" duration-ms="11570" started-at="2016-08-03T11:45:22Z" finished-at="2016-08-03T11:45:34Z">
           <params>
             <param index="0">
               <value>
@@ -58,18 +58,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createLinkAccountDBcheck()[pri:0, instance:automationFramework.TestCases.LinkAccountDBTest@51cdd8a]" name="createLinkAccountDBcheck" duration-ms="119" started-at="2016-07-28T15:41:31Z" finished-at="2016-07-28T15:41:31Z">
+        <test-method status="PASS" signature="checkBalanceHistoryDetail()[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@51cdd8a]" name="checkBalanceHistoryDetail" duration-ms="51625" started-at="2016-08-03T11:45:34Z" finished-at="2016-08-03T11:46:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createLinkAccountDBcheck -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.LinkAccountDBTest@51cdd8a]" name="tearDown" is-config="true" duration-ms="400" started-at="2016-07-28T15:41:31Z" finished-at="2016-07-28T15:41:32Z">
+        </test-method> <!-- checkBalanceHistoryDetail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@51cdd8a]" name="tearDown" is-config="true" duration-ms="584" started-at="2016-08-03T11:46:25Z" finished-at="2016-08-03T11:46:26Z">
           <reporter-output>
             <line>
-              <![CDATA[TearDown Completed]]>
+              <![CDATA[TearDown Complete]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- automationFramework.TestCases.LinkAccountDBTest -->
+      </class> <!-- automationFramework.TestCases.BalanceHistoryTest -->
     </test> <!-- FirefoxTest -->
   </suite> <!-- Automation - Suite -->
 </testng-results>

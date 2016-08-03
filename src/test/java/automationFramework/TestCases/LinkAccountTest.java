@@ -18,7 +18,7 @@ public class LinkAccountTest {
 	private static Logger Log = Logger.getLogger(Logger.class.getName());
 	private static final String POST_BALANCE = "$1.00";
 	private static final String INITIAL_BALANCE = "$0.00";
-	private static final String CANCEL_BALANCE = "$5.00";
+	private static final String CANCEL_BALANCE = "$0.00";
 	private static final String DATE = "03/15/2016 10:30 am";
 	private static final String TRANSACTION = "Value Load";
 	private static final String LOCATION = "Customer Service Center";
@@ -95,7 +95,7 @@ public class LinkAccountTest {
 	}
 
 	//Have to use an account that is already linked
-	@Test(enabled=true)
+	@Test(enabled=false)
 	public void linkAccountAlreadyLinkedException()throws Exception{
 	
 		coreTest.signIn(driver);
@@ -227,20 +227,13 @@ public class LinkAccountTest {
 		    	
 	}
 	
-
 	@Test(enabled=true)
 	public void linkAccountCancelTest()throws Exception{
 	
 		coreTest.signIn(driver);
-	    SearchPage sPage = getSearchPage();
-		sPage.clickCustomerType(driver, Global.CUSTOMERTYPE);
-		sPage.enterFirstname(driver, Global.FNAME);
-		sPage.enterLastname(driver, Global.LNAME);
-		sPage.clickSearch(driver);
-		sPage.clickRecord(driver);
-		sPage.clickSecurityBox(driver);
-		sPage.clickContiune(driver);
-		sPage.clickLinkAccount(driver);
+	    coreTest.createCustomer(driver);
+	    BasePage bPage = new BasePage(driver);
+		bPage.clickLinkAccount(driver);
 	    LinkAccountPage lPage = new LinkAccountPage(driver);
 	    lPage.selectAgency(driver);
 	    lPage.selectTravelMode(driver);
@@ -255,8 +248,8 @@ public class LinkAccountTest {
 		Assert.assertTrue(lPage.isLinkAccountDisplayed(driver));
 		Log.info("linkAccountCancelTest Completed");
 		driver.close();
-		    	
 	}
+	
 	
 	@Test(enabled=true)
 	public void linkAccountBankNumberMissingTest()throws Exception{
