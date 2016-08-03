@@ -27,7 +27,7 @@
   		<inherited>true</inherited>
   		<configuration>
   	<suiteXmlFiles>
-  		<suiteXmlFile>testng.xml</suiteXmlFile>
+  		<suiteXmlFile>testng3.xml</suiteXmlFile>
   	</suiteXmlFiles> 
   	<properties>
      <!-- Setting ReportNG listeners -->
