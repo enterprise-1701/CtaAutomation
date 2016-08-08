@@ -51,6 +51,7 @@ public class CreateFundingPage extends BasePage {
 		private static final String T_NEWSTATE = "//*[@id='addresses_list_tbl']/div/div[1]/table/tbody/tr/td[4]/span";
 		private static final String T_NEWPOSTAL = ".//*[@id='addresses_list_tbl']/div/div[1]/table/tbody/tr[1]/td[5]/span";
 		private static final String CREATE_CONTACT = ".//*[@id='viewCustomer_createContact_lnk']";
+		private static final String CC_ERROR = "//*[@id='errorMessage_div']/div/ul/li/span[2]";
 		
 		
 	public CreateFundingPage(WebDriver driver) {
@@ -164,6 +165,10 @@ public class CreateFundingPage extends BasePage {
 	
 	public String getNewPostalCode(WebDriver driver) throws InterruptedException, AWTException{
 		return driver.findElement(By.xpath( T_NEWPOSTAL)).getText();	
+	}
+	
+	public String getCCError(WebDriver driver) throws InterruptedException, AWTException{
+		return driver.findElement(By.xpath( CC_ERROR)).getText();	
 	}
 	
 	public boolean isCreateContactDisplayed(WebDriver driver) throws InterruptedException, AWTException{

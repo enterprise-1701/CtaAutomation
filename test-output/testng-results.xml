@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[firefox driver instantiated]]>
@@ -7,19 +7,13 @@
     <line>
       <![CDATA[TearDown Complete]]>
     </line>
-    <line>
-      <![CDATA[firefox driver instantiated]]>
-    </line>
-    <line>
-      <![CDATA[TearDown Complete]]>
-    </line>
   </reporter-output>
-  <suite name="Automation - Suite" duration-ms="116633" started-at="2016-08-03T18:44:29Z" finished-at="2016-08-03T18:46:26Z">
+  <suite name="Automation - Suite" duration-ms="85162" started-at="2016-08-08T22:56:52Z" finished-at="2016-08-08T22:58:17Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="116633" started-at="2016-08-03T18:44:29Z" finished-at="2016-08-03T18:46:26Z">
-      <class name="automationFramework.TestCases.BalanceHistoryTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@51cdd8a]" name="setUp" is-config="true" duration-ms="12991" started-at="2016-08-03T11:44:29Z" finished-at="2016-08-03T11:44:42Z">
+    <test name="FirefoxTest" duration-ms="85162" started-at="2016-08-08T22:56:52Z" finished-at="2016-08-08T22:58:17Z">
+      <class name="automationFramework.TestCases.CreateOrderTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CreateOrderTest@51cdd8a]" name="setUp" is-config="true" duration-ms="7430" started-at="2016-08-08T15:56:52Z" finished-at="2016-08-08T15:56:59Z">
           <params>
             <param index="0">
               <value>
@@ -33,43 +27,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkBalanceHistory()[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@51cdd8a]" name="checkBalanceHistory" duration-ms="39232" started-at="2016-08-03T11:44:42Z" finished-at="2016-08-03T11:45:22Z">
+        <test-method status="PASS" signature="createOrderInvalidCC()[pri:0, instance:automationFramework.TestCases.CreateOrderTest@51cdd8a]" name="createOrderInvalidCC" duration-ms="77105" started-at="2016-08-08T15:56:59Z" finished-at="2016-08-08T15:58:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkBalanceHistory -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@51cdd8a]" name="tearDown" is-config="true" duration-ms="583" started-at="2016-08-03T11:45:22Z" finished-at="2016-08-03T11:45:22Z">
-          <reporter-output>
-            <line>
-              <![CDATA[TearDown Complete]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@51cdd8a]" name="setUp" is-config="true" duration-ms="11570" started-at="2016-08-03T11:45:22Z" finished-at="2016-08-03T11:45:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox.exe]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[firefox driver instantiated]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkBalanceHistoryDetail()[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@51cdd8a]" name="checkBalanceHistoryDetail" duration-ms="51625" started-at="2016-08-03T11:45:34Z" finished-at="2016-08-03T11:46:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkBalanceHistoryDetail -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.BalanceHistoryTest@51cdd8a]" name="tearDown" is-config="true" duration-ms="584" started-at="2016-08-03T11:46:25Z" finished-at="2016-08-03T11:46:26Z">
+        </test-method> <!-- createOrderInvalidCC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CreateOrderTest@51cdd8a]" name="tearDown" is-config="true" duration-ms="597" started-at="2016-08-08T15:58:16Z" finished-at="2016-08-08T15:58:17Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- automationFramework.TestCases.BalanceHistoryTest -->
+      </class> <!-- automationFramework.TestCases.CreateOrderTest -->
     </test> <!-- FirefoxTest -->
   </suite> <!-- Automation - Suite -->
 </testng-results>

@@ -38,7 +38,7 @@ public class CreateOrderTest {
 	}
 
 	
-	@Test(priority=1 , enabled=true)
+	@Test(priority=1 , enabled=false)
 	public void createOrderSubmit() throws Exception{
 		
 		coreTest.signIn(driver);
@@ -70,8 +70,29 @@ public class CreateOrderTest {
       	
 	}
 	
-	
+
 	@Test(priority=2 , enabled=true)
+	public void createOrderInvalidCC() throws Exception{
+		
+		coreTest.signIn(driver);
+		coreTest.createCustomer(driver);
+        NewCustomerDisplayPage nPage3 = new NewCustomerDisplayPage(driver);
+        nPage3.clickFundingSource(driver);
+        CreateFundingPage cPage = new CreateFundingPage(driver);
+        cPage.selectPaymentType(driver);
+        cPage.enterName(driver, Global.CCNAME );
+        cPage.enterCC(driver, Global.INVALID_CC);
+        cPage.selectMonth(driver);
+        cPage.selectYear(driver);
+        cPage.clickSubmit(driver);
+    	Utils.waitTime(3000);
+		Assert.assertEquals(cPage.getCCError(driver), Global.CC_ERROR);
+        driver.close();
+      	
+	}
+	
+	
+	@Test(priority=3 , enabled=false)
 	public void createOrderCancel() throws Exception{
 		
 		coreTest.signIn(driver);

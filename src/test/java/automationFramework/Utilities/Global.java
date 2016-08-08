@@ -63,6 +63,7 @@ public class Global {
 	public static final String INVALID_EMAIL = "Invalid email address.";
 	public static final String BAD_PIN = "111";
 	public static final String PIN_ERROR = "Minimum length should be 4";
+	public static final String CC_ERROR = "Card Number Invalid CreditCard Type.";
 	public  static final String INVALID_CC = "491699758313074" ;
 	public static final String USERNAME_ERROR = "Invalid Format.";
 	public  static final String INVALID_PHONE = "4916" ;	

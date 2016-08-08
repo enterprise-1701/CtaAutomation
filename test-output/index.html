@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,12 +101,7 @@
                     <div class="method-list-content passed suite-Automation_-_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.BalanceHistoryTest" hash-for-method="checkBalanceHistory">checkBalanceHistory</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.BalanceHistoryTest" hash-for-method="checkBalanceHistoryDetail">checkBalanceHistoryDetail</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_-_Suite" title="automationFramework.TestCases.CreateOrderTest" hash-for-method="createOrderInvalidCC">createOrderInvalidCC</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Automation_-_Suite -->
@@ -124,21 +119,14 @@
           <div class="suite-Automation_-_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">automationFramework.TestCases.BalanceHistoryTest</span>
+              <span class="class-name">automationFramework.TestCases.CreateOrderTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkBalanceHistory">
-                  </a> <!-- checkBalanceHistory -->
-                  <span class="method-name">checkBalanceHistory</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkBalanceHistoryDetail">
-                  </a> <!-- checkBalanceHistoryDetail -->
-                  <span class="method-name">checkBalanceHistoryDetail</span>
+                  <a name="createOrderInvalidCC">
+                  </a> <!-- createOrderInvalidCC -->
+                  <span class="method-name">createOrderInvalidCC</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -160,7 +148,7 @@
   &lt;test name=&quot;FirefoxTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox.exe&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;automationFramework.TestCases.BalanceHistoryTest&quot;/&gt;
+      &lt;class name=&quot;automationFramework.TestCases.CreateOrderTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- FirefoxTest --&gt;
 &lt;/suite&gt; &lt;!-- Automation - Suite --&gt;
@@ -200,15 +188,11 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkBalanceHistoryDetail')
-data.setCell(0, 2, 'automationFramework.TestCases.BalanceHistoryTest')
-data.setCell(0, 3, 51625);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkBalanceHistory')
-data.setCell(1, 2, 'automationFramework.TestCases.BalanceHistoryTest')
-data.setCell(1, 3, 39232);
+data.setCell(0, 1, 'createOrderInvalidCC')
+data.setCell(0, 2, 'automationFramework.TestCases.CreateOrderTest')
+data.setCell(0, 3, 77105);
 window.suiteTableData['Automation_-_Suite']= { tableData: data, tableDiv: 'times-div-Automation_-_Suite'}
 return data;
 }
@@ -228,9 +212,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Automation_-_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automationFramework.TestCases.CreateOrderTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createOrderSubmit</span>
+                <br/>
+                <span class="ignored-method-name">createOrderCancel</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Automation_-_Suite" class="panel">
@@ -239,30 +232,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">automationFramework.TestCases.BalanceHistoryTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">automationFramework.TestCases.CreateOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(firefox.exe)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">checkBalanceHistory</span>
-                <span class="method-start">12991 ms</span>
+                <span class="method-name">createOrderInvalidCC</span>
+                <span class="method-start">7430 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">52226 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(firefox.exe)</span>
-                <span class="method-start">52810 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">checkBalanceHistoryDetail</span>
-                <span class="method-start">64380 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">116007 ms</span>
+                <span class="method-start">84541 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
