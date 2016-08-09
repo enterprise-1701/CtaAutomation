@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="74.209">
+           time="61.830">
   <properties />
   
   
-            <testcase name="createFundingSource" time="74.209" classname="automationFramework.TestCases.CreateFundingTest" />
+            <testcase name="createCustomerFundingInvalidName" time="61.830" classname="automationFramework.TestCases.CreateFundingTest" />
       
 </testsuite>

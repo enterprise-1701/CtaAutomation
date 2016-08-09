@@ -25,8 +25,7 @@ public class CreateFundingTest {
 	private static final String EXPIRATION = "01/2020";
 	private static final String CARDTYPE = "Active";
 	private static final String POSTAL = "92122";
-	private String phoneNumber;
-	private String email;
+	
 	
 	static WebDriver driver;
 	static String browser;
@@ -202,26 +201,44 @@ public class CreateFundingTest {
 	@Test(priority=6 , enabled=true)
 	public void createCustomerFundingInvalidCC() throws Exception{
 		
-		coreTest.signIn(driver);
-		SearchPage sPage = getSearchPage();
-		sPage.clickCustomerType(driver, "Individual");
-		sPage.clickSearch(driver);
-		sPage.clickRecord(driver);
-		sPage.clickSecurityBox(driver);
-		sPage.clickContiune(driver);
-		NewCustomerDisplayPage nPage3 = new NewCustomerDisplayPage(driver);
-        nPage3.clickFundingSource(driver);
-        CreateFundingPage cPage = new CreateFundingPage(driver);
-        cPage.enterName(driver, Global.CCNAME );
-        cPage.enterCC(driver, Global.INVALID_CC);
-        cPage.selectMonth(driver);
-        cPage.selectYear(driver);
-    	Assert.assertFalse(cPage.isSubmitEnabled(driver), "Submit button should not be enabled!");
-    	driver.close();   
+			coreTest.signIn(driver);
+			coreTest.createCustomer(driver);
+	        NewCustomerDisplayPage nPage3 = new NewCustomerDisplayPage(driver);
+	        nPage3.clickFundingSource(driver);
+	        CreateFundingPage cPage = new CreateFundingPage(driver);
+	        cPage.selectPaymentType(driver);
+	        cPage.enterName(driver, Global.CCNAME );
+	        cPage.enterCC(driver, Global.INVALID_CC);
+	        cPage.selectMonth(driver);
+	        cPage.selectYear(driver);
+	        cPage.clickSubmit(driver);
+	    	Utils.waitTime(3000);
+			Assert.assertEquals(cPage.getCCError(driver), Global.CC_ERROR);
+	        driver.close();      	
+		}
 		
-	}
+		
+	@Test(priority=7 , enabled=true)
+	public void createCustomerFundingInvalidName() throws Exception{
+		
+			coreTest.signIn(driver);
+			coreTest.createCustomer(driver);
+	        NewCustomerDisplayPage nPage3 = new NewCustomerDisplayPage(driver);
+	        nPage3.clickFundingSource(driver);
+	        CreateFundingPage cPage = new CreateFundingPage(driver);
+	        cPage.selectPaymentType(driver);
+	        cPage.enterCC(driver, Global.CC);
+	        cPage.selectMonth(driver);
+	        cPage.selectYear(driver);
+	        cPage.clickSubmit(driver);
+	    	Utils.waitTime(3000);
+	    	Assert.assertFalse(cPage.isSubmitEnabled(driver), "Submit button should not be enabled!");
+	    	//Assert.assertEquals(cPage.getFieldError(driver), Global.REQUIREDFIELD_ERROR);
+	        driver.close();      	
+	        
+		}
 	
-
+	
 	private SearchPage getSearchPage() throws Exception{
 		
 		DashboardPage dashPage = new DashboardPage(driver);

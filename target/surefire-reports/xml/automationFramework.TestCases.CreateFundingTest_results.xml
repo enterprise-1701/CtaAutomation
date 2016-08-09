@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="FirefoxTest"
-           tests="6"
+           tests="7"
            failures="0"
            errors="0"
            skipped="0"
-           time="331.727">
+           time="485.566">
   <properties />
   
   
-            <testcase name="createFundingSourceCancel" time="40.404" classname="automationFramework.TestCases.CreateFundingTest" />
-                <testcase name="createFundingSource" time="76.431" classname="automationFramework.TestCases.CreateFundingTest" />
-                <testcase name="createCustomerFundingInvalidCC" time="42.021" classname="automationFramework.TestCases.CreateFundingTest" />
-                <testcase name="createCustomerInvalidEmail" time="44.281" classname="automationFramework.TestCases.CreateFundingTest" />
-                <testcase name="createFundingSourceTypeNotSelected" time="43.235" classname="automationFramework.TestCases.CreateFundingTest" />
-                <testcase name="createFundingSourceNewBillingAddress" time="85.355" classname="automationFramework.TestCases.CreateFundingTest" />
+            <testcase name="createFundingSourceCancel" time="54.951" classname="automationFramework.TestCases.CreateFundingTest" />
+                <testcase name="createCustomerFundingInvalidCC" time="75.058" classname="automationFramework.TestCases.CreateFundingTest" />
+                <testcase name="createCustomerFundingInvalidName" time="78.918" classname="automationFramework.TestCases.CreateFundingTest" />
+                <testcase name="createFundingSource" time="83.540" classname="automationFramework.TestCases.CreateFundingTest" />
+                <testcase name="createCustomerInvalidEmail" time="44.635" classname="automationFramework.TestCases.CreateFundingTest" />
+                <testcase name="createFundingSourceTypeNotSelected" time="45.071" classname="automationFramework.TestCases.CreateFundingTest" />
+                <testcase name="createFundingSourceNewBillingAddress" time="103.393" classname="automationFramework.TestCases.CreateFundingTest" />
       
 </testsuite>

@@ -4,12 +4,14 @@ automationFramework\PageObjects\SignInPage.class
 automationFramework\Utilities\Logging.class
 automationFramework\PageObjects\BasePage.class
 automationFramework\PageObjects\NewCustomerPageTwo.class
+automationFramework\TestCases\CreateOrderDBTest.class
 automationFramework\PageObjects\BalanceHistoryDetailPage.class
 automationFramework\PageObjects\CreateOrderPage.class
 automationFramework\PageObjects\CreateCustomerPage.class
 automationFramework\PageObjects\SearchPage.class
 automationFramework\TestCases\BalanceHistoryTest.class
 automationFramework\TestCases\LinkAccountTest.class
+automationFramework\TestCases\LinkAccountDBTest.class
 automationFramework\TestCases\LinkAccountABPTest.class
 automationFramework\TestCases\CmcTest.class
 automationFramework\Utilities\Global.class

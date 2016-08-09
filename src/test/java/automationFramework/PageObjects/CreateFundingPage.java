@@ -52,6 +52,7 @@ public class CreateFundingPage extends BasePage {
 		private static final String T_NEWPOSTAL = ".//*[@id='addresses_list_tbl']/div/div[1]/table/tbody/tr[1]/td[5]/span";
 		private static final String CREATE_CONTACT = ".//*[@id='viewCustomer_createContact_lnk']";
 		private static final String CC_ERROR = "//*[@id='errorMessage_div']/div/ul/li/span[2]";
+		private static final String REQUIRED_FIELD_ERROR = "//*[@id='v-required-alert']";
 		
 		
 	public CreateFundingPage(WebDriver driver) {
@@ -148,28 +149,33 @@ public class CreateFundingPage extends BasePage {
 	}
 	
 	public String getBillingAddress(WebDriver driver) throws InterruptedException, AWTException{
-		return driver.findElement(By.xpath( T_BILLING_ADDRESS)).getText();	
+		return driver.findElement(By.xpath(T_BILLING_ADDRESS)).getText();	
 	}
 	
 	public String getNewBillingAddress(WebDriver driver) throws InterruptedException, AWTException{
-		return driver.findElement(By.xpath( T_NEWBILLINGADDRESS)).getText();	
+		return driver.findElement(By.xpath(T_NEWBILLINGADDRESS)).getText();	
 	}
 	
 	public String getNewCity(WebDriver driver) throws InterruptedException, AWTException{
-		return driver.findElement(By.xpath( T_NEWCITY)).getText();	
+		return driver.findElement(By.xpath(T_NEWCITY)).getText();	
 	}
 	
 	public String getNewState(WebDriver driver) throws InterruptedException, AWTException{
-		return driver.findElement(By.xpath( T_NEWSTATE)).getText();	
+		return driver.findElement(By.xpath(T_NEWSTATE)).getText();	
 	}
 	
 	public String getNewPostalCode(WebDriver driver) throws InterruptedException, AWTException{
-		return driver.findElement(By.xpath( T_NEWPOSTAL)).getText();	
+		return driver.findElement(By.xpath(T_NEWPOSTAL)).getText();	
 	}
 	
 	public String getCCError(WebDriver driver) throws InterruptedException, AWTException{
 		return driver.findElement(By.xpath( CC_ERROR)).getText();	
 	}
+	
+	public String getFieldError(WebDriver driver) throws InterruptedException, AWTException{
+		return driver.findElement(By.xpath(REQUIRED_FIELD_ERROR)).getText();	
+	}
+	
 	
 	public boolean isCreateContactDisplayed(WebDriver driver) throws InterruptedException, AWTException{
 		return driver.findElement(By.xpath(CREATE_CONTACT)).isDisplayed();

@@ -66,6 +66,7 @@ public class Global {
 	public static final String CC_ERROR = "Card Number Invalid CreditCard Type.";
 	public  static final String INVALID_CC = "491699758313074" ;
 	public static final String USERNAME_ERROR = "Invalid Format.";
+	public static final String REQUIREDFIELD_ERROR = "This is a required field.";
 	public  static final String INVALID_PHONE = "4916" ;	
 	public  static final String PURSE = "Default Purse" ;	
 	public  static final String ENTRY_TYPE = "Load Value";

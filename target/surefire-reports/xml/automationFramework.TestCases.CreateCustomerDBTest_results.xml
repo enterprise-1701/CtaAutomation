@@ -4,16 +4,16 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="331.190">
+           time="391.013">
   <properties />
   
   
-            <testcase name="createNewCustomerCancelDBCheck" time="26.718" classname="automationFramework.TestCases.CreateCustomerDBTest" />
-                <testcase name="createNewCustomerDBCheckContactTable" time="46.898" classname="automationFramework.TestCases.CreateCustomerDBTest" />
-                <testcase name="createNewCustomerDBCheckUserName" time="47.172" classname="automationFramework.TestCases.CreateCustomerDBTest" />
-                <testcase name="createNewCustomerDBCheckAddressTable" time="53.814" classname="automationFramework.TestCases.CreateCustomerDBTest" />
-                <testcase name="createNewCustomerDBCheckSecurityTable" time="48.610" classname="automationFramework.TestCases.CreateCustomerDBTest" />
-                <testcase name="createNewCustomerDBCheckPhoneTable" time="52.689" classname="automationFramework.TestCases.CreateCustomerDBTest" />
-                <testcase name="createNewCustomerDBCheckAccountTable" time="55.289" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+            <testcase name="createNewCustomerDBCheckUserName" time="61.749" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckAddressTable" time="60.757" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckSecurityTable" time="60.607" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerCancelDBCheck" time="33.671" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckAccountTable" time="54.913" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckContactTable" time="59.166" classname="automationFramework.TestCases.CreateCustomerDBTest" />
+                <testcase name="createNewCustomerDBCheckPhoneTable" time="60.150" classname="automationFramework.TestCases.CreateCustomerDBTest" />
       
 </testsuite>

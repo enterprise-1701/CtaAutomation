@@ -9,6 +9,7 @@ C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\TestCa
 C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\PageObjects\BasePage.java
 C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\PageObjects\LinkAccountPage.java
 C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\DAO\PostgresAutomation.java
+C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\TestCases\LinkAccountDBTest.java
 C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\TestCases\CreateOrderTest.java
 C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\PageObjects\DashboardPage.java
 C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\PageObjects\CreateCustomerPage.java
@@ -18,6 +19,7 @@ C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\TestCa
 C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\Utilities\Global.java
 C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\TestCases\BalanceHistoryTest.java
 C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\TestCases\CreateFundingTest.java
+C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\TestCases\CreateOrderDBTest.java
 C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\PageObjects\NewCustomerDisplayPage.java
 C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\TestCases\LinkAccountTest.java
 C:\Users\200123\workspace\CmcAutomation\src\test\java\automationFramework\Utilities\Utils.java
