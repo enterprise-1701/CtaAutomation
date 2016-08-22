@@ -2,16 +2,7 @@
 	<test name ="FirefoxTest">
 	<parameter name="browser" value="firefox.exe" />
 		<classes>
-		    <class name="automationFramework.TestCases.CreateCustomerTest" />
-		    <class name="automationFramework.TestCases.SearchTest" />
-		    <class name="automationFramework.TestCases.CreateFundingTest" />    
-		    <class name="automationFramework.TestCases.LinkAccountTest" />  
-		    <class name="automationFramework.TestCases.BalanceHistoryTest" />  
-		    <class name="automationFramework.TestCases.EmailTest" />  
-		    <class name="automationFramework.TestCases.CreateOrderTest" />  
-		    <class name="automationFramework.TestCases.TravelHistoryTest" /> 
-		    <class name="automationFramework.TestCases.CreateFundingDBTest" /> 
-		    <class name="automationFramework.TestCases.CreateCustomerDBTest" /> 
+		    <class name="automationFramework.TestCases.GroupSalesTest" /> 
 		</classes>
 	</test>
 		<listeners>

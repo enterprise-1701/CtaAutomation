@@ -5,6 +5,8 @@ import java.awt.AWTException;
 import java.io.IOException;
 import java.util.List;
 import java.util.Set;
+
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
@@ -17,35 +19,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BasePage {
 	
 	// Element Locators
-	        private static final String LAUNCH_PAD = "//*[@class='fa fa-rocket fa-lg cmc-main-icon']"; 
-			private static final String NEXT_CONTACT = "//*[@class='fa fa-user fa-lg cmc-main-icon']";	
-			private static final String WORKSPACE = "//*[@class='fa fa-desktop fa-lg cmc-main-icon']";
-			private static final String SWITCH = "/html/body/div/div/div/customer/a/i";
-			private static final String CREATE = "//*[@id='mySidenav']/a[2]/font";
-			private static final String SEARCH = "//*[@id='mySidenav']/a[1]/font";
-			private static final String IFRAME_SEARCH = "//*[@id='cmc-tab-panel']/tab[2]/div/div/iframe";
-			private static final String NEXTFARE = ".//*[@id='header_nextfare_btn']";
-			private static final String ABP = ".//*[@id='header_abp_btn']";
-			private static final String PAYMENTAPP = ".//*[@id='header_paymentParent_btn']";
-			private static final String PRODUCTCAT = ".//*[@id='header_prodcat_btn']";
-			private static final String FINANCE = ".//*[@id='header_financeParent_btn']";
-			private static final String REPORTS = ".//*[@id='header_sapEdge_btn']";
-			private static final String CUSTOMER = "//*[@id='launchPad_customer_btn']/h4";
-			private static final String CUSTOMER_HEADER = "//*[@id='header_customer_btn']";
-			
-			private static final String MONITORING = ".//*[@id='header_monitoringParent_btn']";
-			private static final String LINKACCOUNT = "//*[@id='viewCustomer_linkAccount_lnk']";
-			private static final String CREATE_FUNDINGSOURCE = "//*[@id='viewCustomer_createFundingSource_lnk']";
-			private static final String CREATE_CONTACT = "//*[@id='viewCustomer_createContact_lnk']";
-			private static final String CREATE_ADDRESS = "//*[@id='viewCustomer_createAddress_lnk']";
-			private static final String CREATE_ORDER = "//*[@id='viewCustomer_createOrder_lnk']";
-			private static final String CREATE_ADJUSTMENT = "//*[@id='viewCustomer_createAdjustment_lnk']";
-			private static final String MANAGE_REPLENISHMENT = "//*[@id='viewCustomer_manageReplenishment_lnk']";
-			private static final String BALANCE_HISTORY = "//*[@id='viewCustomer_balanceHistory_lnk']";
-			private static final String TRAVEL_HISTORY = "//*[@id='viewCustomer_travelHistory_lnk']";
-			private static final String NOTIFICATIONS = "//*[@id='viewCustomer_notifications_lnk']";
-			private static final String CUSTOMER_ACTIVITY = "//*[@id='viewCustomer_customerActivity_lnk']";
-			private static final String CASES = "//*[@id='viewCustomer_cases_lnk']";
+	        private static final String POP_CLOSE = "//*[@id='modalClose']"; 
+			private static final String GROUP_SALES_TAB = "//*[@id='CT_Header_ccTopNav_rptNav_ctl03_lnkLink2']";
+			private static final String VENTRA_APP_TAB = "//*[@id='CT_Header_ccTopNav_rptNav_ctl04_lnkLink2']";
+			private static final String SEARCH_TAB = "//*[@id='CT_Header_ccTopNav_rptNav_ctl05_lnkLink2']";
+			private static final String TRANSIT_BENEFITS_TAB = "//*[@id='CT_Header_ccTopNav_rptNav_ctl02_lnkLink2']";
+			private static final String HELP_TAB = "//*[@id='CT_Header_ccTopNav_rptNav_ctl01_lnkLink2]";
+			private static final String WHAT_TAB = "//*[@id='CT_Header_ccTopNav_rptNav_ctl00_lnkLink2']";
+			private static final String VENTRA = "//*[@id='main']/header/div/div[1]/h1/a";
 			
 	public static WebDriver driver;
 	//WebDriverWait wait = new WebDriverWait(driver, 15, 100);
@@ -64,133 +45,38 @@ public class BasePage {
 		}
 	}
 	
-	public void clickLpad(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(LAUNCH_PAD)).click();
+	public void clickPopClose(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(POP_CLOSE)).click();
 	}
 	
-	public void clickNextContact(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(NEXT_CONTACT)).click();
+	public void clickGroupSales(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(GROUP_SALES_TAB)).click();
 	}
 	
-	public void clickWorkSpace(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(WORKSPACE)).click();
-	}
-	
-	public void clickSwitch(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(SWITCH)).click();
-	}
-	
-	public void clickCreateCustomer(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(CREATE)).click();
+	public void clickVentraApp(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(VENTRA_APP_TAB)).click();
 	}
 	
 	public void clickSearch(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(SEARCH)).click();
+		driver.findElement(By.xpath(SEARCH_TAB)).click();
 	}
 	
-	public void switchToFrame(WebDriver driver) throws InterruptedException, AWTException{
-		driver.switchTo().frame(driver.findElement(By.xpath(IFRAME_SEARCH)));
+	public void clickTransitBenefits(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(TRANSIT_BENEFITS_TAB)).click();
 	}
 	
-	public void clickNextfare(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(NEXTFARE)).click();
+	public void clickHelp(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(HELP_TAB)).click();
 	}
 	
-	public void clickPaymentAppPal(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(NEXTFARE)).sendKeys("PAL");	
+	public void clickWhat(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(WHAT_TAB)).click();
 	}
 	
-	public void clickPaymentAppCpa(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(NEXTFARE)).sendKeys("CPA");		
+	public void clickVentra(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(VENTRA)).click();
 	}
 	
-	public void clickProductCat(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(PRODUCTCAT)).click();
-	}
-	
-	public void clickFinance(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(FINANCE)).click();
-	}
-	
-	public void clickReports(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(REPORTS)).click();
-	}
-	
-	public void clickCustomer(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(CUSTOMER)).click();
-	}
-	
-	public void clickCustomerHeader(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(CUSTOMER_HEADER)).click();
-	}
-	
-	public void clickMonitor(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(MONITORING)).click();
-	}
-	
-	public void clickAbp(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(ABP)).click();
-	}
-	
-	public void clickPaymentApp(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(PAYMENTAPP)).click();
-	}
-	
-	public void clickLinkAccount(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(LINKACCOUNT)).click();
-	}
-	
-	public void clickCreateContact(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(CREATE_CONTACT)).click();
-	}
-	
-	public void clickCreateAddress(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(CREATE_ADDRESS)).click();
-	}
-	
-	public void clickCreateOrder(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(CREATE_ORDER)).click();
-	}
-	
-	public void clickCreateAdjustment(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(CREATE_ADJUSTMENT)).click();
-	}
-	
-	public void clickManageReplienishment(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(MANAGE_REPLENISHMENT)).click();
-	}
-	
-	public void clickBalanceHistory(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(BALANCE_HISTORY)).click();
-	}
-	
-	public void clickTravelHistory(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(TRAVEL_HISTORY)).click();
-	}
-	
-	public void clickNotifications(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(NOTIFICATIONS)).click();
-	}
-	
-	public void clickCustomerActivity(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(CUSTOMER_ACTIVITY)).click();
-	}
-	
-	public void clickCases(WebDriver driver) throws InterruptedException, AWTException{
-		driver.findElement(By.xpath(CASES)).click();
-	}
-	
-	public boolean isLinkAccountDisplayed(WebDriver driver) throws InterruptedException, AWTException{
-		return driver.findElement(By.xpath(LINKACCOUNT)).isEnabled();
-		}
-	
-	public boolean isCreateFundingSourceDisplayed(WebDriver driver) throws InterruptedException, AWTException{
-		return driver.findElement(By.xpath(CREATE_FUNDINGSOURCE)).isDisplayed();
-		}
-	
-	public boolean isCreateOrderDisplayed(WebDriver driver) throws InterruptedException, AWTException{
-		return driver.findElement(By.xpath(CREATE_ORDER)).isDisplayed();
-		}
 	
 	public String getCookie(String cookie) {
 		driver.get(Global.URL1);
