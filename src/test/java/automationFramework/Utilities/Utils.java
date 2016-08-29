@@ -130,6 +130,12 @@ public final class Utils {
 		return randomUsername;
 	}
 	
+	//Generate random company name
+		public static String randomCompanyname(){
+			String randomUsername = "COMPANY_" + generateRandomString(5);
+			return randomUsername;
+		}
+	
 	public static String randomPhoneNumber(){
 		return generatePhoneNumber();
 	}
@@ -295,6 +301,11 @@ public final class Utils {
 	       return sB64 ;
 	}
 
+	//Take out dashes from the phone number string
+	public static String getPhoneNumber(String number){
+		number = number.replaceAll("\\D", "");
+		return number;
+	}
 
 		
 }

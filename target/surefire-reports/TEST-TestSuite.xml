@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="TestSuite" time="27.41" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="TestSuite" time="119.636" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_77\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\200123\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf98656143859245677.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\200123\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5933147100357179636.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\oracle\product\10.2.0\clientx86_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\MongoDB\Server\3.2\bin;C:\Users\200123\Downloads\gradle-2.13-all\gradle-2.13\bin;C:\dev\bin;C:\cts\jdk8\bin;C:\dev\unix\usr\local\wbin;C:\Program Files\nodejs\;C:\dev\unix\usr\local\wbin;C:\ProgramData\Oracle\Java\javapath;C:\oracle\product\10.2.0\clientx86_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\apache-maven-3.3.9\bin;C:\Users\200123\AppData\Local\Programs\Git\cmd;C:\Users\200123\AppData\Roaming\npm;C:\Users\200123\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,5 +61,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="automationFramework.TestCases.GroupSalesTest" name="groupSales" time="27.41"/>
+  <testcase classname="automationFramework.TestCases.TransitBenefitsTest" name="enterEmployerDetails" time="57.645"/>
+  <testcase classname="automationFramework.TestCases.GroupSalesTest" name="loadValueGroupSales" time="61.991"/>
 </testsuite>

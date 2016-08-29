@@ -14,6 +14,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 import com.gargoylesoftware.htmlunit.WebClient;
 import automationFramework.Utilities.Global;
+import automationFramework.Utilities.Utils;
+
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
@@ -27,6 +29,7 @@ public class BasePage {
 			private static final String HELP_TAB = "//*[@id='CT_Header_ccTopNav_rptNav_ctl01_lnkLink2]";
 			private static final String WHAT_TAB = "//*[@id='CT_Header_ccTopNav_rptNav_ctl00_lnkLink2']";
 			private static final String VENTRA = "//*[@id='main']/header/div/div[1]/h1/a";
+			private static final String VENTRA_CARD =  "//*[@id='main']/div[3]/div/div[2]/div/div/p[1]/a";
 			
 	public static WebDriver driver;
 	//WebDriverWait wait = new WebDriverWait(driver, 15, 100);
@@ -38,7 +41,8 @@ public class BasePage {
 	
 	public void getLandingPage(String url) throws Exception {
 		try{
-			driver.get(url);		
+			driver.get(url);	
+			Utils.waitTime(3000);
 		} catch (Exception e) {
 			Reporter.log("landing page not Found");
 			throw (e);
@@ -76,6 +80,11 @@ public class BasePage {
 	public void clickVentra(WebDriver driver) throws InterruptedException, AWTException{
 		driver.findElement(By.xpath(VENTRA)).click();
 	}
+	
+	public void clickVentraCard(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(VENTRA_CARD)).click();
+	}
+	
 	
 	
 	public String getCookie(String cookie) {

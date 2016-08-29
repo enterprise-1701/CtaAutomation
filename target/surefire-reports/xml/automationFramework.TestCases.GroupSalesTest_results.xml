@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="27.401">
+           time="61.992">
   <properties />
   
   
-            <testcase name="groupSales" time="27.401" classname="automationFramework.TestCases.GroupSalesTest" />
+            <testcase name="loadValueGroupSales" time="61.992" classname="automationFramework.TestCases.GroupSalesTest" />
       
 </testsuite>

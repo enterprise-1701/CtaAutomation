@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChromeTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="47.721">
+  <properties />
+  
+  
+            <testcase name="enterEmployerDetails" time="47.721" classname="automationFramework.TestCases.TransitBenefitsTest" />
+      
+</testsuite>

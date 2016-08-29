@@ -34,11 +34,13 @@ public class CompanyDetailsPage extends BasePage {
 		private static final String CONFIRM_EMAIL = "//*[@id='divPersonalInformation']/div[1]/div[6]/div[2]/input";
 		private static final String PHONE = "//*[@id='divPersonalInformation']/div[1]/div[7]/div[1]/input";
 		private static final String ADDRESS = "//*[@id='divPersonalInformation']/div[1]/div[8]/div[1]/input";
+		private static final String ADDRESS2 = "//*[@id='divPersonalInformation']/div[1]/div[8]/div[2]/input";
 		private static final String CITY = "//*[@id='divPersonalInformation']/div[1]/div[9]/div[1]/input";
 		private static final String ZIP = "//*[@id='divPersonalInformation']/div[1]/div[9]/div[3]/input";
 		private static final String BILLING_FNAME = "//*[@id='divPersonalInformation']/div[3]/div/div[2]/div[1]/input";
 		private static final String BILLING_LNAME = "//*[@id='divPersonalInformation']/div[3]/div/div[2]/div[2]/input";
 		private static final String BILLING_NUMBER = "//*[@id='divPersonalInformation']/div[3]/div/div[3]/div/input";
+		private static final String CONFIRM_ADDRESS_LINK = "//*[@id='divCorrectedAddresses']/div[2]/a/span";
 	
 	public CompanyDetailsPage(WebDriver driver) {
 		super(driver);
@@ -87,6 +89,11 @@ public class CompanyDetailsPage extends BasePage {
 		driver.findElement(By.xpath(ADDRESS)).sendKeys(address);
 	}
 	
+	public void enterAddress2(WebDriver driver, String address) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(ADDRESS2)).click();
+		driver.findElement(By.xpath(ADDRESS2)).sendKeys(address);
+	}
+	
 	public void enterCity(WebDriver driver, String city) throws InterruptedException, AWTException{
 		driver.findElement(By.xpath(CITY)).click();
 		driver.findElement(By.xpath(CITY)).sendKeys(city);
@@ -111,5 +118,9 @@ public class CompanyDetailsPage extends BasePage {
 	public void enterBillingPhone(WebDriver driver, String billingNumber) throws InterruptedException, AWTException{
 		driver.findElement(By.xpath(BILLING_NUMBER)).click();
 		driver.findElement(By.xpath(BILLING_NUMBER )).sendKeys(billingNumber);
+	}
+	
+	public void clickConfirmAddress(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath( CONFIRM_ADDRESS_LINK)).click();
 	}
 }

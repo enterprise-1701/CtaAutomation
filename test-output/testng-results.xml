@@ -2,43 +2,37 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[firefox driver instantiated]]>
-    </line>
-    <line>
       <![CDATA[TearDown Complete]]>
     </line>
   </reporter-output>
-  <suite name="Automation - Suite" duration-ms="29403" started-at="2016-08-22T21:21:31Z" finished-at="2016-08-22T21:22:01Z">
+  <suite name="Automation - Suite" duration-ms="78748" started-at="2016-08-29T22:48:15Z" finished-at="2016-08-29T22:49:34Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="29403" started-at="2016-08-22T21:21:31Z" finished-at="2016-08-22T21:22:01Z">
-      <class name="automationFramework.TestCases.GroupSalesTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.GroupSalesTest@51cdd8a]" name="setUp" is-config="true" duration-ms="7328" started-at="2016-08-22T14:21:32Z" finished-at="2016-08-22T14:21:39Z">
+    <test name="FirefoxTest" duration-ms="78748" started-at="2016-08-29T22:48:15Z" finished-at="2016-08-29T22:49:34Z">
+      <class name="automationFramework.TestCases.VentraCardTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.VentraCardTest@51cdd8a]" name="setUp" is-config="true" duration-ms="2700" started-at="2016-08-29T15:48:15Z" finished-at="2016-08-29T15:48:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox.exe]]>
+                <![CDATA[chrome.exe]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[firefox driver instantiated]]>
-            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="groupSales()[pri:0, instance:automationFramework.TestCases.GroupSalesTest@51cdd8a]" name="groupSales" duration-ms="21473" started-at="2016-08-22T14:21:39Z" finished-at="2016-08-22T14:22:00Z">
+        <test-method status="PASS" signature="getVentraCard()[pri:0, instance:automationFramework.TestCases.VentraCardTest@51cdd8a]" name="getVentraCard" duration-ms="75014" started-at="2016-08-29T15:48:18Z" finished-at="2016-08-29T15:49:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- groupSales -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.GroupSalesTest@51cdd8a]" name="tearDown" is-config="true" duration-ms="572" started-at="2016-08-22T14:22:00Z" finished-at="2016-08-22T14:22:01Z">
+        </test-method> <!-- getVentraCard -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.VentraCardTest@51cdd8a]" name="tearDown" is-config="true" duration-ms="1018" started-at="2016-08-29T15:49:33Z" finished-at="2016-08-29T15:49:34Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- automationFramework.TestCases.GroupSalesTest -->
+      </class> <!-- automationFramework.TestCases.VentraCardTest -->
     </test> <!-- FirefoxTest -->
   </suite> <!-- Automation - Suite -->
 </testng-results>
