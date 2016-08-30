@@ -1,8 +1,10 @@
 <suite name="Automation - Suite" >
-	<test name ="FirefoxTest">
+	<test name ="ChromeTest">
 	<parameter name="browser" value="chrome.exe" />
 		<classes>
 		    <class name="automationFramework.TestCases.VentraCardTest" /> 
+		    <class name="automationFramework.TestCases.GroupSalesTest" /> 
+		    <class name="automationFramework.TestCases.TransitBenefitsTest" /> 
 		</classes>
 	</test>
 		<listeners>

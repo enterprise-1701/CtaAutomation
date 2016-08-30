@@ -106,8 +106,8 @@ public class VentraCardTest {
 		rPage.selectYear(driver);
 		rPage.clickTerms(driver);
 		rPage.clickNextStep(driver);
-		Utils.waitTime(5000);
-		
+		Utils.waitTime(15000);
+	
 		ReviewOrderPage reviewPage = new ReviewOrderPage(driver);
 		Assert.assertEquals(reviewPage.getHeading(driver),  "Review Order");
 		Log.info("Actual results " +  reviewPage.getHeading(driver) + " matches " +  "Review Order");
@@ -126,56 +126,39 @@ public class VentraCardTest {
 		Utils.waitTime(5000);
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		Utils.waitTime(30000);
-		
-		/*
+		Utils.waitTime(5000);
+		ConfirmationPageVC confPage = new ConfirmationPageVC(driver);
 		
 		//Assertions
-		ConfirmationPageTB confPage = new ConfirmationPageTB(driver);
-  
-		Assert.assertEquals(confPage.getFname(driver),  Global.CONTACT_NAME);
-		Log.info("Actual results " +  confPage.getFname(driver) + " matches " +  Global.CONTACT_NAME);
-	
-		Assert.assertEquals(confPage.getLname(driver),  Global.CONTACT_NAME);
-		Log.info("Actual results " +  confPage.getLname(driver) + " matches " +  Global.CONTACT_NAME);
-	
-		Assert.assertEquals(Utils.getPhoneNumber(confPage.getPhone(driver)),  Global.PHONE);
-		Log.info("Actual results " +  confPage.getPhone(driver) + " matches " +  Global.PHONE);
-	
-		Assert.assertEquals(confPage.getFein(driver),  Global.FEIN);
-		Log.info("Actual results " +  confPage.getFein(driver) + " matches " +  Global.FEIN);
-	
-		Assert.assertEquals(confPage.getEmail(driver),  Global.EMAIL);
-		Log.info("Actual results " +  confPage.getEmail(driver) + " matches " +  Global.EMAIL);
-	
-		Assert.assertEquals(confPage.getAddress(driver),  Global.ADDRESS);
-		Log.info("Actual results " +  confPage.getAddress(driver) + " matches " +  Global.ADDRESS);
-	
-		Assert.assertEquals(confPage.getAddress2(driver),  Global.ADDRESS2);
-		Log.info("Actual results " +  confPage.getAddress2(driver) + " matches " +  Global.ADDRESS2);
-	
-		Assert.assertEquals(confPage.getCity(driver),  Global.CITY);
-		Log.info("Actual results " +  confPage.getCity(driver) + " matches " +  Global.CITY);
-	
-		Assert.assertEquals(confPage.getZip(driver),  Global.ZIP);
-		Log.info("Actual results " +  confPage.getZip(driver) + " matches " +  Global.ZIP);
-	
-		Assert.assertEquals(confPage.getEmployerName(driver),  Global.CONTACT_NAME);
-		Log.info("Actual results " +  confPage.getEmployerName(driver) + " matches " +  Global.CONTACT_NAME);
-	
-		Assert.assertEquals(confPage.getBankName(driver),  Global.BANKNAME);
-		Log.info("Actual results " +  confPage.getBankName(driver) + " matches " +  Global.BANKNAME);
-	
-		Assert.assertEquals(confPage.getAcctNumber(driver),  Global.ACCT_NUMBER_MASKED);
-		Log.info("Actual results " +  confPage.getAcctNumber(driver) + " matches " +  Global.ACCT_NUMBER_MASKED);
-	
-		Assert.assertEquals(confPage.getRoutingNumber(driver),  Global.ROUTE_NUMBER_MASKED);
-		Log.info("Actual results " +  confPage.getRoutingNumber(driver) + " matches " +  Global.ROUTE_NUMBER_MASKED);
+		Assert.assertTrue(confPage.isOrderNumberDisplayed(driver), "Order number is not displayed on confirmation page!");
 		
-		Assert.assertEquals(confPage.getConfirmation(driver),  Global.CONFIRMATION);
-		Log.info("Actual results " +  confPage.getConfirmation(driver) + " matches " +  Global.CONFIRMATION);
-		*/
+		Assert.assertTrue(confPage.isPaymentAuthorizationDisplayed(driver), "Payment Authorization is not displayed on confirmation page!");
 		
+		Assert.assertEquals(confPage.getCCName(driver),  Global.CONTACT_NAME);
+		Log.info("Actual results " +  confPage.getCCName(driver) + " matches " +  Global.CONTACT_NAME);
+	
+		Assert.assertEquals(confPage.getCCNumber(driver),  Global.CC_MASKED);
+		Log.info("Actual results " +  confPage.getCCNumber(driver) + " matches " +  Global.CC_MASKED);
+		
+		Assert.assertEquals(confPage.getConfirmation(driver),  Global.ORDER_CONFIRMATION);
+		Log.info("Actual results " +  confPage.getConfirmation(driver) + " matches " +  Global.ORDER_CONFIRMATION);
+		
+		Assert.assertEquals(confPage.getName(driver),  Global.CONTACT_NAME2);
+		Log.info("Actual results " +  confPage.getName(driver) + " matches " +  Global.CONTACT_NAME2);
+		
+		Assert.assertEquals(confPage.getOrderTotal(driver),  Global.TOTAL);
+		Log.info("Actual results " +  confPage.getOrderTotal(driver) + " matches " +  Global.TOTAL);
+		
+		Assert.assertEquals(confPage.getOrderSubTotal(driver),  Global.SUBTOTAL);
+		Log.info("Actual results " +  confPage.getOrderSubTotal(driver) + " matches " +  Global.SUBTOTAL);
+		
+		Assert.assertEquals(confPage.getBillingCity(driver),  Global.BILLING_CITY);
+		Log.info("Actual results " +  confPage.getBillingCity(driver) + " matches " +  Global.BILLING_CITY);
+		
+		Assert.assertEquals(confPage.getBillingAddress(driver),  Global.BILLING_ADDRESS);
+		Log.info("Actual results " +  confPage.getBillingAddress(driver) + " matches " +  Global.BILLING_ADDRESS);
+		
+		//Add more assertions
 		driver.close();	
 	}
 	

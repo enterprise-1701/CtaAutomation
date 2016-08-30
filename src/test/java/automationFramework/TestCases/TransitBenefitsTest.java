@@ -39,7 +39,7 @@ public class TransitBenefitsTest {
 	public void enterEmployerDetails()throws Exception{
 	
 		BasePage bPage = new BasePage(driver);
-		bPage.getLandingPage(Global.URL1);
+		bPage.getLandingPage(Global.URL0);
 		Utils.waitTime(3000);
 		bPage.clickPopClose(driver);
 		Utils.waitTime(3000);

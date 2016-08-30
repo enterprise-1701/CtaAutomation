@@ -9,19 +9,12 @@
   <test name="FirefoxTest(failed)">
     <parameter name="browser" value="chrome.exe"/>
     <classes>
-      <class name="automationFramework.TestCases.GroupSalesTest">
+      <class name="automationFramework.TestCases.VentraCardTest">
         <methods>
-          <include name="loadValueGroupSales"/>
-          <include name="tearDown"/>
+          <include name="getVentraCard"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- automationFramework.TestCases.GroupSalesTest -->
-      <class name="automationFramework.TestCases.TransitBenefitsTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- automationFramework.TestCases.TransitBenefitsTest -->
+      </class> <!-- automationFramework.TestCases.VentraCardTest -->
     </classes>
   </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Automation - Suite] -->

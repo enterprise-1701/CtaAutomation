@@ -23,9 +23,8 @@ public class Robots {
              
 	            Robot robot = new Robot();
 	            System.out.println("inside Robots class now.....");
-	            
-	        	
 	        	robot.delay(3000);
+	        	
 	            //Enter username
 	            robot.keyPress(KeyEvent.VK_A);
 	            robot.keyRelease(KeyEvent.VK_A);

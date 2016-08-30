@@ -77,7 +77,7 @@ public final class Utils {
 			
 			} else if (browser.equals("chrome.exe")) {
 				System.setProperty("webdriver.chrome.driver",
-						"C:/ChromeDriver/chromedriver.exe");
+						"C:/ChromeDriver2/chromedriver.exe");
 
 				DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 				capabilities.setCapability("chrome.switches", Arrays.asList("--ignore-certificate-errors"));

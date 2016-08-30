@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
     <line>
       <![CDATA[TearDown Complete]]>
     </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
   </reporter-output>
-  <suite name="Automation - Suite" duration-ms="78748" started-at="2016-08-29T22:48:15Z" finished-at="2016-08-29T22:49:34Z">
+  <suite name="Automation - Suite" duration-ms="177833" started-at="2016-08-30T20:14:41Z" finished-at="2016-08-30T20:17:39Z">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="78748" started-at="2016-08-29T22:48:15Z" finished-at="2016-08-29T22:49:34Z">
+    <test name="ChromeTest" duration-ms="177833" started-at="2016-08-30T20:14:41Z" finished-at="2016-08-30T20:17:39Z">
       <class name="automationFramework.TestCases.VentraCardTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.VentraCardTest@51cdd8a]" name="setUp" is-config="true" duration-ms="2700" started-at="2016-08-29T15:48:15Z" finished-at="2016-08-29T15:48:18Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.VentraCardTest@5f282abb]" name="setUp" is-config="true" duration-ms="2676" started-at="2016-08-30T13:14:41Z" finished-at="2016-08-30T13:14:43Z">
           <params>
             <param index="0">
               <value>
@@ -21,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getVentraCard()[pri:0, instance:automationFramework.TestCases.VentraCardTest@51cdd8a]" name="getVentraCard" duration-ms="75014" started-at="2016-08-29T15:48:18Z" finished-at="2016-08-29T15:49:33Z">
+        <test-method status="PASS" signature="getVentraCard()[pri:0, instance:automationFramework.TestCases.VentraCardTest@5f282abb]" name="getVentraCard" duration-ms="64605" started-at="2016-08-30T13:14:43Z" finished-at="2016-08-30T13:15:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getVentraCard -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.VentraCardTest@51cdd8a]" name="tearDown" is-config="true" duration-ms="1018" started-at="2016-08-29T15:49:33Z" finished-at="2016-08-29T15:49:34Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.VentraCardTest@5f282abb]" name="tearDown" is-config="true" duration-ms="1017" started-at="2016-08-30T13:15:48Z" finished-at="2016-08-30T13:15:49Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
@@ -33,6 +39,54 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- automationFramework.TestCases.VentraCardTest -->
-    </test> <!-- FirefoxTest -->
+      <class name="automationFramework.TestCases.TransitBenefitsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.TransitBenefitsTest@23faf8f2]" name="setUp" is-config="true" duration-ms="1563" started-at="2016-08-30T13:16:48Z" finished-at="2016-08-30T13:16:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterEmployerDetails()[pri:0, instance:automationFramework.TestCases.TransitBenefitsTest@23faf8f2]" name="enterEmployerDetails" duration-ms="48081" started-at="2016-08-30T13:16:49Z" finished-at="2016-08-30T13:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmployerDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.TransitBenefitsTest@23faf8f2]" name="tearDown" is-config="true" duration-ms="1021" started-at="2016-08-30T13:17:37Z" finished-at="2016-08-30T13:17:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.TransitBenefitsTest -->
+      <class name="automationFramework.TestCases.GroupSalesTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.GroupSalesTest@167fdd33]" name="setUp" is-config="true" duration-ms="1547" started-at="2016-08-30T13:15:49Z" finished-at="2016-08-30T13:15:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loadValueGroupSales()[pri:0, instance:automationFramework.TestCases.GroupSalesTest@167fdd33]" name="loadValueGroupSales" duration-ms="56267" started-at="2016-08-30T13:15:51Z" finished-at="2016-08-30T13:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadValueGroupSales -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.GroupSalesTest@167fdd33]" name="tearDown" is-config="true" duration-ms="1031" started-at="2016-08-30T13:16:47Z" finished-at="2016-08-30T13:16:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.GroupSalesTest -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Automation - Suite -->
 </testng-results>

@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 130.945 sec
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 4.114 sec <<< FAILURE!
+setUp(automationFramework.TestCases.VentraCardTest)  Time elapsed: 3.181 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:57)
