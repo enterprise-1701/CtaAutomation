@@ -27,6 +27,7 @@ public class AccountFeaturesPage extends BasePage {
 	// Element Locators
 		private static final String NEXTSTEP = "//*[@id='main']/div[2]/section/div[1]/div[3]/div/p/a";	
 		private static final String LOAD_VALUE = "//*[@id='main']/div[2]/section/div[1]/div[3]/div/div[3]/div[1]/span[1]/input";
+		private static final String MANAGE = "//*[@id='main']/div[2]/section/div[1]/div[3]/div/div[3]/div[2]/span[1]/input";
 		
 		
 	
@@ -40,6 +41,10 @@ public class AccountFeaturesPage extends BasePage {
 	
 	public void clickLoadValueCheckBox(WebDriver driver) throws InterruptedException, AWTException{
 		driver.findElement(By.xpath(LOAD_VALUE)).click();
+	}
+	
+	public void clickManageTransitCheckBox(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(MANAGE)).click();
 	}
 
 }

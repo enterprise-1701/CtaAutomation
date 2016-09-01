@@ -26,6 +26,7 @@ public class AgreementPage extends BasePage {
 
 	// Element Locators
 		private static final String AGREEMENT = "//*[@id='understand']";
+		private static final String AGREEMENT2 = "//*[@id='OHareUnderstand']";
 		private static final String SUBMIT = "//*[@id='main']/div[2]/section/div[1]/div[7]/div[3]/p/a[2]";
 		
 		
@@ -35,6 +36,10 @@ public class AgreementPage extends BasePage {
 	
 	public void clickAgreement(WebDriver driver) throws InterruptedException, AWTException{
 		driver.findElement(By.xpath(AGREEMENT)).click();
+	}
+	
+	public void clickAgreement2(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(AGREEMENT2)).click();
 	}
 	
 	public void clickSubmit(WebDriver driver) throws InterruptedException, AWTException{

@@ -8,8 +8,6 @@ public class Global {
 	//Test Lab
 	public static final String URL0 =  "https://ameagle:design@ventra-sdtest-design.idevdesign.net/ ";
     public static final String URL1 = "https://ventra-sdtest-design.idevdesign.net/";
-	
-	
 	public static final String OS = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\ProductName";
 	public static final String COMPANY_SITE = "www." + Utils.randomCompanyname()+ ".com";
 	public  static final String CONTACT_NAME = "Ralph Lauren" ;
@@ -51,4 +49,8 @@ public class Global {
 	public  static final String BILLING_CITY = "Chicago, IL 60654";
 	public  static final String SUBTOTAL = "$10.00";
 	public  static final String TOTAL = "$15.00";
+	public  static final String CARD_SERIAL_NUMBER = "5300290200046624";
+	public  static final String TRANSIT_ID = "Transit ID: 110000017142";
+	public  static final String STATUS = "Status: Active";
+	public static final String BALANCE = "$0.00";
 }

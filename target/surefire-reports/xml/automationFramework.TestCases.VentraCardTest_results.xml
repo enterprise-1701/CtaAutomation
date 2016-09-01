@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FirefoxTest"
-           tests="3"
+<testsuite name="ChromeTest"
+           tests="12"
            failures="1"
            errors="0"
-           skipped="2"
+           skipped="11"
            time="0.001">
   <properties />
             <testcase name="setUp" time="0.000" classname="automationFramework.TestCases.VentraCardTest">
@@ -55,7 +55,34 @@
             <testcase name="tearDown" time="0.0" classname="automationFramework.TestCases.VentraCardTest">
           <skipped />
     </testcase>
+            <testcase name="setUp" time="0.0" classname="automationFramework.TestCases.VentraCardTest">
+          <skipped />
+    </testcase>
+            <testcase name="setUp" time="0.0" classname="automationFramework.TestCases.VentraCardTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="automationFramework.TestCases.VentraCardTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="automationFramework.TestCases.VentraCardTest">
+          <skipped />
+    </testcase>
+            <testcase name="setUp" time="0.0" classname="automationFramework.TestCases.VentraCardTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="automationFramework.TestCases.VentraCardTest">
+          <skipped />
+    </testcase>
+            <testcase name="forgotPasswd" time="0.0" classname="automationFramework.TestCases.VentraCardTest">
+          <skipped />
+    </testcase>
+            <testcase name="forgotUsername" time="0.0" classname="automationFramework.TestCases.VentraCardTest">
+          <skipped />
+    </testcase>
             <testcase name="getVentraCard" time="0.0" classname="automationFramework.TestCases.VentraCardTest">
+          <skipped />
+    </testcase>
+            <testcase name="accountLogin" time="0.0" classname="automationFramework.TestCases.VentraCardTest">
           <skipped />
     </testcase>
   

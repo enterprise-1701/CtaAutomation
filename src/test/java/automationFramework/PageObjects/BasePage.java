@@ -30,6 +30,14 @@ public class BasePage {
 			private static final String WHAT_TAB = "//*[@id='CT_Header_ccTopNav_rptNav_ctl00_lnkLink2']";
 			private static final String VENTRA = "//*[@id='main']/header/div/div[1]/h1/a";
 			private static final String VENTRA_CARD =  "//*[@id='main']/div[3]/div/div[2]/div/div/p[1]/a";
+			private static final String ACCT_LOGIN =  "//*[@id='CT_Header_ccHeaderLogin_pnlLogin']/a";
+			private static final String USERNAME = "//*[@id='txtUsername']";
+			private static final String PASSWD = "//*[@id='txtPassword']";
+			private static final String LOGIN = "//*[@id='btnHeaderLogin']";
+			private static final String FORGOT_USERNAME = "//*[@id='CT_Header_ccHeaderLogin_pnlLogin']/div[2]/a[1]";
+		    private static final String FORGOT_PASSWD = "//*[@id='CT_Header_ccHeaderLogin_pnlLogin']/div[2]/a[2]";
+		    private static final String CHECK_BALANCE = "//*[@id='CT_Header_ccHeaderLogin_pnlLogin']/div[1]/a[1]/strong";
+			
 			
 	public static WebDriver driver;
 	//WebDriverWait wait = new WebDriverWait(driver, 15, 100);
@@ -85,7 +93,33 @@ public class BasePage {
 		driver.findElement(By.xpath(VENTRA_CARD)).click();
 	}
 	
+	public void clickAcctLogin(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(ACCT_LOGIN)).click();
+	}
 	
+	public void clickForgotUsername(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(FORGOT_USERNAME)).click();
+	}
+	
+	public void clickCheckBalance(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(CHECK_BALANCE)).click();
+	}
+	
+	public void clickForgotPasswd(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(FORGOT_PASSWD)).click();
+	}
+	
+	public void enterUsername(WebDriver driver, String username) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(USERNAME)).sendKeys(username);
+	}
+	
+	public void enterPasswd(WebDriver driver, String passwd) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(PASSWD)).sendKeys(passwd);
+	}
+	
+	public void clickLogin(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(LOGIN)).click();
+	}
 	
 	public String getCookie(String cookie) {
 		driver.get(Global.URL1);

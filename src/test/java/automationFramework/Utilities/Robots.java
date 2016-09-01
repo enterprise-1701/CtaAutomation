@@ -22,8 +22,8 @@ public class Robots {
 		 try {
              
 	            Robot robot = new Robot();
-	            System.out.println("inside Robots class now.....");
-	        	robot.delay(3000);
+	            System.out.println("Entering Robots class.....");
+	        	//robot.delay(3000);
 	        	
 	            //Enter username
 	            robot.keyPress(KeyEvent.VK_A);
@@ -60,7 +60,7 @@ public class Robots {
 	           
 	            
 	        	robot.delay(3000);
-	        	System.out.println("at the end of Robots class now.....");
+	        	System.out.println("Exiting Robots class.....");
 	        	
 	        	
 	        } catch (AWTException e) {

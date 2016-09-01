@@ -64,6 +64,7 @@ public class VentraCardTest {
 	
 		String email = "";
 		String userName = "";
+		String cc = "";
 		BasePage bPage = new BasePage(driver);
 		bPage.getLandingPage(Global.URL1);
 		Utils.waitTime(3000);
@@ -91,12 +92,19 @@ public class VentraCardTest {
 		rPage.enterCity(driver, Global.CITY);
 		rPage.enterZip(driver, Global.ZIP);
 		email = Utils.randomEmailString();
+		UserData.setEmail(email);
+		Log.info("Email being stored is " +  email);
 		rPage.enterEmail(driver, email);
 		rPage.enterConfirmEmail(driver, email);
 		rPage.enterPhone(driver, Global.PHONE);
 	
 		rPage.enterUsername(driver, userName);
+		UserData.setName(userName);
+		Log.info("Username being stored is " +  userName);
+		
 		rPage.enterPasswd(driver, Global.PASSWD);
+		Log.info("password being used is " +  Global.PASSWD);
+		//UserData.setPassword(Global.PASSWD);
 		rPage.enterConfirmPasswd(driver, Global.PASSWD);
 		rPage.enterAccessCode(driver, Global.CODE);
 		rPage.selectSecurityQuestion(driver);
@@ -117,7 +125,9 @@ public class VentraCardTest {
 		PaymentInfoPageVC paymentPage = new PaymentInfoPageVC(driver);
 		Assert.assertEquals(paymentPage.getHeading(driver),  "Payment Information");
 		Log.info("Actual results " +  paymentPage.getHeading(driver) + " matches " +  "Payment Information");
-		paymentPage.enterCC(driver, Global.CC);
+		CreditCardNumberGenerator ccGen = new CreditCardNumberGenerator();
+		cc = ccGen.generate("4", 16);
+		paymentPage.enterCC(driver, cc);
 		paymentPage.enterCCName(driver, Global.CONTACT_NAME);
 		paymentPage.enterSecurityCode(driver, Global.CC_CODE);
 		paymentPage.selectMonth(driver);
@@ -137,8 +147,8 @@ public class VentraCardTest {
 		Assert.assertEquals(confPage.getCCName(driver),  Global.CONTACT_NAME);
 		Log.info("Actual results " +  confPage.getCCName(driver) + " matches " +  Global.CONTACT_NAME);
 	
-		Assert.assertEquals(confPage.getCCNumber(driver),  Global.CC_MASKED);
-		Log.info("Actual results " +  confPage.getCCNumber(driver) + " matches " +  Global.CC_MASKED);
+		//Assert.assertEquals(confPage.getCCNumber(driver),  Global.CC_MASKED);
+		//Log.info("Actual results " +  confPage.getCCNumber(driver) + " matches " +  Global.CC_MASKED);
 		
 		Assert.assertEquals(confPage.getConfirmation(driver),  Global.ORDER_CONFIRMATION);
 		Log.info("Actual results " +  confPage.getConfirmation(driver) + " matches " +  Global.ORDER_CONFIRMATION);
@@ -158,7 +168,6 @@ public class VentraCardTest {
 		Assert.assertEquals(confPage.getBillingAddress(driver),  Global.BILLING_ADDRESS);
 		Log.info("Actual results " +  confPage.getBillingAddress(driver) + " matches " +  Global.BILLING_ADDRESS);
 		
-		//Add more assertions
 		driver.close();	
 	}
 	
