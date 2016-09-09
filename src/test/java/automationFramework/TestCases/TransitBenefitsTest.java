@@ -26,9 +26,6 @@ public class TransitBenefitsTest {
 
 		Logging.setLogConsole();
 		Logging.setLogFile();
-		Log.info("Setup Started");
-		Log.info("Current OS: " + WindowsUtils.readStringRegistryValue(Global.OS));
-		Log.info("Current Browser: " + browser);
 		driver = Utils.openBrowser(browser);
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		Log.info("Setup Completed");
@@ -92,7 +89,7 @@ public class TransitBenefitsTest {
 		Utils.waitTime(5000);
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		Utils.waitTime(5000);
+		Utils.waitTime(15000);
 		
 		//Assertions
 		ConfirmationPageTB confPage = new ConfirmationPageTB(driver);

@@ -37,6 +37,7 @@ public class BasePage {
 			private static final String FORGOT_USERNAME = "//*[@id='CT_Header_ccHeaderLogin_pnlLogin']/div[2]/a[1]";
 		    private static final String FORGOT_PASSWD = "//*[@id='CT_Header_ccHeaderLogin_pnlLogin']/div[2]/a[2]";
 		    private static final String CHECK_BALANCE = "//*[@id='CT_Header_ccHeaderLogin_pnlLogin']/div[1]/a[1]/strong";
+		    private static final String LOGO = "//*[@id='main']/header/div/div[1]/h1/a";
 			
 			
 	public static WebDriver driver;
@@ -119,6 +120,10 @@ public class BasePage {
 	
 	public void clickLogin(WebDriver driver) throws InterruptedException, AWTException{
 		driver.findElement(By.xpath(LOGIN)).click();
+	}
+	
+	public boolean isLogDisplayed(WebDriver driver) throws InterruptedException, AWTException{
+		return driver.findElement(By.xpath(LOGO)).isDisplayed();
 	}
 	
 	public String getCookie(String cookie) {

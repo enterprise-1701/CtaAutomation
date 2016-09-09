@@ -50,9 +50,6 @@ public class AccountLoginTest {
 
 		Logging.setLogConsole();
 		Logging.setLogFile();
-		Log.info("Setup Started");
-		Log.info("Current OS: " + WindowsUtils.readStringRegistryValue(Global.OS));
-		Log.info("Current Browser: " + browser);
 		driver = Utils.openBrowser(browser);
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		Log.info("Setup Completed");
@@ -88,7 +85,7 @@ public class AccountLoginTest {
 		Assert.assertEquals(vPage.getUserName(driver),  UserData.getUserName());
 		Log.info("Actual results " +  vPage.getUserName(driver) + " matches " +  UserData.getUserName());
 		
-		vPage.clickLogout(driver);
+		//vPage.clickLogout(driver);
 		driver.close();
 	}
 	

@@ -50,9 +50,6 @@ public class CheckBalanceTest {
 
 		Logging.setLogConsole();
 		Logging.setLogFile();
-		Log.info("Setup Started");
-		Log.info("Current OS: " + WindowsUtils.readStringRegistryValue(Global.OS));
-		Log.info("Current Browser: " + browser);
 		driver = Utils.openBrowser(browser);
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		Log.info("Setup Completed");
@@ -69,7 +66,8 @@ public class CheckBalanceTest {
         Robots.authenticationWindow();
     
         Utils.waitTime(3000);
-		bPage.clickPopClose(driver);
+		//bPage.clickPopClose(driver);
+		driver.navigate().refresh();
 		bPage.clickCheckBalance(driver);
 		CheckBalancePage cbPage = new CheckBalancePage(driver);
 		cbPage.enterCardNumber(driver, Global.CARD_SERIAL_NUMBER);

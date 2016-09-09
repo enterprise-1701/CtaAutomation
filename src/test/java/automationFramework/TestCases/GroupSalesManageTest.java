@@ -26,9 +26,6 @@ public class GroupSalesManageTest {
 
 		Logging.setLogConsole();
 		Logging.setLogFile();
-		Log.info("Setup Started");
-		Log.info("Current OS: " + WindowsUtils.readStringRegistryValue(Global.OS));
-		Log.info("Current Browser: " + browser);
 		driver = Utils.openBrowser(browser);
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		Log.info("Setup Completed");
@@ -68,10 +65,13 @@ public class GroupSalesManageTest {
 		cPage.enterCity(driver, Global.CITY);
 		cPage.enterZip(driver, Global.ZIP);
 		cPage.clickNextStep(driver);
-		Utils.waitTime(3000);
+		Utils.waitTime(15000);
 		
 		AdminDetailsPage admPage = new AdminDetailsPage(driver);
-		admPage.enterUserName(driver, Utils.randomUsernameString());
+		String username = Utils.randomUsernameString();
+		admPage.enterUserName(driver, username);
+		Log.info("USERNAME IS: " + username);
+		UserData.setGroupUserName(username);
 		admPage.enterPasswd(driver, Global.PASSWD);
 		admPage.enterConfirmPasswd(driver, Global.PASSWD);
 		admPage.selectSecurityQ(driver);
@@ -85,7 +85,7 @@ public class GroupSalesManageTest {
 		Utils.waitTime(3000);
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		Utils.waitTime(3000);
+		Utils.waitTime(5000);
 	
 		ConfirmationPage confPage = new ConfirmationPage(driver);
     

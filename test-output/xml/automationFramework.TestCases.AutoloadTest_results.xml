@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChromeTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="100.434">
+  <properties />
+  
+  
+            <testcase name="autoLoadSavedCC" time="42.547" classname="automationFramework.TestCases.AutoloadTest" />
+                <testcase name="autoLoadNewCC" time="57.887" classname="automationFramework.TestCases.AutoloadTest" />
+      
+</testsuite>

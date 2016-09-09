@@ -27,6 +27,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -77,18 +78,20 @@ public final class Utils {
 			
 			} else if (browser.equals("chrome.exe")) {
 				System.setProperty("webdriver.chrome.driver",
-						"C:/ChromeDriver2/chromedriver.exe");
+						"C:/ChromeDriver/chromedriver.exe");//Change the chrome driver here
 
 				DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-				capabilities.setCapability("chrome.switches", Arrays.asList("--ignore-certificate-errors"));
+				//capabilities.setCapability("chrome.switches", Arrays.asList("--ignore-certificate-errors"));
+				capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 				ChromeOptions options = new ChromeOptions();
-				options.addArguments("test-type");
-				options.addArguments("incognito");
+				options.addArguments("--start-maximized", "allow-running-insecure-content", "--test-type" );
+				
+				//options.addArguments("chrome.switches","--disable-extensions");
 				capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 				driver = new ChromeDriver();
 				driver.manage().deleteAllCookies();
 				driver.manage().window().maximize();
-				Log.info("chrome driver instantiated");		
+					
 			
 
 			} else if (browser.equals("ie10.exe")) {

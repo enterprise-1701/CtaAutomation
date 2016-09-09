@@ -26,9 +26,6 @@ public class GroupSalesTest {
 
 		Logging.setLogConsole();
 		Logging.setLogFile();
-		Log.info("Setup Started");
-		Log.info("Current OS: " + WindowsUtils.readStringRegistryValue(Global.OS));
-		Log.info("Current Browser: " + browser);
 		driver = Utils.openBrowser(browser);
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		Log.info("Setup Completed");
@@ -55,7 +52,10 @@ public class GroupSalesTest {
 		Utils.waitTime(3000);
 	
 		CompanyDetailsPage cPage = new CompanyDetailsPage(driver);
-		cPage.enterCompanyName(driver, Utils.randomCompanyname());
+		String companyName = Utils.randomCompanyname();
+		cPage.enterCompanyName(driver, companyName);
+		Log.info("COMPANY NAME: " + companyName);
+		
 		cPage.enterCompanySite(driver, Global.COMPANY_SITE);
 		cPage.enterContactname(driver, Global.CONTACT_NAME);
 		cPage.enterFein(driver, Global.FEIN);
@@ -99,7 +99,7 @@ public class GroupSalesTest {
 		Utils.waitTime(3000);
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		Utils.waitTime(10000);
+		Utils.waitTime(15000);
 	
 		ConfirmationPage confPage = new ConfirmationPage(driver);
     

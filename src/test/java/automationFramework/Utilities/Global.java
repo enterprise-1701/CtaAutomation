@@ -3,11 +3,13 @@ package automationFramework.Utilities;
 public class Global {
 	
 	//EIL Lab
-	//public static final String URL1 = "https://ameagle:design@ventra-eil-design.idevdesign.net/";
+	public static final String URL0 = "https://ameagle:design@ventra-eil-design.idevdesign.net/";
+	public static final String URL1 = "https://ventra-eil-design.idevdesign.net/";
 	
 	//Test Lab
-	public static final String URL0 =  "https://ameagle:design@ventra-sdtest-design.idevdesign.net/ ";
-    public static final String URL1 = "https://ventra-sdtest-design.idevdesign.net/";
+	//public static final String URL0 =  "https://ameagle:design@ventra-sdtest-design.idevdesign.net/ ";
+    //public static final String URL1 = "https://ventra-sdtest-design.idevdesign.net/";
+	
 	public static final String OS = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\ProductName";
 	public static final String COMPANY_SITE = "www." + Utils.randomCompanyname()+ ".com";
 	public  static final String CONTACT_NAME = "Ralph Lauren" ;
@@ -16,6 +18,7 @@ public class Global {
 	public  static final String LNAME = "lauren" ;
 	public static final String EMAIL = "rlauren@yahoo.com";
 	public static final String PHONE = "7734893969";
+	public static final String PHONE2 = "773-489-3969";
 	public static final String ADDRESS = "320 W Illinois St";
 	public static final String ADDRESS2 = "Apt 1000";
 	public static final String CITY = "Chicago";
@@ -38,6 +41,7 @@ public class Global {
 	public static final String ANSWER = "test";
 	public  static final String CC = "4916997583130747" ;
 	public  static final String CC_MASKED = "xxxx-xxxx-xxxx-0747" ;
+	public  static final String CC_MASKED2 = "xxxxxxxxxxx0747";
 	public  static final String CONFIRMATION = "Confirmation";
 	public  static final String ORDER_CONFIRMATION = "Order Confirmation";
 	public  static final String BANK = "Bank of America";
@@ -50,7 +54,17 @@ public class Global {
 	public  static final String SUBTOTAL = "$10.00";
 	public  static final String TOTAL = "$15.00";
 	public  static final String CARD_SERIAL_NUMBER = "5300290200046624";
-	public  static final String TRANSIT_ID = "Transit ID: 110000017142";
+	//public  static final String CARD_SERIAL_NUMBER = "5300290200544487";
+	public  static final String TRANSIT_ID = "Transit ID: 110009124246";
 	public  static final String STATUS = "Status: Active";
-	public static final String BALANCE = "$0.00";
+	public static final String BALANCE = "$2.75";
+	public static final String FULL_ADDRESS = "320 W Illinois St Apt 1000";
+	public static final String CITY_STATE = "Chicago, IL 60654";
+	
+	
+	//Group Sales Account
+	public static final String GROUP_ACCOUNT = "USER_FMqBj5f";
+	
+	//EIL Lab existing user
+	public static final String EXISTING_USER = "rayk_09062016";
 }

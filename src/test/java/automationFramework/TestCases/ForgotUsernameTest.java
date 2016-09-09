@@ -50,9 +50,6 @@ public class ForgotUsernameTest {
 
 		Logging.setLogConsole();
 		Logging.setLogFile();
-		Log.info("Setup Started");
-		Log.info("Current OS: " + WindowsUtils.readStringRegistryValue(Global.OS));
-		Log.info("Current Browser: " + browser);
 		driver = Utils.openBrowser(browser);
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		Log.info("Setup Completed");
@@ -75,7 +72,7 @@ public class ForgotUsernameTest {
 		ForgotUsernamePage fPage = new ForgotUsernamePage(driver);
 		fPage.enterEmail(driver, UserData.getEmail());
 		fPage.clickSubmit(driver);
-		Utils.waitTime(3000);
+		Utils.waitTime(10000);
 		Assert.assertEquals(fPage.getConfirmation(driver), Global.CONFIRMATION);
 		Log.info("Actual results " +  fPage.getConfirmation(driver) + " matches " +  Global.CONFIRMATION);
 		

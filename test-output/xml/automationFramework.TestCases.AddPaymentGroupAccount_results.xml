@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChromeTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="71.558">
+  <properties />
+  
+  
+            <testcase name="addACHPayment" time="35.608" classname="automationFramework.TestCases.AddPaymentGroupAccount" />
+                <testcase name="addCCPayment" time="35.950" classname="automationFramework.TestCases.AddPaymentGroupAccount" />
+      
+</testsuite>

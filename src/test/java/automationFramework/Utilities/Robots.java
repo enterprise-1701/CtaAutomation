@@ -23,7 +23,30 @@ public class Robots {
              
 	            Robot robot = new Robot();
 	            System.out.println("Entering Robots class.....");
-	        	//robot.delay(3000);
+	        	robot.delay(3000);
+	        	
+	        	/*
+	        	//Use this code block for older chrome driver version 
+	        	int x = 1750;
+	            int y = 200;
+
+	           robot.setAutoDelay(500);
+	           
+	           robot.mouseMove(x, y);
+	           robot.mousePress(InputEvent.BUTTON1_MASK);
+	           robot.mouseRelease(InputEvent.BUTTON1_MASK);
+	           robot.setAutoDelay(500);
+	            
+	           x = 1900;
+	           y = 80;
+	           
+	           robot.mouseMove(x, y);
+	           robot.mousePress(InputEvent.BUTTON1_MASK);
+	           robot.mouseRelease(InputEvent.BUTTON1_MASK);
+	           robot.setAutoDelay(500);
+	           
+	           // end of code block
+	           */
 	        	
 	            //Enter username
 	            robot.keyPress(KeyEvent.VK_A);

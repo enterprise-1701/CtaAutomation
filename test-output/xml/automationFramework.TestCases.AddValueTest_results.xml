@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChromeTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="51.772">
+  <properties />
+  
+  
+            <testcase name="addValue" time="51.772" classname="automationFramework.TestCases.AddValueTest" />
+      
+</testsuite>

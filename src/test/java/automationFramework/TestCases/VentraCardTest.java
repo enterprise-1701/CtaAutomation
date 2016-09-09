@@ -50,9 +50,6 @@ public class VentraCardTest {
 
 		Logging.setLogConsole();
 		Logging.setLogFile();
-		Log.info("Setup Started");
-		Log.info("Current OS: " + WindowsUtils.readStringRegistryValue(Global.OS));
-		Log.info("Current Browser: " + browser);
 		driver = Utils.openBrowser(browser);
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		Log.info("Setup Completed");
@@ -100,7 +97,7 @@ public class VentraCardTest {
 	
 		rPage.enterUsername(driver, userName);
 		UserData.setName(userName);
-		Log.info("Username being stored is " +  userName);
+		Log.info("USERNAME IS: " +  userName);
 		
 		rPage.enterPasswd(driver, Global.PASSWD);
 		Log.info("password being used is " +  Global.PASSWD);
@@ -136,7 +133,7 @@ public class VentraCardTest {
 		Utils.waitTime(5000);
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		Utils.waitTime(5000);
+		Utils.waitTime(20000);
 		ConfirmationPageVC confPage = new ConfirmationPageVC(driver);
 		
 		//Assertions

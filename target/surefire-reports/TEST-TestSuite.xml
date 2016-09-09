@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="21" failures="4" name="TestSuite" time="9.148" errors="0" skipped="17">
+<testsuite tests="9" failures="3" name="TestSuite" time="7.1" errors="0" skipped="6">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="CTAAutomation"/>
@@ -26,7 +26,7 @@
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
-    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_77"/>
@@ -37,7 +37,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="4"/>
+    <property name="BUILD_ID" value="7"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -71,7 +71,7 @@
     <property name="POM_GROUPID" value="CmcAutomation"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
-    <property name="BUILD_TAG" value="jenkins-CTAAutomation-4"/>
+    <property name="BUILD_TAG" value="jenkins-CTAAutomation-7"/>
     <property name="JENKINS_SERVER_COOKIE" value="e365e32deb8c86f4"/>
     <property name="HUDSON_URL" value="http://149.63.89.132:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -85,7 +85,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.53.3.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 62003"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.53.3.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 58927"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_77/bin;C:\ProgramData\Oracle\Java\javapath;C:\oracle\product\10.2.0\clientx86_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\MongoDB\Server\3.2\bin;C:\Users\200123\Downloads\gradle-2.13-all\gradle-2.13\bin;C:\dev\bin;C:\cts\jdk8\bin;C:\dev\unix\usr\local\wbin;C:\Program Files\nodejs\;C:\dev\unix\usr\local\wbin;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -100,7 +100,7 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://149.63.89.132:8080/job/CTAAutomation/4/"/>
+    <property name="BUILD_URL" value="http://149.63.89.132:8080/job/CTAAutomation/7/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -114,7 +114,7 @@
 "/>
     <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="4"/>
+    <property name="BUILD_NUMBER" value="7"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://149.63.89.132:8080/"/>
     <property name="PROCESSOR_REVISION" value="3d04"/>
@@ -130,33 +130,33 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
   </properties>
-  <testcase classname="automationFramework.TestCases.GroupSalesManageTest" name="setUp" time="3.386">
+  <testcase classname="automationFramework.TestCases.GroupSalesManageTest" name="setUp" time="2.894">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at automationFramework.TestCases.GroupSalesManageTest.setUp(GroupSalesManageTest.java:33)
 </failure>
     <system-out>Time in Milliseconds: 0 
 Test Case: automationFramework.TestCases.GroupSalesManageTest 
-Time Stamp: 2016-09-01 01:02:08,681 
+Time Stamp: 2016-09-07 01:01:35,154 
 Code Location: automationFramework.TestCases.GroupSalesManageTest.setUp(GroupSalesManageTest.java:29) 
 Log Message: Setup Started 
  
-2016-09-01 01:02:08,681 INFO  [Logger] Setup Started 
-Time in Milliseconds: 150 
+2016-09-07 01:01:35,154 INFO  [Logger] Setup Started 
+Time in Milliseconds: 143 
 Test Case: automationFramework.TestCases.GroupSalesManageTest 
-Time Stamp: 2016-09-01 01:02:08,831 
+Time Stamp: 2016-09-07 01:01:35,297 
 Code Location: automationFramework.TestCases.GroupSalesManageTest.setUp(GroupSalesManageTest.java:30) 
 Log Message: Current OS: Windows 7 Enterprise 
  
-2016-09-01 01:02:08,831 INFO  [Logger] Current OS: Windows 7 Enterprise 
-Time in Milliseconds: 151 
+2016-09-07 01:01:35,297 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 144 
 Test Case: automationFramework.TestCases.GroupSalesManageTest 
-Time Stamp: 2016-09-01 01:02:08,832 
+Time Stamp: 2016-09-07 01:01:35,298 
 Code Location: automationFramework.TestCases.GroupSalesManageTest.setUp(GroupSalesManageTest.java:31) 
 Log Message: Current Browser: chrome.exe 
  
-2016-09-01 01:02:08,832 INFO  [Logger] Current Browser: chrome.exe 
+2016-09-07 01:01:35,298 INFO  [Logger] Current Browser: chrome.exe 
 </system-out>
-    <system-err>Starting ChromeDriver 2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129) on port 37370
+    <system-err>Starting ChromeDriver 2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129) on port 49115
 Only local connections are allowed.
 </system-err>
   </testcase>
@@ -166,51 +166,51 @@ Only local connections are allowed.
   <testcase classname="automationFramework.TestCases.GroupSalesManageTest" name="tearDown" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="automationFramework.TestCases.GroupSalesTest" name="setUp" time="2.089">
+  <testcase classname="automationFramework.TestCases.GroupSalesTest" name="setUp" time="2.092">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at automationFramework.TestCases.GroupSalesTest.setUp(GroupSalesTest.java:33)
 </failure>
-    <system-out>Time in Milliseconds: 2661 
+    <system-out>Time in Milliseconds: 2165 
 Test Case: automationFramework.TestCases.GroupSalesTest 
-Time Stamp: 2016-09-01 01:02:11,342 
+Time Stamp: 2016-09-07 01:01:37,319 
 Code Location: automationFramework.TestCases.GroupSalesTest.setUp(GroupSalesTest.java:29) 
 Log Message: Setup Started 
  
-Time in Milliseconds: 2661 
+Time in Milliseconds: 2165 
 Test Case: automationFramework.TestCases.GroupSalesTest 
-Time Stamp: 2016-09-01 01:02:11,342 
+Time Stamp: 2016-09-07 01:01:37,319 
 Code Location: automationFramework.TestCases.GroupSalesTest.setUp(GroupSalesTest.java:29) 
 Log Message: Setup Started 
  
-2016-09-01 01:02:11,342 INFO  [Logger] Setup Started 
-Time in Milliseconds: 2712 
+2016-09-07 01:01:37,319 INFO  [Logger] Setup Started 
+Time in Milliseconds: 2217 
 Test Case: automationFramework.TestCases.GroupSalesTest 
-Time Stamp: 2016-09-01 01:02:11,393 
+Time Stamp: 2016-09-07 01:01:37,371 
 Code Location: automationFramework.TestCases.GroupSalesTest.setUp(GroupSalesTest.java:30) 
 Log Message: Current OS: Windows 7 Enterprise 
  
-Time in Milliseconds: 2712 
+Time in Milliseconds: 2217 
 Test Case: automationFramework.TestCases.GroupSalesTest 
-Time Stamp: 2016-09-01 01:02:11,393 
+Time Stamp: 2016-09-07 01:01:37,371 
 Code Location: automationFramework.TestCases.GroupSalesTest.setUp(GroupSalesTest.java:30) 
 Log Message: Current OS: Windows 7 Enterprise 
  
-2016-09-01 01:02:11,393 INFO  [Logger] Current OS: Windows 7 Enterprise 
-Time in Milliseconds: 2713 
+2016-09-07 01:01:37,371 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 2218 
 Test Case: automationFramework.TestCases.GroupSalesTest 
-Time Stamp: 2016-09-01 01:02:11,394 
+Time Stamp: 2016-09-07 01:01:37,372 
 Code Location: automationFramework.TestCases.GroupSalesTest.setUp(GroupSalesTest.java:31) 
 Log Message: Current Browser: chrome.exe 
  
-Time in Milliseconds: 2713 
+Time in Milliseconds: 2218 
 Test Case: automationFramework.TestCases.GroupSalesTest 
-Time Stamp: 2016-09-01 01:02:11,394 
+Time Stamp: 2016-09-07 01:01:37,372 
 Code Location: automationFramework.TestCases.GroupSalesTest.setUp(GroupSalesTest.java:31) 
 Log Message: Current Browser: chrome.exe 
  
-2016-09-01 01:02:11,394 INFO  [Logger] Current Browser: chrome.exe 
+2016-09-07 01:01:37,372 INFO  [Logger] Current Browser: chrome.exe 
 </system-out>
-    <system-err>Starting ChromeDriver 2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129) on port 17816
+    <system-err>Starting ChromeDriver 2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129) on port 27998
 Only local connections are allowed.
 </system-err>
   </testcase>
@@ -220,193 +220,76 @@ Only local connections are allowed.
   <testcase classname="automationFramework.TestCases.GroupSalesTest" name="tearDown" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="automationFramework.TestCases.TransitBenefitsTest" name="setUp" time="1.573">
+  <testcase classname="automationFramework.TestCases.TransitBenefitsTest" name="setUp" time="2.102">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at automationFramework.TestCases.TransitBenefitsTest.setUp(TransitBenefitsTest.java:33)
 </failure>
-    <system-out>Time in Milliseconds: 4741 
+    <system-out>Time in Milliseconds: 4274 
 Test Case: automationFramework.TestCases.TransitBenefitsTest 
-Time Stamp: 2016-09-01 01:02:13,422 
+Time Stamp: 2016-09-07 01:01:39,428 
 Code Location: automationFramework.TestCases.TransitBenefitsTest.setUp(TransitBenefitsTest.java:29) 
 Log Message: Setup Started 
  
-Time in Milliseconds: 4741 
+Time in Milliseconds: 4274 
 Test Case: automationFramework.TestCases.TransitBenefitsTest 
-Time Stamp: 2016-09-01 01:02:13,422 
+Time Stamp: 2016-09-07 01:01:39,428 
 Code Location: automationFramework.TestCases.TransitBenefitsTest.setUp(TransitBenefitsTest.java:29) 
 Log Message: Setup Started 
  
-Time in Milliseconds: 4741 
+Time in Milliseconds: 4274 
 Test Case: automationFramework.TestCases.TransitBenefitsTest 
-Time Stamp: 2016-09-01 01:02:13,422 
+Time Stamp: 2016-09-07 01:01:39,428 
 Code Location: automationFramework.TestCases.TransitBenefitsTest.setUp(TransitBenefitsTest.java:29) 
 Log Message: Setup Started 
  
-2016-09-01 01:02:13,422 INFO  [Logger] Setup Started 
-Time in Milliseconds: 4792 
+2016-09-07 01:01:39,428 INFO  [Logger] Setup Started 
+Time in Milliseconds: 4326 
 Test Case: automationFramework.TestCases.TransitBenefitsTest 
-Time Stamp: 2016-09-01 01:02:13,473 
+Time Stamp: 2016-09-07 01:01:39,480 
 Code Location: automationFramework.TestCases.TransitBenefitsTest.setUp(TransitBenefitsTest.java:30) 
 Log Message: Current OS: Windows 7 Enterprise 
  
-Time in Milliseconds: 4792 
+Time in Milliseconds: 4326 
 Test Case: automationFramework.TestCases.TransitBenefitsTest 
-Time Stamp: 2016-09-01 01:02:13,473 
+Time Stamp: 2016-09-07 01:01:39,480 
 Code Location: automationFramework.TestCases.TransitBenefitsTest.setUp(TransitBenefitsTest.java:30) 
 Log Message: Current OS: Windows 7 Enterprise 
  
-Time in Milliseconds: 4792 
+Time in Milliseconds: 4326 
 Test Case: automationFramework.TestCases.TransitBenefitsTest 
-Time Stamp: 2016-09-01 01:02:13,473 
+Time Stamp: 2016-09-07 01:01:39,480 
 Code Location: automationFramework.TestCases.TransitBenefitsTest.setUp(TransitBenefitsTest.java:30) 
 Log Message: Current OS: Windows 7 Enterprise 
  
-2016-09-01 01:02:13,473 INFO  [Logger] Current OS: Windows 7 Enterprise 
-Time in Milliseconds: 4793 
+2016-09-07 01:01:39,480 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 4327 
 Test Case: automationFramework.TestCases.TransitBenefitsTest 
-Time Stamp: 2016-09-01 01:02:13,474 
+Time Stamp: 2016-09-07 01:01:39,481 
 Code Location: automationFramework.TestCases.TransitBenefitsTest.setUp(TransitBenefitsTest.java:31) 
 Log Message: Current Browser: chrome.exe 
  
-Time in Milliseconds: 4793 
+Time in Milliseconds: 4327 
 Test Case: automationFramework.TestCases.TransitBenefitsTest 
-Time Stamp: 2016-09-01 01:02:13,474 
+Time Stamp: 2016-09-07 01:01:39,481 
 Code Location: automationFramework.TestCases.TransitBenefitsTest.setUp(TransitBenefitsTest.java:31) 
 Log Message: Current Browser: chrome.exe 
  
-Time in Milliseconds: 4793 
+Time in Milliseconds: 4327 
 Test Case: automationFramework.TestCases.TransitBenefitsTest 
-Time Stamp: 2016-09-01 01:02:13,474 
+Time Stamp: 2016-09-07 01:01:39,481 
 Code Location: automationFramework.TestCases.TransitBenefitsTest.setUp(TransitBenefitsTest.java:31) 
 Log Message: Current Browser: chrome.exe 
  
-2016-09-01 01:02:13,474 INFO  [Logger] Current Browser: chrome.exe 
+2016-09-07 01:01:39,481 INFO  [Logger] Current Browser: chrome.exe 
 </system-out>
-    <system-err>Starting ChromeDriver 2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129) on port 38438
+    <system-err>Starting ChromeDriver 2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129) on port 28200
 Only local connections are allowed.
 </system-err>
   </testcase>
   <testcase classname="automationFramework.TestCases.TransitBenefitsTest" name="enterEmployerDetails" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="automationFramework.TestCases.TransitBenefitsTest" name="tearDown" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="automationFramework.TestCases.VentraCardTest" name="setUp" time="2.096">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:57)
-</failure>
-    <system-out>Time in Milliseconds: 6323 
-Test Case: automationFramework.TestCases.VentraCardTest 
-Time Stamp: 2016-09-01 01:02:15,004 
-Code Location: automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:53) 
-Log Message: Setup Started 
- 
-Time in Milliseconds: 6323 
-Test Case: automationFramework.TestCases.VentraCardTest 
-Time Stamp: 2016-09-01 01:02:15,004 
-Code Location: automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:53) 
-Log Message: Setup Started 
- 
-Time in Milliseconds: 6323 
-Test Case: automationFramework.TestCases.VentraCardTest 
-Time Stamp: 2016-09-01 01:02:15,004 
-Code Location: automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:53) 
-Log Message: Setup Started 
- 
-Time in Milliseconds: 6323 
-Test Case: automationFramework.TestCases.VentraCardTest 
-Time Stamp: 2016-09-01 01:02:15,004 
-Code Location: automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:53) 
-Log Message: Setup Started 
- 
-2016-09-01 01:02:15,004 INFO  [Logger] Setup Started 
-Time in Milliseconds: 6378 
-Test Case: automationFramework.TestCases.VentraCardTest 
-Time Stamp: 2016-09-01 01:02:15,059 
-Code Location: automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:54) 
-Log Message: Current OS: Windows 7 Enterprise 
- 
-Time in Milliseconds: 6378 
-Test Case: automationFramework.TestCases.VentraCardTest 
-Time Stamp: 2016-09-01 01:02:15,059 
-Code Location: automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:54) 
-Log Message: Current OS: Windows 7 Enterprise 
- 
-Time in Milliseconds: 6378 
-Test Case: automationFramework.TestCases.VentraCardTest 
-Time Stamp: 2016-09-01 01:02:15,059 
-Code Location: automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:54) 
-Log Message: Current OS: Windows 7 Enterprise 
- 
-Time in Milliseconds: 6378 
-Test Case: automationFramework.TestCases.VentraCardTest 
-Time Stamp: 2016-09-01 01:02:15,059 
-Code Location: automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:54) 
-Log Message: Current OS: Windows 7 Enterprise 
- 
-2016-09-01 01:02:15,059 INFO  [Logger] Current OS: Windows 7 Enterprise 
-Time in Milliseconds: 6379 
-Test Case: automationFramework.TestCases.VentraCardTest 
-Time Stamp: 2016-09-01 01:02:15,060 
-Code Location: automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:55) 
-Log Message: Current Browser: chrome.exe 
- 
-Time in Milliseconds: 6379 
-Test Case: automationFramework.TestCases.VentraCardTest 
-Time Stamp: 2016-09-01 01:02:15,060 
-Code Location: automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:55) 
-Log Message: Current Browser: chrome.exe 
- 
-Time in Milliseconds: 6379 
-Test Case: automationFramework.TestCases.VentraCardTest 
-Time Stamp: 2016-09-01 01:02:15,060 
-Code Location: automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:55) 
-Log Message: Current Browser: chrome.exe 
- 
-Time in Milliseconds: 6379 
-Test Case: automationFramework.TestCases.VentraCardTest 
-Time Stamp: 2016-09-01 01:02:15,060 
-Code Location: automationFramework.TestCases.VentraCardTest.setUp(VentraCardTest.java:55) 
-Log Message: Current Browser: chrome.exe 
- 
-2016-09-01 01:02:15,060 INFO  [Logger] Current Browser: chrome.exe 
-</system-out>
-    <system-err>Starting ChromeDriver 2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129) on port 12654
-Only local connections are allowed.
-</system-err>
-  </testcase>
-  <testcase classname="automationFramework.TestCases.VentraCardTest" name="getVentraCard" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="automationFramework.TestCases.VentraCardTest" name="tearDown" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="automationFramework.TestCases.VentraCardTest" name="setUp" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="automationFramework.TestCases.VentraCardTest" name="forgotPasswd" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="automationFramework.TestCases.VentraCardTest" name="tearDown" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="automationFramework.TestCases.VentraCardTest" name="setUp" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="automationFramework.TestCases.VentraCardTest" name="forgotUsername" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="automationFramework.TestCases.VentraCardTest" name="tearDown" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="automationFramework.TestCases.VentraCardTest" name="setUp" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="automationFramework.TestCases.VentraCardTest" name="accountLogin" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="automationFramework.TestCases.VentraCardTest" name="tearDown" time="0.004">
+  <testcase classname="automationFramework.TestCases.TransitBenefitsTest" name="tearDown" time="0.012">
     <skipped/>
   </testcase>
 </testsuite>

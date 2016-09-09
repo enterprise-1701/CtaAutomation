@@ -2,14 +2,19 @@
 	<test name ="ChromeTest">
 	<parameter name="browser" value="chrome.exe" />
 		<classes>
-		    <class name="automationFramework.TestCases.GroupSalesManageTest" /> 
-		    <class name="automationFramework.TestCases.GroupSalesTest" /> 
-		    <class name="automationFramework.TestCases.TransitBenefitsTest" /> 
-		    <class name="automationFramework.TestCases.VentraCardTest" />
+		    <class name="automationFramework.TestCases.VentraCardTest" /> 
 		    <class name="automationFramework.TestCases.AccountLoginTest" /> 
 		    <class name="automationFramework.TestCases.ForgotPasswdTest" /> 
-		    <class name="automationFramework.TestCases.ForgotUsernameTest" />    
-		    <class name="automationFramework.TestCases.CheckBalanceTest" />
+		    <class name="automationFramework.TestCases.CheckBalanceTest" /> 
+		    <class name="automationFramework.TestCases.ForgotUsernameTest" /> 
+		    <class name="automationFramework.TestCases.TransitBenefitsTest" /> 
+		    <class name="automationFramework.TestCases.AddValueTest" /> 
+		    <class name="automationFramework.TestCases.GroupSalesTest" /> 
+		    <class name="automationFramework.TestCases.GroupSalesManageTest" /> 
+			<class name="automationFramework.TestCases.GroupAccountAddPaymentCC" /> 
+			<class name="automationFramework.TestCases.GroupSalesManageTest2" /> 
+			<class name="automationFramework.TestCases.GroupAccountAddPaymentAch" />
+			<class name="automationFramework.TestCases.AutoloadTest" /> 
 		</classes>
 	</test>
 		<listeners>

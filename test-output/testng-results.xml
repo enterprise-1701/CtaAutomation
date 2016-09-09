@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" total="14" passed="14">
   <reporter-output>
     <line>
       <![CDATA[TearDown Complete]]>
@@ -25,13 +25,31 @@
     <line>
       <![CDATA[TearDown Complete]]>
     </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
   </reporter-output>
-  <suite name="Automation - Suite" duration-ms="696764" started-at="2016-09-01T20:24:25Z" finished-at="2016-09-01T20:36:01Z">
+  <suite name="Automation - Suite" duration-ms="816807" started-at="2016-09-09T17:42:32Z" finished-at="2016-09-09T17:56:09Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="696764" started-at="2016-09-01T20:24:25Z" finished-at="2016-09-01T20:36:01Z">
+    <test name="ChromeTest" duration-ms="816807" started-at="2016-09-09T17:42:32Z" finished-at="2016-09-09T17:56:09Z">
       <class name="automationFramework.TestCases.VentraCardTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.VentraCardTest@6acdbdf5]" name="setUp" is-config="true" duration-ms="1979" started-at="2016-09-01T13:27:03Z" finished-at="2016-09-01T13:27:05Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.VentraCardTest@33f88ab]" name="setUp" is-config="true" duration-ms="2507" started-at="2016-09-09T10:42:32Z" finished-at="2016-09-09T10:42:35Z">
           <params>
             <param index="0">
               <value>
@@ -42,11 +60,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getVentraCard()[pri:0, instance:automationFramework.TestCases.VentraCardTest@6acdbdf5]" name="getVentraCard" duration-ms="60217" started-at="2016-09-01T13:27:05Z" finished-at="2016-09-01T13:28:05Z">
+        <test-method status="PASS" signature="getVentraCard()[pri:0, instance:automationFramework.TestCases.VentraCardTest@33f88ab]" name="getVentraCard" duration-ms="77967" started-at="2016-09-09T10:42:35Z" finished-at="2016-09-09T10:43:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getVentraCard -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.VentraCardTest@6acdbdf5]" name="tearDown" is-config="true" duration-ms="1043" started-at="2016-09-01T13:28:05Z" finished-at="2016-09-01T13:28:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.VentraCardTest@33f88ab]" name="tearDown" is-config="true" duration-ms="1042" started-at="2016-09-09T10:43:53Z" finished-at="2016-09-09T10:43:54Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
@@ -54,8 +72,8 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- automationFramework.TestCases.VentraCardTest -->
-      <class name="automationFramework.TestCases.ForgotPasswdTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.ForgotPasswdTest@1786dec2]" name="setUp" is-config="true" duration-ms="1446" started-at="2016-09-01T13:34:46Z" finished-at="2016-09-01T13:34:48Z">
+      <class name="automationFramework.TestCases.GroupAccountAddPaymentCC">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.GroupAccountAddPaymentCC@1f57539]" name="setUp" is-config="true" duration-ms="1889" started-at="2016-09-09T10:51:52Z" finished-at="2016-09-09T10:51:54Z">
           <params>
             <param index="0">
               <value>
@@ -66,11 +84,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="forgotPasswd()[pri:0, instance:automationFramework.TestCases.ForgotPasswdTest@1786dec2]" name="forgotPasswd" duration-ms="24278" started-at="2016-09-01T13:34:48Z" finished-at="2016-09-01T13:35:12Z">
+        <test-method status="PASS" signature="addCCPayment()[pri:0, instance:automationFramework.TestCases.GroupAccountAddPaymentCC@1f57539]" name="addCCPayment" duration-ms="40898" started-at="2016-09-09T10:51:54Z" finished-at="2016-09-09T10:52:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCCPayment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.GroupAccountAddPaymentCC@1f57539]" name="tearDown" is-config="true" duration-ms="1045" started-at="2016-09-09T10:52:35Z" finished-at="2016-09-09T10:52:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.GroupAccountAddPaymentCC -->
+      <class name="automationFramework.TestCases.ForgotPasswdTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.ForgotPasswdTest@5a1c0542]" name="setUp" is-config="true" duration-ms="1997" started-at="2016-09-09T10:46:19Z" finished-at="2016-09-09T10:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgotPasswd()[pri:0, instance:automationFramework.TestCases.ForgotPasswdTest@5a1c0542]" name="forgotPasswd" duration-ms="27599" started-at="2016-09-09T10:46:21Z" finished-at="2016-09-09T10:46:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPasswd -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.ForgotPasswdTest@1786dec2]" name="tearDown" is-config="true" duration-ms="1022" started-at="2016-09-01T13:35:12Z" finished-at="2016-09-01T13:35:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.ForgotPasswdTest@5a1c0542]" name="tearDown" is-config="true" duration-ms="1014" started-at="2016-09-09T10:46:49Z" finished-at="2016-09-09T10:46:50Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
@@ -79,7 +121,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- automationFramework.TestCases.ForgotPasswdTest -->
       <class name="automationFramework.TestCases.CheckBalanceTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CheckBalanceTest@48503868]" name="setUp" is-config="true" duration-ms="2071" started-at="2016-09-01T13:35:38Z" finished-at="2016-09-01T13:35:41Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.CheckBalanceTest@e320068]" name="setUp" is-config="true" duration-ms="2011" started-at="2016-09-09T10:46:50Z" finished-at="2016-09-09T10:46:52Z">
           <params>
             <param index="0">
               <value>
@@ -90,11 +132,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkBalance()[pri:0, instance:automationFramework.TestCases.CheckBalanceTest@48503868]" name="checkBalance" duration-ms="19805" started-at="2016-09-01T13:35:41Z" finished-at="2016-09-01T13:36:00Z">
+        <test-method status="PASS" signature="checkBalance()[pri:0, instance:automationFramework.TestCases.CheckBalanceTest@e320068]" name="checkBalance" duration-ms="22449" started-at="2016-09-09T10:46:52Z" finished-at="2016-09-09T10:47:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkBalance -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CheckBalanceTest@48503868]" name="tearDown" is-config="true" duration-ms="1039" started-at="2016-09-01T13:36:00Z" finished-at="2016-09-01T13:36:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.CheckBalanceTest@e320068]" name="tearDown" is-config="true" duration-ms="1043" started-at="2016-09-09T10:47:15Z" finished-at="2016-09-09T10:47:16Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
@@ -103,7 +145,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- automationFramework.TestCases.CheckBalanceTest -->
       <class name="automationFramework.TestCases.TransitBenefitsTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.TransitBenefitsTest@3b088d51]" name="setUp" is-config="true" duration-ms="2042" started-at="2016-09-01T13:26:08Z" finished-at="2016-09-01T13:26:10Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.TransitBenefitsTest@59e5ddf]" name="setUp" is-config="true" duration-ms="1988" started-at="2016-09-09T10:47:51Z" finished-at="2016-09-09T10:47:53Z">
           <params>
             <param index="0">
               <value>
@@ -114,11 +156,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="enterEmployerDetails()[pri:0, instance:automationFramework.TestCases.TransitBenefitsTest@3b088d51]" name="enterEmployerDetails" duration-ms="51344" started-at="2016-09-01T13:26:10Z" finished-at="2016-09-01T13:27:02Z">
+        <test-method status="PASS" signature="enterEmployerDetails()[pri:0, instance:automationFramework.TestCases.TransitBenefitsTest@59e5ddf]" name="enterEmployerDetails" duration-ms="61774" started-at="2016-09-09T10:47:53Z" finished-at="2016-09-09T10:48:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterEmployerDetails -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.TransitBenefitsTest@3b088d51]" name="tearDown" is-config="true" duration-ms="1078" started-at="2016-09-01T13:27:02Z" finished-at="2016-09-01T13:27:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.TransitBenefitsTest@59e5ddf]" name="tearDown" is-config="true" duration-ms="1045" started-at="2016-09-09T10:48:55Z" finished-at="2016-09-09T10:48:56Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
@@ -127,7 +169,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- automationFramework.TestCases.TransitBenefitsTest -->
       <class name="automationFramework.TestCases.GroupSalesTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.GroupSalesTest@33f88ab]" name="setUp" is-config="true" duration-ms="1545" started-at="2016-09-01T13:25:09Z" finished-at="2016-09-01T13:25:10Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.GroupSalesTest@646d64ab]" name="setUp" is-config="true" duration-ms="1974" started-at="2016-09-09T10:49:51Z" finished-at="2016-09-09T10:49:53Z">
           <params>
             <param index="0">
               <value>
@@ -138,11 +180,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loadValueGroupSales()[pri:0, instance:automationFramework.TestCases.GroupSalesTest@33f88ab]" name="loadValueGroupSales" duration-ms="57164" started-at="2016-09-01T13:25:10Z" finished-at="2016-09-01T13:26:07Z">
+        <test-method status="PASS" signature="loadValueGroupSales()[pri:0, instance:automationFramework.TestCases.GroupSalesTest@646d64ab]" name="loadValueGroupSales" duration-ms="60609" started-at="2016-09-09T10:49:53Z" finished-at="2016-09-09T10:50:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadValueGroupSales -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.GroupSalesTest@33f88ab]" name="tearDown" is-config="true" duration-ms="1031" started-at="2016-09-01T13:26:07Z" finished-at="2016-09-01T13:26:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.GroupSalesTest@646d64ab]" name="tearDown" is-config="true" duration-ms="1077" started-at="2016-09-09T10:50:53Z" finished-at="2016-09-09T10:50:54Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
@@ -150,8 +192,8 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- automationFramework.TestCases.GroupSalesTest -->
-      <class name="automationFramework.TestCases.AccountLoginTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.AccountLoginTest@15d0c81b]" name="setUp" is-config="true" duration-ms="2002" started-at="2016-09-01T13:28:06Z" finished-at="2016-09-01T13:28:08Z">
+      <class name="automationFramework.TestCases.GroupSalesManageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.GroupSalesManageTest@536aaa8d]" name="setUp" is-config="true" duration-ms="1987" started-at="2016-09-09T10:50:54Z" finished-at="2016-09-09T10:50:56Z">
           <params>
             <param index="0">
               <value>
@@ -162,11 +204,105 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="accountLogin()[pri:0, instance:automationFramework.TestCases.AccountLoginTest@15d0c81b]" name="accountLogin" duration-ms="397147" started-at="2016-09-01T13:28:08Z" finished-at="2016-09-01T13:34:45Z">
+        <test-method status="PASS" signature="manageTransitGroupSales()[pri:0, instance:automationFramework.TestCases.GroupSalesManageTest@536aaa8d]" name="manageTransitGroupSales" duration-ms="54450" started-at="2016-09-09T10:50:56Z" finished-at="2016-09-09T10:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageTransitGroupSales -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.GroupSalesManageTest@536aaa8d]" name="tearDown" is-config="true" duration-ms="1063" started-at="2016-09-09T10:51:51Z" finished-at="2016-09-09T10:51:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.GroupSalesManageTest -->
+      <class name="automationFramework.TestCases.AutoloadTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.AutoloadTest@17579e0f]" name="setUp" is-config="true" duration-ms="1941" started-at="2016-09-09T10:54:23Z" finished-at="2016-09-09T10:54:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="autoLoadNewCC()[pri:0, instance:automationFramework.TestCases.AutoloadTest@17579e0f]" name="autoLoadNewCC" duration-ms="57887" started-at="2016-09-09T10:54:25Z" finished-at="2016-09-09T10:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoLoadNewCC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.AutoloadTest@17579e0f]" name="tearDown" is-config="true" duration-ms="1069" started-at="2016-09-09T10:55:22Z" finished-at="2016-09-09T10:55:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.AutoloadTest@17579e0f]" name="setUp" is-config="true" duration-ms="1985" started-at="2016-09-09T10:55:23Z" finished-at="2016-09-09T10:55:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="autoLoadSavedCC()[pri:0, instance:automationFramework.TestCases.AutoloadTest@17579e0f]" name="autoLoadSavedCC" duration-ms="42547" started-at="2016-09-09T10:55:25Z" finished-at="2016-09-09T10:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoLoadSavedCC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.AutoloadTest@17579e0f]" name="tearDown" is-config="true" duration-ms="1030" started-at="2016-09-09T10:56:08Z" finished-at="2016-09-09T10:56:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.AutoloadTest -->
+      <class name="automationFramework.TestCases.AddValueTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.AddValueTest@1b68ddbd]" name="setUp" is-config="true" duration-ms="1956" started-at="2016-09-09T10:48:56Z" finished-at="2016-09-09T10:48:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addValue()[pri:0, instance:automationFramework.TestCases.AddValueTest@1b68ddbd]" name="addValue" duration-ms="51772" started-at="2016-09-09T10:48:58Z" finished-at="2016-09-09T10:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addValue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.AddValueTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="1029" started-at="2016-09-09T10:49:50Z" finished-at="2016-09-09T10:49:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.AddValueTest -->
+      <class name="automationFramework.TestCases.AccountLoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.AccountLoginTest@76f2b07d]" name="setUp" is-config="true" duration-ms="1933" started-at="2016-09-09T10:43:54Z" finished-at="2016-09-09T10:43:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="accountLogin()[pri:0, instance:automationFramework.TestCases.AccountLoginTest@76f2b07d]" name="accountLogin" duration-ms="142710" started-at="2016-09-09T10:43:56Z" finished-at="2016-09-09T10:46:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.AccountLoginTest@15d0c81b]" name="tearDown" is-config="true" duration-ms="1031" started-at="2016-09-01T13:34:45Z" finished-at="2016-09-01T13:34:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.AccountLoginTest@76f2b07d]" name="tearDown" is-config="true" duration-ms="1029" started-at="2016-09-09T10:46:18Z" finished-at="2016-09-09T10:46:19Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
@@ -175,7 +311,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- automationFramework.TestCases.AccountLoginTest -->
       <class name="automationFramework.TestCases.ForgotUsernameTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.ForgotUsernameTest@4b1c1ea0]" name="setUp" is-config="true" duration-ms="2026" started-at="2016-09-01T13:35:13Z" finished-at="2016-09-01T13:35:15Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.ForgotUsernameTest@27a8c74e]" name="setUp" is-config="true" duration-ms="1961" started-at="2016-09-09T10:47:16Z" finished-at="2016-09-09T10:47:18Z">
           <params>
             <param index="0">
               <value>
@@ -186,11 +322,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="forgotUsername()[pri:0, instance:automationFramework.TestCases.ForgotUsernameTest@4b1c1ea0]" name="forgotUsername" duration-ms="22366" started-at="2016-09-01T13:35:15Z" finished-at="2016-09-01T13:35:37Z">
+        <test-method status="PASS" signature="forgotUsername()[pri:0, instance:automationFramework.TestCases.ForgotUsernameTest@27a8c74e]" name="forgotUsername" duration-ms="32501" started-at="2016-09-09T10:47:18Z" finished-at="2016-09-09T10:47:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotUsername -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.ForgotUsernameTest@4b1c1ea0]" name="tearDown" is-config="true" duration-ms="1013" started-at="2016-09-01T13:35:37Z" finished-at="2016-09-01T13:35:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.ForgotUsernameTest@27a8c74e]" name="tearDown" is-config="true" duration-ms="1067" started-at="2016-09-09T10:47:50Z" finished-at="2016-09-09T10:47:51Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
@@ -198,8 +334,8 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- automationFramework.TestCases.ForgotUsernameTest -->
-      <class name="automationFramework.TestCases.GroupSalesManageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.GroupSalesManageTest@74650e52]" name="setUp" is-config="true" duration-ms="2653" started-at="2016-09-01T13:24:25Z" finished-at="2016-09-01T13:24:27Z">
+      <class name="automationFramework.TestCases.GroupAccountAddPaymentAch">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.GroupAccountAddPaymentAch@2d8f65a4]" name="setUp" is-config="true" duration-ms="1410" started-at="2016-09-09T10:53:34Z" finished-at="2016-09-09T10:53:35Z">
           <params>
             <param index="0">
               <value>
@@ -210,18 +346,42 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="manageTransitGroupSales()[pri:0, instance:automationFramework.TestCases.GroupSalesManageTest@74650e52]" name="manageTransitGroupSales" duration-ms="40316" started-at="2016-09-01T13:24:27Z" finished-at="2016-09-01T13:25:08Z">
+        <test-method status="PASS" signature="addACHPayment()[pri:0, instance:automationFramework.TestCases.GroupAccountAddPaymentAch@2d8f65a4]" name="addACHPayment" duration-ms="46613" started-at="2016-09-09T10:53:35Z" finished-at="2016-09-09T10:54:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- manageTransitGroupSales -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.GroupSalesManageTest@74650e52]" name="tearDown" is-config="true" duration-ms="1033" started-at="2016-09-01T13:25:08Z" finished-at="2016-09-01T13:25:09Z">
+        </test-method> <!-- addACHPayment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.GroupAccountAddPaymentAch@2d8f65a4]" name="tearDown" is-config="true" duration-ms="1046" started-at="2016-09-09T10:54:22Z" finished-at="2016-09-09T10:54:23Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- automationFramework.TestCases.GroupSalesManageTest -->
+      </class> <!-- automationFramework.TestCases.GroupAccountAddPaymentAch -->
+      <class name="automationFramework.TestCases.GroupSalesManageTest2">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.GroupSalesManageTest2@704a52ec]" name="setUp" is-config="true" duration-ms="1963" started-at="2016-09-09T10:52:36Z" finished-at="2016-09-09T10:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="manageTransitGroupSales()[pri:0, instance:automationFramework.TestCases.GroupSalesManageTest2@704a52ec]" name="manageTransitGroupSales" duration-ms="54867" started-at="2016-09-09T10:52:38Z" finished-at="2016-09-09T10:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageTransitGroupSales -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.GroupSalesManageTest2@704a52ec]" name="tearDown" is-config="true" duration-ms="1045" started-at="2016-09-09T10:53:32Z" finished-at="2016-09-09T10:53:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.GroupSalesManageTest2 -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Automation - Suite -->
 </testng-results>
