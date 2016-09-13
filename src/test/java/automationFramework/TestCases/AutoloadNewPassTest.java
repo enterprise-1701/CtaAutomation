@@ -83,8 +83,8 @@ public class AutoloadNewPassTest {
 		Assert.assertEquals(vPage.getUserName(driver),  "raycard");
 		Log.info("Actual results " +  vPage.getUserName(driver) + " matches " +  "raycard");
 		
-		vPage.clickChangeCard(driver);
-		vPage.clickOtherCard(driver);
+		vPage.clickManageCard(driver);
+		vPage.clickNewCard(driver);
 		Utils.waitTime(5000);
 		vPage.clickAddPassAutoLoad(driver);
 		vPage.clickAddPassPopupOk(driver);

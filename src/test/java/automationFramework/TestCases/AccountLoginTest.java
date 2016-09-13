@@ -44,6 +44,7 @@ public class AccountLoginTest {
 	static WebDriver driver;
 	static String browser;
 	
+	
 	@Parameters("browser")
 	@BeforeMethod
 	public void setUp(String browser) throws InterruptedException {
@@ -84,7 +85,15 @@ public class AccountLoginTest {
 		//Assertion based on dynamic data 
 		Assert.assertEquals(vPage.getUserName(driver),  UserData.getUserName());
 		Log.info("Actual results " +  vPage.getUserName(driver) + " matches " +  UserData.getUserName());
+	
+	
+		//Add account id to UserData object
+		Log.info("Account ID from page: " +  vPage.getAccountId(driver));
+		String accountId = vPage.getAccountId(driver).substring(12);
+		Log.info("Account ID being stored is: " +  accountId);
+		UserData.setAccountNumber(accountId);
 		
+		Utils.waitTime(3000);
 		//vPage.clickLogout(driver);
 		driver.close();
 	}

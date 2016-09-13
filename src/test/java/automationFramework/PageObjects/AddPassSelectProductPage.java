@@ -3,11 +3,13 @@ package automationFramework.PageObjects;
 
 import java.awt.AWTException;
 import java.io.IOException;
+import java.util.NoSuchElementException;
 import java.util.Set;
 
 import org.eclipse.jetty.util.log.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
@@ -32,13 +34,22 @@ public class AddPassSelectProductPage extends BasePage {
 	public AddPassSelectProductPage(WebDriver driver) {
 		super(driver);
 	}
-	public void clickNextStep(WebDriver driver) throws InterruptedException, AWTException{
+	public void clickNextStep(WebDriver driver) throws InterruptedException, AWTException, ElementNotVisibleException{
+		try{
 		driver.findElement(By.xpath(NEXTSTEP)).click();
-	}
+		}catch(Exception ElementNotVisibleException){
+				System.out.println("Need a new Card number!");
+			}
+		}
 	
-	public void selectOneDayPass(WebDriver driver) throws InterruptedException, AWTException{
+	
+	public void selectOneDayPass(WebDriver driver) throws InterruptedException, AWTException, NoSuchElementException{
+		
+		try{
 		driver.findElement(By.xpath(ONE_DAY_PASS)).click();
-	}
-	
+		}catch (Exception NoSuchElementException){
+			System.out.println("Need a new Card number!");
+		}
+	}	
 	
 }

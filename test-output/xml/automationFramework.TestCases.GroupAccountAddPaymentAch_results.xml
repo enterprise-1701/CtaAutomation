@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="46.613">
+           time="45.531">
   <properties />
   
   
-            <testcase name="addACHPayment" time="46.613" classname="automationFramework.TestCases.GroupAccountAddPaymentAch" />
+            <testcase name="addACHPayment" time="45.531" classname="automationFramework.TestCases.GroupAccountAddPaymentAch" />
       
 </testsuite>

@@ -5,6 +5,7 @@ public class Global {
 	//EIL Lab
 	public static final String URL0 = "https://ameagle:design@ventra-eil-design.idevdesign.net/";
 	public static final String URL1 = "https://ventra-eil-design.idevdesign.net/";
+	public static final String URL2 = "http://cta-eil-abp.wd.cubic.com/MgmtConsole/Forms/Default.aspx";
 	
 	//Test Lab
 	//public static final String URL0 =  "https://ameagle:design@ventra-sdtest-design.idevdesign.net/ ";
@@ -33,8 +34,8 @@ public class Global {
 	public static final String Path_TestData = "C://Automation//Data//";
 	public static final String File_TestData = "TestData.xlsx";
 	public static final String CHAR_LIST = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMONOPQRSTUWXYZ1234567890";
-	public static final String INDEX_FILE = "";
-	public static final String INPUT_FILE = "";
+	public static final String INDEX_FILE = "C:/Users/200123/workspace/CtaAutomation/IndexFile";
+	public static final String INPUT_FILE = "C:/Users/200123/workspace/CtaAutomation/InputFile";
 	public static final String GMAIL = "@gmail.com";
 	public static final String USERNAME = "ralph123";
 	public static final String PASSWD = "Test1234";
