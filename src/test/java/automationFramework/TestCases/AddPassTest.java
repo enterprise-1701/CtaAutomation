@@ -12,25 +12,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
-import com.thoughtworks.selenium.webdriven.commands.KeyEvent;
-
 import automationFramework.PageObjects.*;
 import automationFramework.Utilities.*;
-import com.beust.jcommander.Strings;
-import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.Toolkit;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.StringSelection;
-import java.awt.Event;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.WebDriver;
-
-import com.beust.jcommander.Strings;
 
 public class AddPassTest {
 
@@ -166,7 +150,7 @@ public class AddPassTest {
 	//These two private methods are only called if existing card has reached the maxium number of passes
 	private void registerNewCard() throws Exception{
 		
-		//Get the next card on list
+		//Get the next card from the list
 		newCard = Utils.getNewCard();
 		if(newCard != null){
 		Log.info("New Card retreived: " + newCard);
@@ -187,25 +171,23 @@ public class AddPassTest {
 		Utils.waitTime(3000);
 		
 		}
-		//This is the condition when system needs new list of ventra cards
+		//This is the condition when system runs out of valid cards
 		else{
-			Log.error("System ran out of card numbers.  Update input file with new card numbers!");
+			Log.error("System ran out of card numbers.  Update input file with new cards!");
 		}
 		
 	}
 	
-	//Change to the new registered card
+	//Change the card to the new registered card
 	private void changeCards()throws Exception{
 	
-		Log.info("Entering change Card");
-		//AccountLandingPage landingPage = new AccountLandingPage(driver);
-		//landingPage.clickMyAccount(driver);
-		//landingPage.clickMyVentraCard(driver);
+		Log.info("Entering changeCards method");
 		AccountVentraCardPage vPage = new AccountVentraCardPage(driver);
 		Utils.waitTime(3000);
 	
-		//If the username is not the latest card
 		Log.info("Username: " + vPage.getUserName(driver));
+		
+		//If the username is not the latest card
 		if(!vPage.getUserName(driver).equals("fifthcard")){
 		vPage.clickManageCard(driver);
 		Utils.waitTime(3000);
