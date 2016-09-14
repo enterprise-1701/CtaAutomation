@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="63.102">
+           time="61.849">
   <properties />
   
   
-            <testcase name="getVentraCard" time="63.102" classname="automationFramework.TestCases.VentraCardTest" />
+            <testcase name="getVentraCard" time="61.849" classname="automationFramework.TestCases.VentraCardTest" />
       
 </testsuite>

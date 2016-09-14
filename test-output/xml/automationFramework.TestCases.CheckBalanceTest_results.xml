@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="24.349">
+           time="23.913">
   <properties />
   
   
-            <testcase name="checkBalance" time="24.349" classname="automationFramework.TestCases.CheckBalanceTest" />
+            <testcase name="checkBalance" time="23.913" classname="automationFramework.TestCases.CheckBalanceTest" />
       
 </testsuite>

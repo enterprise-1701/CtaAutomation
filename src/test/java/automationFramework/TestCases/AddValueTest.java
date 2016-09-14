@@ -87,8 +87,8 @@ public class AddValueTest {
 		AccountVentraCardPage vPage = new AccountVentraCardPage(driver);
 		Utils.waitTime(3000);
 		
-		Assert.assertEquals(vPage.getUserName(driver),  "fifthcard");
-		Log.info("Actual results " +  vPage.getUserName(driver) + " matches " +  "fifthcard");
+		Assert.assertEquals(vPage.getUserName(driver),  "card1");
+		Log.info("Actual results " +  vPage.getUserName(driver) + " matches " +  "card1");
 		
 		vPage.clickAddValue(driver);
 		Utils.waitTime(3000);

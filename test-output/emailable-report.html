@@ -31,23 +31,55 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">ChromeTest</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">95.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">ChromeTest</td><td class="numi">15</td><td class="numi">15</td><td class="numi">0</td><td class="numi">0</td><td class="numi">935.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">ChromeTest &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">automationFramework.TestCases.AddPassTest</td><td><a href="#m1"><b>addPass</b>  </a></td><td class="numi">1</td><td>1473882254489</td><td class="numi">91053</td></tr>
+<tr><th colspan="4">ChromeTest &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.TestCases.VentraCardTest</td><td><a href="#m1"><b>getVentraCard</b>  </a></td><td class="numi">1</td><td>1473895867405</td><td class="numi">61849</td></tr>
+<tr class="passedeven"><td rowspan="1">automationFramework.TestCases.AccountLoginTest</td><td><a href="#m2"><b>accountLogin</b>  </a></td><td class="numi">1</td><td>1473895932451</td><td class="numi">143821</td></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.TestCases.ForgotPasswdTest</td><td><a href="#m3"><b>forgotPasswd</b>  </a></td><td class="numi">1</td><td>1473896079504</td><td class="numi">27001</td></tr>
+<tr class="passedeven"><td rowspan="1">automationFramework.TestCases.CheckBalanceTest</td><td><a href="#m4"><b>checkBalance</b>  </a></td><td class="numi">1</td><td>1473896109793</td><td class="numi">23913</td></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.TestCases.ForgotUsernameTest</td><td><a href="#m5"><b>forgotUsername</b>  </a></td><td class="numi">1</td><td>1473896136692</td><td class="numi">30206</td></tr>
+<tr class="passedeven"><td rowspan="1">automationFramework.TestCases.TransitBenefitsTest</td><td><a href="#m6"><b>enterEmployerDetails</b>  </a></td><td class="numi">1</td><td>1473896170193</td><td class="numi">63082</td></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.TestCases.AddValueTest</td><td><a href="#m7"><b>addValue</b>  </a></td><td class="numi">1</td><td>1473896236284</td><td class="numi">51621</td></tr>
+<tr class="passedeven"><td rowspan="1">automationFramework.TestCases.GroupSalesTest</td><td><a href="#m8"><b>loadValueGroupSales</b>  </a></td><td class="numi">1</td><td>1473896290887</td><td class="numi">60480</td></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.TestCases.GroupSalesManageTest</td><td><a href="#m9"><b>manageTransitGroupSales</b>  </a></td><td class="numi">1</td><td>1473896354340</td><td class="numi">55201</td></tr>
+<tr class="passedeven"><td rowspan="1">automationFramework.TestCases.GroupAccountAddPaymentCC</td><td><a href="#m10"><b>addCCPayment</b>  </a></td><td class="numi">1</td><td>1473896412563</td><td class="numi">38328</td></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.TestCases.GroupSalesManageTest2</td><td><a href="#m11"><b>manageTransitGroupSales</b>  </a></td><td class="numi">1</td><td>1473896454088</td><td class="numi">54596</td></tr>
+<tr class="passedeven"><td rowspan="1">automationFramework.TestCases.GroupAccountAddPaymentAch</td><td><a href="#m12"><b>addACHPayment</b>  </a></td><td class="numi">1</td><td>1473896517510</td><td class="numi">46202</td></tr>
+<tr class="passedodd"><td rowspan="2">automationFramework.TestCases.AutoloadTest</td><td><a href="#m13"><b>autoLoadNewCC</b>  </a></td><td class="numi">1</td><td>1473896567069</td><td class="numi">50278</td></tr><tr class="passedodd"><td><a href="#m14"><b>autoLoadSavedCC</b>  </a></td><td class="numi">1</td><td>1473896620366</td><td class="numi">41794</td></tr>
+<tr class="passedeven"><td rowspan="1">automationFramework.TestCases.AddPassTest</td><td><a href="#m15"><b>addPass</b>  </a></td><td class="numi">1</td><td>1473896665305</td><td class="numi">134376</td></tr>
 </table>
 <h1>ChromeTest</h1>
-<h2 id="m1">automationFramework.TestCases.AddPassTest:addPass</h2>
-<div style="padding-left:3em">
-<p>System ran out of card numbers expected [false] but found [true]</p>
-org.testng.Assert.fail(Assert.java:94)
-<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
-<br/>at org.testng.Assert.assertFalse(Assert.java:63)
-<br/>at automationFramework.TestCases.AddPassTest.registerNewCard(AddPassTest.java:181)
-<br/>at automationFramework.TestCases.AddPassTest.addPass(AddPassTest.java:105)
-<br/>25 lines not shown
-</div>
+<h2 id="m1">automationFramework.TestCases.ForgotPasswdTest:forgotPasswd</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">automationFramework.TestCases.GroupSalesManageTest:manageTransitGroupSales</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">automationFramework.TestCases.GroupSalesManageTest2:manageTransitGroupSales</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">automationFramework.TestCases.AccountLoginTest:accountLogin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">automationFramework.TestCases.AddPassTest:addPass</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">automationFramework.TestCases.VentraCardTest:getVentraCard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">automationFramework.TestCases.AutoloadTest:autoLoadNewCC</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">automationFramework.TestCases.GroupAccountAddPaymentAch:addACHPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">automationFramework.TestCases.GroupSalesTest:loadValueGroupSales</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">automationFramework.TestCases.GroupAccountAddPaymentCC:addCCPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">automationFramework.TestCases.TransitBenefitsTest:enterEmployerDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">automationFramework.TestCases.AutoloadTest:autoLoadSavedCC</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">automationFramework.TestCases.CheckBalanceTest:checkBalance</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">automationFramework.TestCases.ForgotUsernameTest:forgotUsername</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">automationFramework.TestCases.AddValueTest:addValue</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

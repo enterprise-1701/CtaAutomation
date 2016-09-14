@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="93.494">
+           time="92.072">
   <properties />
   
   
-            <testcase name="autoLoadNewCC" time="51.193" classname="automationFramework.TestCases.AutoloadTest" />
-                <testcase name="autoLoadSavedCC" time="42.301" classname="automationFramework.TestCases.AutoloadTest" />
+            <testcase name="autoLoadNewCC" time="50.278" classname="automationFramework.TestCases.AutoloadTest" />
+                <testcase name="autoLoadSavedCC" time="41.794" classname="automationFramework.TestCases.AutoloadTest" />
       
 </testsuite>

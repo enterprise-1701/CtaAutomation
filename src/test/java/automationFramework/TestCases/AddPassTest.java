@@ -57,6 +57,8 @@ public class AddPassTest {
 		Utils.waitTime(3000);
 		AccountLandingPage landingPage = new AccountLandingPage(driver);
 		landingPage.clickMyVentraCard(driver);
+		
+		
 		AccountVentraCardPage vPage = new AccountVentraCardPage(driver);
 		Utils.waitTime(3000);
 		
@@ -166,7 +168,8 @@ public class AddPassTest {
 		rPage.enterCvv(driver, "123");
 		rPage.selectMonth(driver);
 		rPage.selectYear(driver);
-		UserData.setNickName("card" + IOFile.getIndex());
+		UserData.setNickName("mycard" + IOFile.getIndex());
+		Log.info("New user name:  " + UserData.getNickName());
 		rPage.enterNickName(driver, UserData.getNickName());
 		rPage.clickNextStep(driver);
 		Utils.waitTime(3000);
@@ -175,7 +178,7 @@ public class AddPassTest {
 		changeCards();
 		
 		}
-		//This is the condition when system runs out of valid cards and the test fails
+		//This is the condition when system runs out of valid cards and test fails
 		else{
 			Log.error("System ran out of card numbers.  Update input file with new cards");
 			Assert.assertFalse(true, "System ran out of card numbers" );
@@ -189,8 +192,10 @@ public class AddPassTest {
 		Log.info("Entering changeCards method");
 		AccountVentraCardPage vPage = new AccountVentraCardPage(driver);
 		Utils.waitTime(3000);
+		vPage.clickMyAccount(driver);
+		vPage.clickMyVentraCards(driver);
 	
-		Log.info("Username: " + vPage.getUserName(driver));
+		Log.info("Username displayed: " + vPage.getUserName(driver));
 		
 		//If the username is not the latest card registered based on nickname
 		if(!vPage.getUserName(driver).equals(UserData.getNickName())){

@@ -80,8 +80,8 @@ public class AutoloadNewPassTest {
 		AccountVentraCardPage vPage = new AccountVentraCardPage(driver);
 		Utils.waitTime(3000);
 		
-		Assert.assertEquals(vPage.getUserName(driver),  "raycard");
-		Log.info("Actual results " +  vPage.getUserName(driver) + " matches " +  "raycard");
+		Assert.assertEquals(vPage.getUserName(driver),  "card1");
+		Log.info("Actual results " +  vPage.getUserName(driver) + " matches " +  "card1");
 		
 		vPage.clickManageCard(driver);
 		vPage.clickNewCard(driver);
@@ -118,7 +118,7 @@ public class AutoloadNewPassTest {
 		
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		Utils.waitTime(3000);
+		Utils.waitTime(10000);
 		
 		AddPassConfirmationPage cPage = new AddPassConfirmationPage(driver);
 		Assert.assertEquals(cPage.getConfirmation(driver), "Thank you!");

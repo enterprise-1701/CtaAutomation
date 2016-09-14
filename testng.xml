@@ -15,6 +15,7 @@
 			<class name="automationFramework.TestCases.GroupSalesManageTest2" /> 
 			<class name="automationFramework.TestCases.GroupAccountAddPaymentAch" />
 			<class name="automationFramework.TestCases.AutoloadTest" /> 
+			<class name="automationFramework.TestCases.AddPassTest" /> 
 		</classes>
 	</test>
 		<listeners>
