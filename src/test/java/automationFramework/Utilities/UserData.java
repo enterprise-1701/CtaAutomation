@@ -7,6 +7,7 @@ package automationFramework.Utilities;
 		private static String userEmail;
 		private static String groupUserName;
 		private static String accountNumber;
+		private static String nickName;
 		
 		public static String getUserName(){
 			return userName;
@@ -28,6 +29,10 @@ package automationFramework.Utilities;
 			return accountNumber;
 		}
 		
+		public static String getNickName(){
+			return nickName;
+		}
+		
 		
 		public static void setName(String user){
 			userName = user;
@@ -47,6 +52,10 @@ package automationFramework.Utilities;
 		
 		public static void setAccountNumber(String acctNumber){
 			accountNumber = acctNumber;
+		}
+		
+		public static void setNickName(String nName){
+			nickName = nName;
 		}
 		
 			

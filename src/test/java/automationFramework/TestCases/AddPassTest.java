@@ -21,8 +21,9 @@ public class AddPassTest {
 	private static Logger Log = Logger.getLogger(Logger.class.getName());
 	static WebDriver driver;
 	static String browser;
-	CreditCardNumberGenerator ccGen = new CreditCardNumberGenerator();
 	private static String newCard;
+	CreditCardNumberGenerator ccGen = new CreditCardNumberGenerator();
+	
 	
 	@Parameters("browser")
 	@BeforeMethod
@@ -91,18 +92,17 @@ public class AddPassTest {
 		Utils.waitTime(5000);
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		Utils.waitTime(5000);
+		Utils.waitTime(10000);
 		AddPassConfirmationPage cPage = new AddPassConfirmationPage(driver);
 		Assert.assertEquals(cPage.getConfirmation(driver), "Thank you!");
 		
 		}
 		
-		//If the element on the page is not found exception is caught here
+		//If the element on the page is not indicates card has reached maxium number of passes
 		catch(Exception e){
 			
 			Log.info("Exception caught");
 			registerNewCard();
-			changeCards();
 			
 			//Add one time pass with the new card
 			AccountVentraCardPage vPage = new AccountVentraCardPage(driver);
@@ -152,6 +152,8 @@ public class AddPassTest {
 		
 		//Get the next card from the list
 		newCard = Utils.getNewCard();
+		
+		//If the list does not return null then register the card and change the card
 		if(newCard != null){
 		Log.info("New Card retreived: " + newCard);
 		
@@ -164,21 +166,24 @@ public class AddPassTest {
 		rPage.enterCvv(driver, "123");
 		rPage.selectMonth(driver);
 		rPage.selectYear(driver);
-		rPage.enterNickName(driver, "Card" + IOFile.getIndex());
+		UserData.setNickName("card" + IOFile.getIndex());
+		rPage.enterNickName(driver, UserData.getNickName());
 		rPage.clickNextStep(driver);
 		Utils.waitTime(3000);
 		rPage.clickSubmit(driver);
 		Utils.waitTime(3000);
+		changeCards();
 		
 		}
-		//This is the condition when system runs out of valid cards
+		//This is the condition when system runs out of valid cards and the test fails
 		else{
-			Log.error("System ran out of card numbers.  Update input file with new cards!");
+			Log.error("System ran out of card numbers.  Update input file with new cards");
+			Assert.assertFalse(true, "System ran out of card numbers" );
 		}
 		
 	}
 	
-	//Change the card to the new registered card
+	//Change the default card to the new registered card
 	private void changeCards()throws Exception{
 	
 		Log.info("Entering changeCards method");
@@ -187,12 +192,15 @@ public class AddPassTest {
 	
 		Log.info("Username: " + vPage.getUserName(driver));
 		
-		//If the username is not the latest card
-		if(!vPage.getUserName(driver).equals("fifthcard")){
-		vPage.clickManageCard(driver);
-		Utils.waitTime(3000);
-		vPage.clickTabManageCard(driver, 1);
-		Utils.waitTime(3000);
+		//If the username is not the latest card registered based on nickname
+		if(!vPage.getUserName(driver).equals(UserData.getNickName())){
+			vPage.clickManageCard(driver);
+			Utils.waitTime(3000);
+			vPage.clickTabManageCard(driver, 1);
+			Utils.waitTime(3000);
+		}
+		else{
+			Log.info("Nickname on the page is the same nickname as the latest card registered");
 		}
 	}
 		
