@@ -17,7 +17,7 @@ public class Global {
 	public  static final String CONTACT_NAME2 = "ralph lauren" ;
 	public  static final String FNAME = "ralph" ;
 	public  static final String LNAME = "lauren" ;
-	public static final String EMAIL = "rlauren@yahoo.com";
+	public static final String EMAIL = "ray.khorrami@cubic.com";
 	public static final String PHONE = "7734893969";
 	public static final String PHONE2 = "773-489-3969";
 	public static final String ADDRESS = "320 W Illinois St";

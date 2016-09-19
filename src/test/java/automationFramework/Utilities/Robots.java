@@ -113,6 +113,26 @@ public class Robots {
 	            e.printStackTrace();
 	        }
 	    }
+	
+	public static void clickOkWindow() throws AWTException, IOException {
+
+		 try {
+           
+	            Robot robot = new Robot();
+	            System.out.println("Entering Robots class.....");
+	        	robot.delay(3000);
+	        
+	        	robot.keyPress(KeyEvent.VK_ENTER);
+	           
+	            
+	        	robot.delay(3000);
+	        	System.out.println("Exiting Robots class.....");
+	        	
+	        	
+	        } catch (AWTException e) {
+	            e.printStackTrace();
+	        }
+	    }
 
 	
 }

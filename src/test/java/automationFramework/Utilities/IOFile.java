@@ -38,9 +38,9 @@ public final class IOFile {
 		String currentIndex = IOFile.getIndex();
 		//Convert to int and increment 
 		int currentIndex1 = Integer.parseInt(currentIndex);
-		int currentIndex2 = currentIndex1 + 1;
+		currentIndex1 = currentIndex1++;
 		//Convert incremented index back to String
-		String nextIndex = Integer.toUnsignedString(currentIndex2);
+		String nextIndex = Integer.toUnsignedString(currentIndex1);
 		
 		return nextIndex;					
 	}

@@ -11,6 +11,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Set;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.Random;
 import java.util.Scanner;
@@ -216,19 +217,10 @@ public final class Utils {
 	       Mac mac = Mac.getInstance("HmacMD5");   
 	       byte[] decodedBytes = Base64.decodeBase64(base64Key.getBytes("UTF-16LE"));
 	       SecretKeySpec sk = new SecretKeySpec(decodedBytes,mac.getAlgorithm());      
-	       mac.init(sk);
-	              
-	
+	       mac.init(sk);     
 	       String srcStr = src;     
-	       byte[] result = mac.doFinal(srcStr.getBytes("UTF-16LE"));
-	
-	       
-	       String s = new String(result, "UTF-16LE");
-	
 	       byte[] resultBase64 = Base64.encodeBase64(mac.doFinal(srcStr.getBytes("ASCII"))); 
-
 	       String sB64 = new String(resultBase64, "UTF-8");
-
 	       return sB64 ;
 	}
 
@@ -257,6 +249,26 @@ public final class Utils {
 		
 		return newCard;
 	}
+	
 
+	//Find authorization number in email content
+	public static boolean findAuthorizationNumber(String rawContent) throws Exception {
+    	   
+		   boolean numberPresent;
+		   Log.info("CONTENT: " + rawContent);	
+           Pattern p = Pattern.compile("\"137\">" + "(\\d{6})" + "</td>", Pattern.CASE_INSENSITIVE); 
+		   java.util.regex.Matcher m = p.matcher(rawContent);
+           
+           if (m.find()) {
+        	    Log.info("Match found!");
+        	    Log.info(p);
+        	    numberPresent = true;
+        	} else {
+        	    Log.info("No match found");
+        	    numberPresent = false;
+        	}
+           
+           return numberPresent;
+	}
 		
 }

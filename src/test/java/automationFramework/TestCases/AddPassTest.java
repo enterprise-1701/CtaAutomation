@@ -101,6 +101,7 @@ public class AddPassTest {
 		}
 		
 		//If the element on the page is not indicates card has reached maxium number of passes
+		//be spcific on exception
 		catch(Exception e){
 			
 			Log.info("Exception caught");

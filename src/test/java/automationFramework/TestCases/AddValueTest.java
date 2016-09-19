@@ -64,13 +64,9 @@ public class AddValueTest {
 		BasePage bPage = new BasePage(driver);
 		bPage.getLandingPage(Global.URL1);
 		Utils.waitTime(3000);
-		
-		//if(!(bPage.isLogDisplayed(driver))){
-	    //Log.info("Authentication Popup is Displayed!");
+	
         Robots.authenticationWindow();
-		//}else{
-		//	Log.info("Authentication Popup is NOT Displayed!");
-		//}
+		
         
 		
         Utils.waitTime(3000);

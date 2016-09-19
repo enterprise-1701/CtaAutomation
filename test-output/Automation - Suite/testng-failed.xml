@@ -9,13 +9,13 @@
   <test name="ChromeTest(failed)">
     <parameter name="browser" value="chrome.exe"/>
     <classes>
-      <class name="automationFramework.TestCases.AutoloadNewPassTest">
+      <class name="automationFramework.TestCases.TransitBenefitsTest">
         <methods>
-          <include name="autoLoadNewPass"/>
           <include name="setUp"/>
+          <include name="enterEmployerDetails"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- automationFramework.TestCases.AutoloadNewPassTest -->
+      </class> <!-- automationFramework.TestCases.TransitBenefitsTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Automation - Suite] -->

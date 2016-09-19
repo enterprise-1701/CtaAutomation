@@ -96,7 +96,7 @@ public class GroupSalesTest {
 		AgreementPage agreePage = new AgreementPage(driver);
 		agreePage.clickAgreement(driver);
 		agreePage.clickSubmit(driver);
-		Utils.waitTime(3000);
+		Utils.waitTime(5000);
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
 		Utils.waitTime(15000);

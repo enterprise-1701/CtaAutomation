@@ -28,6 +28,8 @@ public class AddPassSelectProductPage extends BasePage {
 
 	// Element Locators
 		private static final String ONE_DAY_PASS = "//*[@id='purchase']/table[1]/tbody[2]/tr[1]/td[1]/input";
+		private static final String SEVEN_DAY_PASS = "//*[@id='purchase']/table[1]/tbody[2]/tr[2]/td[1]/input";
+		
 		private static final String NEXTSTEP = "//*[@id='main']/div[2]/section/div[1]/div[3]/div[4]/p/span/a";
 		
 	
@@ -47,6 +49,15 @@ public class AddPassSelectProductPage extends BasePage {
 		
 		try{
 		driver.findElement(By.xpath(ONE_DAY_PASS)).click();
+		}catch (Exception NoSuchElementException){
+			System.out.println("Need a new Card number!");
+		}
+	}	
+	
+	public void select7DayPass(WebDriver driver) throws InterruptedException, AWTException, NoSuchElementException{
+		
+		try{
+		driver.findElement(By.xpath(SEVEN_DAY_PASS)).click();
 		}catch (Exception NoSuchElementException){
 			System.out.println("Need a new Card number!");
 		}

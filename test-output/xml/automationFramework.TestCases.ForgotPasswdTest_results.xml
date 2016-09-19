@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="27.001">
+           time="28.117">
   <properties />
   
   
-            <testcase name="forgotPasswd" time="27.001" classname="automationFramework.TestCases.ForgotPasswdTest" />
+            <testcase name="forgotPasswd" time="28.117" classname="automationFramework.TestCases.ForgotPasswdTest" />
       
 </testsuite>

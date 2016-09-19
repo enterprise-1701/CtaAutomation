@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FirefoxTest"
-           tests="2"
+<testsuite name="ChromeTest"
+           tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="140.827">
+           time="1.787">
   <properties />
   
   
-            <testcase name="checkEmailCreateOrder" time="86.379" classname="automationFramework.TestCases.EmailTest" />
-                <testcase name="checkEmailNewCustomer" time="54.448" classname="automationFramework.TestCases.EmailTest" />
+            <testcase name="checkEmail" time="1.787" classname="automationFramework.TestCases.EmailTest" />
       
 </testsuite>
