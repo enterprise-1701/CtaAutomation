@@ -9,7 +9,6 @@ import javax.mail.Session;
 import javax.mail.Store;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.os.WindowsUtils;
 import org.testng.Assert;
@@ -19,6 +18,12 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import automationFramework.PageObjects.AccountLandingPage;
+import automationFramework.PageObjects.AccountVentraCardPage;
+import automationFramework.PageObjects.AddPassConfirmationPage;
+import automationFramework.PageObjects.AddValuePaymentPage;
+import automationFramework.PageObjects.AddValueReviewOrderPage;
+import automationFramework.PageObjects.AddValueSelectProductPage;
 import automationFramework.PageObjects.BasePage;
 import automationFramework.PageObjects.ConfirmationPageVC;
 import automationFramework.PageObjects.PaymentInfoPageVC;
@@ -57,11 +62,57 @@ public class EmailTest{
     
    
 	@Test(priority=1 , enabled=true)
-	public void checkEmail() throws Exception{
+	public void checkEmailAddValueTest() throws Exception{
 
-
+		BasePage bPage = new BasePage(driver);
+		bPage.getLandingPage(Global.URL1);
+		Utils.waitTime(3000);
+	
+        Robots.authenticationWindow();
+        Utils.waitTime(3000);
+		bPage.clickPopClose(driver);
+		
+		bPage.clickAcctLogin(driver);
+		
+		bPage.enterUsername(driver, Global.EXISTING_USER);
+		bPage.enterPasswd(driver, Global.PASSWD);
+		bPage.clickLogin(driver);
+		Utils.waitTime(3000);
+		AccountLandingPage landingPage = new AccountLandingPage(driver);
+		landingPage.clickMyVentraCard(driver);
+		AccountVentraCardPage vPage = new AccountVentraCardPage(driver);
+		Utils.waitTime(3000);
+		
+		Assert.assertEquals(vPage.getUserName(driver),  "card1");
+		Log.info("Actual results " +  vPage.getUserName(driver) + " matches " +  "card1");
+		
+		vPage.clickAddValue(driver);
+		Utils.waitTime(3000);
+		
+		AddValueSelectProductPage addPage = new AddValueSelectProductPage(driver);
+		addPage.selectAmount(driver);
+		addPage.clickNextStep(driver);
+		Utils.waitTime(3000);
+		
+		AddValueReviewOrderPage revPage = new AddValueReviewOrderPage(driver);
+		revPage.clickNextStep(driver);
+		Utils.waitTime(3000);
+		
+		AddValuePaymentPage pmtPage = new AddValuePaymentPage(driver);
+		pmtPage.enterCVW(driver, Global.CC_CODE);
+		pmtPage.clickSubmit(driver);
+		Utils.waitTime(5000);
+		Alert alert = driver.switchTo().alert();
+		alert.accept();
+		Utils.waitTime(10000);
+		
+		AddPassConfirmationPage cPage = new AddPassConfirmationPage(driver);
+		Assert.assertEquals(cPage.getConfirmation(driver), "Thank you!");
+	    
+		driver.close();
+		
 		Log.info("Waiting for email to get generated" );
-	    //Utils.waitTime(30000);
+	    Utils.waitTime(180000);
 		
 		Properties props = System.getProperties();               
 	      props.put("mail.imaps.auth.plain.disable","true"); 
@@ -72,7 +123,7 @@ public class EmailTest{
 	                Folder inbox = store.getFolder(folder);
 	                inbox.open(Folder.READ_ONLY);        
 	                Log.info("Number of new emails: " + inbox.getUnreadMessageCount());
-	                //Assert.assertTrue((inbox.getUnreadMessageCount()>0), ("Email Not Received!"));
+	                Assert.assertTrue((inbox.getUnreadMessageCount()>0), ("Email Not Received!"));
 	                Message messages[] = inbox.getMessages();
 	                Log.info("Total number of emails: " + inbox.getMessages().length);	
 	                String newSubject = messages[inbox.getMessages().length-1].getSubject();
@@ -80,14 +131,13 @@ public class EmailTest{
 	                
 	                String newContent = (String) messages[inbox.getMessages().length-1].getContent();
 	                Log.info("EMAIL CONTENT: " + newContent);
-	                //Assert.assertTrue(Utils.findAuthorizationNumber(newContent), "Authroization Number is Missing on the Email!"); 
-	                
-	                //Assert.assertEquals(newSubject, "Ventra Order Receipt");  
+	                Assert.assertTrue(Utils.findAuthorizationNumber(newContent), "Authroization Number is Missing on the Email!"); 
+	                Assert.assertEquals(newSubject, "Ventra Order Receipt");  
 	                Log.info("Email Test Compelted");
 	                
 	           }  catch (Exception e) {
 	           e.printStackTrace();
-	           System.exit(2);
+	           //System.exit(2);
 	      }
 			
 	}

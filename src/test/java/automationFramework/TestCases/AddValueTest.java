@@ -66,9 +66,6 @@ public class AddValueTest {
 		Utils.waitTime(3000);
 	
         Robots.authenticationWindow();
-		
-        
-		
         Utils.waitTime(3000);
 		bPage.clickPopClose(driver);
 		

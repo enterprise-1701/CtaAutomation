@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="53.021">
+           time="50.625">
   <properties />
   
   
-            <testcase name="addOneDayPass" time="53.021" classname="automationFramework.TestCases.AddOneDayPassTest" />
+            <testcase name="addOneDayPass" time="50.625" classname="automationFramework.TestCases.AddOneDayPassTest" />
       
 </testsuite>
