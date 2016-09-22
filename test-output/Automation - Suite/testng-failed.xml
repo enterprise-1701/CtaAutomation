@@ -9,13 +9,123 @@
   <test name="ChromeTest(failed)">
     <parameter name="browser" value="chrome.exe"/>
     <classes>
+      <class name="automationFramework.TestCases.GroupAccountAddPaymentAch">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.GroupAccountAddPaymentAch -->
+      <class name="automationFramework.TestCases.VentraCardTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.VentraCardTest -->
+      <class name="automationFramework.TestCases.GroupSalesManageTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.GroupSalesManageTest2 -->
+      <class name="automationFramework.TestCases.AddSevenDayPassTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.AddSevenDayPassTest -->
+      <class name="automationFramework.TestCases.ForgotPasswdTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.ForgotPasswdTest -->
+      <class name="automationFramework.TestCases.GroupAccountAddPaymentCC">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.GroupAccountAddPaymentCC -->
+      <class name="automationFramework.TestCases.ForgotUsernameTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.ForgotUsernameTest -->
+      <class name="automationFramework.TestCases.AddThreeDayPassTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.AddThreeDayPassTest -->
       <class name="automationFramework.TestCases.TransitBenefitsTest">
         <methods>
           <include name="setUp"/>
-          <include name="enterEmployerDetails"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- automationFramework.TestCases.TransitBenefitsTest -->
+      <class name="automationFramework.TestCases.AutoloadNewPassTest">
+        <methods>
+          <include name="autoLoadNewPass"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.AutoloadNewPassTest -->
+      <class name="automationFramework.TestCases.CheckBalanceTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.CheckBalanceTest -->
+      <class name="automationFramework.TestCases.AutoloadTest">
+        <methods>
+          <include name="autoLoadSavedCC"/>
+          <include name="tearDown"/>
+          <include name="autoLoadNewCC"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.AutoloadTest -->
+      <class name="automationFramework.TestCases.AddValueTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.AddValueTest -->
+      <class name="automationFramework.TestCases.AccountLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.AccountLoginTest -->
+      <class name="automationFramework.TestCases.GroupSalesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.GroupSalesTest -->
+      <class name="automationFramework.TestCases.AddOneDayPassTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.AddOneDayPassTest -->
+      <class name="automationFramework.TestCases.GroupSalesManageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.GroupSalesManageTest -->
+      <class name="automationFramework.TestCases.EmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.EmailTest -->
+      <class name="automationFramework.TestCases.AddMaxPassTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.AddMaxPassTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Automation - Suite] -->

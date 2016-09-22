@@ -38,6 +38,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.beust.jcommander.Strings;
 
+//GroupSalesManageTest has to be executed first to create a new group account
 public class GroupAccountAddPaymentCC {
 
 	private static Logger Log = Logger.getLogger(Logger.class.getName());

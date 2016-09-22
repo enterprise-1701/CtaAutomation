@@ -15,8 +15,12 @@
 			<class name="automationFramework.TestCases.GroupSalesManageTest2" /> 
 			<class name="automationFramework.TestCases.GroupAccountAddPaymentAch" />
 			<class name="automationFramework.TestCases.AutoloadTest" /> 
-			<class name="automationFramework.TestCases.AddPassTest" /> 
 			<class name="automationFramework.TestCases.AutoloadNewPassTest" /> 
+			<class name="automationFramework.TestCases.AddOneDayPassTest" /> 
+			<class name="automationFramework.TestCases.AddSevenDayPassTest" /> 
+			<class name="automationFramework.TestCases.AddThreeDayPassTest" /> 
+			<class name="automationFramework.TestCases.AddMaxPassTest" /> 
+			<class name="automationFramework.TestCases.EmailTest" /> 
 		</classes>
 	</test>
 		<listeners>

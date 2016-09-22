@@ -64,7 +64,7 @@ public class TransitBenefitsTest {
 		ePage.enterBillingLname(driver, Global.CONTACT_NAME);
 		ePage.enterBillingPhone(driver, Global.PHONE);
 		ePage.clickNextStep(driver);
-		Utils.waitTime(5000);
+		Utils.waitTime(10000);
 	
 		AdminDetailsPageTB admPage = new AdminDetailsPageTB(driver);
 		admPage.enterUserName(driver, Utils.randomUsernameString());

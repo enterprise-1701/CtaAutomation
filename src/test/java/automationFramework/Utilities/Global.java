@@ -62,6 +62,13 @@ public class Global {
 	public static final String FULL_ADDRESS = "320 W Illinois St Apt 1000";
 	public static final String CITY_STATE = "Chicago, IL 60654";
 	
+	//DB 
+	
+	//public static final String POSTGRESDB = "jdbc:postgresql://172.23.4.198:5432/test";
+    public static final String DB = "jdbc:ojdbc6://CTA-EIL-ORA.wd.cubic.com:1521/abp";
+	public static final String DBUSER = "ABP_MAIN";
+	public static final String DBPASS = "abp_main";
+	
 	
 	//Group Sales Account
 	public static final String GROUP_ACCOUNT = "USER_FMqBj5f";

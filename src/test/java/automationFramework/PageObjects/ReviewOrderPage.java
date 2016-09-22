@@ -28,7 +28,7 @@ public class ReviewOrderPage extends BasePage {
 		private static final String HEADING = "//*[@id='main']/div[2]/section/div[1]/div[4]/div[1]/h1";
 		private static final String NEXT_STEP = "//*[@id='main']/div[2]/section/div[1]/div[4]/div[7]/p[3]/a[2]";
 		
-	
+												   
 	public ReviewOrderPage(WebDriver driver) {
 		super(driver);
 	}
@@ -40,6 +40,7 @@ public class ReviewOrderPage extends BasePage {
 	public void clickNextStep(WebDriver driver) throws InterruptedException, AWTException{
 		driver.findElement(By.xpath(NEXT_STEP)).click();
 	}
+	
 	
 	
 }

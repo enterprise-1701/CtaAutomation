@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 7.767 sec <<< FAILURE!
-setUp(automationFramework.TestCases.GroupSalesManageTest)  Time elapsed: 2.894 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at automationFramework.TestCases.GroupSalesManageTest.setUp(GroupSalesManageTest.java:33)
-setUp(automationFramework.TestCases.GroupSalesTest)  Time elapsed: 2.092 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at automationFramework.TestCases.GroupSalesTest.setUp(GroupSalesTest.java:33)
-setUp(automationFramework.TestCases.TransitBenefitsTest)  Time elapsed: 2.102 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at automationFramework.TestCases.TransitBenefitsTest.setUp(TransitBenefitsTest.java:33)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.018 sec

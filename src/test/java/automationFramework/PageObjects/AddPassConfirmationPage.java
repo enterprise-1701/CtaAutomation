@@ -26,6 +26,7 @@ public class AddPassConfirmationPage extends BasePage {
 
 	// Element Locators
 		private static final String CONFIRMATION = "//*[@id='inline']/h3";
+		private static final String CLOSE = "//*[@id='cboxClose']";
 		
 		
 	public AddPassConfirmationPage(WebDriver driver) {
@@ -33,6 +34,10 @@ public class AddPassConfirmationPage extends BasePage {
 	}
 	public String getConfirmation(WebDriver driver) throws InterruptedException, AWTException{
 		return driver.findElement(By.xpath(CONFIRMATION)).getText();
+	}	
+	
+	public void clickClose(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(CLOSE)).click();
 	}	
 	
 }

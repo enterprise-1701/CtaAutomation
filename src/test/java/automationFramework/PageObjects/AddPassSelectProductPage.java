@@ -28,8 +28,9 @@ public class AddPassSelectProductPage extends BasePage {
 
 	// Element Locators
 		private static final String ONE_DAY_PASS = "//*[@id='purchase']/table[1]/tbody[2]/tr[1]/td[1]/input";
-		private static final String SEVEN_DAY_PASS = "//*[@id='purchase']/table[1]/tbody[2]/tr[2]/td[1]/input";
-		
+		private static final String THREE_DAY_PASS = "//*[@id='purchase']/table[1]/tbody[2]/tr[2]/td[1]/input";
+		private static final String SEVEN_DAY_PASS = "//*[@id='purchase']/table[1]/tbody[2]/tr[3]/td[1]/input";
+		private static final String NO_PRODUCT = "//*[@id='main']/div[2]/section/div[1]/div[3]/div[1]/p";
 		private static final String NEXTSTEP = "//*[@id='main']/div[2]/section/div[1]/div[3]/div[4]/p/span/a";
 		
 	
@@ -39,28 +40,44 @@ public class AddPassSelectProductPage extends BasePage {
 	public void clickNextStep(WebDriver driver) throws InterruptedException, AWTException, ElementNotVisibleException{
 		try{
 		driver.findElement(By.xpath(NEXTSTEP)).click();
-		}catch(Exception ElementNotVisibleException){
-				System.out.println("Need a new Card number!");
-			}
+		}catch(Exception e){
+			System.out.println("next step button not visible");
+		}
 		}
 	
 	
+	//If element is not on the page throw an exception
 	public void selectOneDayPass(WebDriver driver) throws InterruptedException, AWTException, NoSuchElementException{
-		
 		try{
 		driver.findElement(By.xpath(ONE_DAY_PASS)).click();
-		}catch (Exception NoSuchElementException){
-			System.out.println("Need a new Card number!");
 		}
+		catch(Exception NoSuchElementException ){
+			System.out.println("OneDayPass element not on the page");
+		}
+		
 	}	
 	
-	public void select7DayPass(WebDriver driver) throws InterruptedException, AWTException, NoSuchElementException{
+	//If element is not on the page throw an exception
+		public void selectThreeDayPass(WebDriver driver) throws InterruptedException, AWTException, NoSuchElementException{
+			try{
+			driver.findElement(By.xpath(THREE_DAY_PASS)).click();
+			}
+			catch(Exception NoSuchElementException ){
+				System.out.println("ThreeDayPass element not on the page");
+			}
+			
+		}	
+	
+	public void selectSevenDayPass(WebDriver driver) throws InterruptedException, AWTException, NoSuchElementException{
 		
 		try{
 		driver.findElement(By.xpath(SEVEN_DAY_PASS)).click();
 		}catch (Exception NoSuchElementException){
-			System.out.println("Need a new Card number!");
+			System.out.println("SevenDayPass element not on the page");
 		}
 	}	
 	
+	public String getNoProduct(WebDriver driver) throws InterruptedException, AWTException{
+		return driver.findElement(By.xpath(NO_PRODUCT)).getText();
+	}
 }

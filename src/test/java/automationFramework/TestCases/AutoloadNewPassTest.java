@@ -90,8 +90,9 @@ public class AutoloadNewPassTest {
 		vPage.clickAddPassAutoLoad(driver);
 		vPage.clickAddPassPopupOk(driver);
 		Utils.waitTime(5000);
+		
 		AddPassSelectProductPage pPage = new AddPassSelectProductPage(driver);
-		pPage.select7DayPass(driver);
+		pPage.selectSevenDayPass(driver);
 		pPage.clickNextStep(driver);
 		AutoLoadPreferencesPage perfPage = new AutoLoadPreferencesPage(driver);
 		Utils.waitTime(5000);

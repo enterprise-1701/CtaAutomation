@@ -41,6 +41,7 @@ public class BasePage {
 		    private static final String LOGO = "//*[@id='main']/header/div/div[1]/h1/a";
 		    private static final String MY_VENTRA_CARDS = "//*[@id='CT_Left_0_pnlLoggedIn']/ul/li[1]/ul/li/ul/li[1]/a";
 		    private static final String MYACCOUNT_LINK = "//*[@id='CT_Header_ccHeaderLogin_pnlLogout']/div[2]/p/a";
+		    private static final String BACK_TO_MY_ACCOUNT = "//*[@id='main']/div[2]/section/div[1]/div[1]/p/a";
 			
 			
 	public static WebDriver driver;
@@ -131,6 +132,10 @@ public class BasePage {
 	
 	public void clickMyAccount(WebDriver driver) throws InterruptedException, AWTException{
 		driver.findElement(By.xpath(MYACCOUNT_LINK)).click();
+	}
+	
+	public void clickBackToMyAccount(WebDriver driver) throws InterruptedException, AWTException{
+		driver.findElement(By.xpath(BACK_TO_MY_ACCOUNT)).click();
 	}
 	
 	public boolean isLogDisplayed(WebDriver driver) throws InterruptedException, AWTException{

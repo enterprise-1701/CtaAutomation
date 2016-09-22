@@ -133,7 +133,7 @@ public class VentraCardTest {
 		Utils.waitTime(5000);
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		Utils.waitTime(10000);
+		Utils.waitTime(20000);
 		ConfirmationPageVC confPage = new ConfirmationPageVC(driver);
 		
 		//Assertions
