@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="101.301">
+           time="101.935">
   <properties />
   
   
-            <testcase name="addMaxPass" time="101.301" classname="automationFramework.TestCases.AddMaxPassTest" />
+            <testcase name="addMaxPass" time="101.935" classname="automationFramework.TestCases.AddMaxPassTest" />
       
 </testsuite>

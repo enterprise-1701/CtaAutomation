@@ -31,7 +31,7 @@ public class AccountVentraCardPage extends BasePage {
 		private static final String LOGOUT = "//*[@id='CT_Header_ccHeaderLogin_pnlLogout']/div[2]/a";
 		private static final String ADDPASS = "//*[@id='CT_Main_2_pnlContent']/div[2]/div[6]/table/tbody/tr/td[1]/a";
 		private static final String ADDVALUE = "//*[@id='CT_Main_2_pnlContent']/div[2]/div[3]/div[2]/div[1]/a";
-		private static final String AUTOLOAD_STATUS = "//*[@id='onOff_3']/a[2]";
+		private static final String AUTOLOAD_STATUS = "//*[@id='onOff_0']/a[2]";
 		private static final String POPUP_OK = "//*[@id='divContinueWithAutoload']/div/a[1]";
 		private static final String AUTOLOAD_STATUS_OFF = "//*[@id='onOff_2']/a[1]";
 		private static final String MANAGE_CARD = "//*[@id='CT_Main_2_pnlChangeAccount']";

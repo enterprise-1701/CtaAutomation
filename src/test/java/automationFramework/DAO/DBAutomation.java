@@ -65,16 +65,18 @@ public class DBAutomation {
 				connection.setAutoCommit(false);
 				int results = statement.executeUpdate("UPDATE TRANSIT_ACCOUNT_X_FARE_PRODUCT SET DEACTIVATION_REASON = 2, DEACTIVATED_DTM=SYS_EXTRACT_UTC(SYSTIMESTAMP) WHERE TRANSIT_ACCOUNT_ID = 110009059400 AND DEACTIVATION_REASON IS NULL");
 				connection.commit();
+				 Log.info("int returned from db: " + results);
 				
-				if(results==1){
+				if(results!=0){
 				  Log.info("results: " + results);
 				  Log.info("TRANSIT_ACCOUNT_X_FARE_PRODUCT Record update success");
 				  recordFound = true;
 				}
 				else{
-					Log.error("TRANSIT_ACCOUNT_X_FARE_PRODUCT Record did NOT get updated");
+					Log.info("TRANSIT_ACCOUNT_X_FARE_PRODUCT does not need to get updated.  All passes already deactivated");
 				}
 				}catch(Exception e){
+					Log.error("TRANSIT_ACCOUNT_X_FARE_PRODUCT does not get updated. Exception thrown");
 					Log.error(e);
 				}
 			

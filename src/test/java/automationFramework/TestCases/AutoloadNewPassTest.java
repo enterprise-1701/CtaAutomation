@@ -22,6 +22,7 @@ import org.testng.annotations.Test;
 
 import com.thoughtworks.selenium.webdriven.commands.KeyEvent;
 
+import automationFramework.DAO.DBAutomation;
 import automationFramework.PageObjects.*;
 import automationFramework.Utilities.*;
 import com.beust.jcommander.Strings;
@@ -44,6 +45,7 @@ public class AutoloadNewPassTest {
 	static WebDriver driver;
 	static String browser;
 	CreditCardNumberGenerator ccGen = new CreditCardNumberGenerator();
+	DBAutomation dbAuto = new DBAutomation();
 	
 	@Parameters("browser")
 	@BeforeMethod
@@ -53,6 +55,13 @@ public class AutoloadNewPassTest {
 		Logging.setLogFile();
 		driver = Utils.openBrowser(browser);
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		
+		//Clean table before starting 
+		dbAuto.dbConnect();
+		boolean update = dbAuto.dbUpdateCard();
+		Log.info("Card got updated? " + update);
+		dbAuto.dbDisconnect();
+		Log.info("DB connection closed");
 		Log.info("Setup Completed");
 	}
 	
@@ -83,8 +92,8 @@ public class AutoloadNewPassTest {
 		Utils.waitTime(3000);
 		
 		
-		vPage.clickManageCard(driver);
-		vPage.clickNewCard(driver);
+		//vPage.clickManageCard(driver);
+		//vPage.clickNewCard(driver);
 		
 		Utils.waitTime(5000);
 		vPage.clickAddPassAutoLoad(driver);
