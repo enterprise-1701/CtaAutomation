@@ -59,7 +59,7 @@ public class AutoloadTest {
 	
 
 	//When you turn on Autoload for a pass you have to wait 3 hours before you can turn it on again
-	@Test(priority=1 , enabled=true)
+	@Test(priority=1 , enabled=false)
 	public void autoLoadSavedCC()throws Exception, UnhandledAlertException{
 	
 		try{
@@ -86,6 +86,7 @@ public class AutoloadTest {
 		Assert.assertEquals(vPage.getUserName(driver),  "card1");
 		Log.info("Actual results " +  vPage.getUserName(driver) + " matches " +  "card1");
 		
+		Utils.waitTime(3000);
 		vPage.clickAutoLoadStatus(driver);
 		Utils.waitTime(3000);
 		vPage.clickPopupOk(driver);
@@ -143,7 +144,7 @@ public class AutoloadTest {
 		Assert.assertEquals(vPage.getUserName(driver),  "card1");
 		Log.info("Actual results " +  vPage.getUserName(driver) + " matches " +  "card1");
 		
-		Utils.waitTime(30000);
+		Utils.waitTime(3000);
 		vPage.clickAutoLoadStatus(driver);
 		Utils.waitTime(3000);
 		vPage.clickPopupOk(driver);

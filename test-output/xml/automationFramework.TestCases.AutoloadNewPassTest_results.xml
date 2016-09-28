@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="67.225">
+           time="66.215">
   <properties />
   
   
-            <testcase name="autoLoadNewPass" time="67.225" classname="automationFramework.TestCases.AutoloadNewPassTest" />
+            <testcase name="autoLoadNewPass" time="66.215" classname="automationFramework.TestCases.AutoloadNewPassTest" />
       
 </testsuite>

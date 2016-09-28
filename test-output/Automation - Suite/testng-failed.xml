@@ -12,23 +12,21 @@
       <class name="automationFramework.TestCases.GroupAccountAddPaymentAch">
         <methods>
           <include name="tearDown"/>
-          <include name="addACHPayment"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- automationFramework.TestCases.GroupAccountAddPaymentAch -->
-      <class name="automationFramework.TestCases.GroupSalesManageTest2">
-        <methods>
-          <include name="tearDown"/>
-          <include name="manageTransitGroupSales"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- automationFramework.TestCases.GroupSalesManageTest2 -->
       <class name="automationFramework.TestCases.VentraCardTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- automationFramework.TestCases.VentraCardTest -->
+      <class name="automationFramework.TestCases.GroupSalesManageTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.GroupSalesManageTest2 -->
       <class name="automationFramework.TestCases.AddSevenDayPassTest">
         <methods>
           <include name="tearDown"/>
@@ -43,7 +41,6 @@
       </class> <!-- automationFramework.TestCases.ForgotPasswdTest -->
       <class name="automationFramework.TestCases.GroupAccountAddPaymentCC">
         <methods>
-          <include name="addCCPayment"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
@@ -54,23 +51,21 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- automationFramework.TestCases.ForgotUsernameTest -->
-      <class name="automationFramework.TestCases.TransitBenefitsTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="enterEmployerDetails"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- automationFramework.TestCases.TransitBenefitsTest -->
       <class name="automationFramework.TestCases.AddThreeDayPassTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- automationFramework.TestCases.AddThreeDayPassTest -->
+      <class name="automationFramework.TestCases.TransitBenefitsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.TransitBenefitsTest -->
       <class name="automationFramework.TestCases.CheckBalanceTest">
         <methods>
           <include name="setUp"/>
-          <include name="checkBalance"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- automationFramework.TestCases.CheckBalanceTest -->
@@ -83,6 +78,7 @@
       <class name="automationFramework.TestCases.AutoloadTest">
         <methods>
           <include name="tearDown"/>
+          <include name="autoLoadNewCC"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- automationFramework.TestCases.AutoloadTest -->
@@ -100,7 +96,6 @@
       </class> <!-- automationFramework.TestCases.AccountLoginTest -->
       <class name="automationFramework.TestCases.GroupSalesTest">
         <methods>
-          <include name="loadValueGroupSales"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
@@ -111,23 +106,24 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- automationFramework.TestCases.AddOneDayPassTest -->
+      <class name="automationFramework.TestCases.EmailTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkEmailAddValueTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.EmailTest -->
       <class name="automationFramework.TestCases.GroupSalesManageTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="manageTransitGroupSales"/>
         </methods>
       </class> <!-- automationFramework.TestCases.GroupSalesManageTest -->
-      <class name="automationFramework.TestCases.EmailTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- automationFramework.TestCases.EmailTest -->
       <class name="automationFramework.TestCases.AddMaxPassTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="addMaxPass"/>
         </methods>
       </class> <!-- automationFramework.TestCases.AddMaxPassTest -->
     </classes>

@@ -9,6 +9,15 @@
   <test name="ChromeTest(failed)">
     <parameter name="browser" value="chrome.exe"/>
     <classes>
+      <class name="automationFramework.TestCases.VentraCardTest">
+        <methods>
+          <include name="accountLogin"/>
+          <include name="forgotPasswd"/>
+          <include name="forgotUsername"/>
+          <include name="getVentraCard"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.VentraCardTest -->
       <class name="automationFramework.TestCases.GroupSalesTest">
         <methods>
           <include name="loadValueGroupSales"/>
